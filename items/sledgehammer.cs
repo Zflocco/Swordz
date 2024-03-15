@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,14 +22,17 @@ namespace swordz.src
                     for (int z = min.Z; z <= max.Z; z++)
                     {
                         Block block = world.BlockAccessor.GetBlock(x, y, z);
-
-                        if (block.BlockMaterial != EnumBlockMaterial.Mantle | block.BlockMaterial !=EnumBlockMaterial.Soil | block.BlockMaterial != EnumBlockMaterial.Gravel | block.BlockMaterial != EnumBlockMaterial.Sand | block.BlockMaterial != EnumBlockMaterial.Snow)
+                        tempPos.Set(x, y, z);
+                        if (player.WorldData.CurrentGameMode == EnumGameMode.Creative)
                         {
-                            tempPos.Set(x, y, z);
-                            if (player.WorldData.CurrentGameMode == EnumGameMode.Creative)
-                                world.BlockAccessor.SetBlock(0, tempPos);
-                            else
+                            world.BlockAccessor.SetBlock(0, tempPos);
+                        }
+                        else
+                        {
+                            if (block.BlockMaterial != EnumBlockMaterial.Mantle && block.BlockMaterial != EnumBlockMaterial.Soil && block.BlockMaterial != EnumBlockMaterial.Gravel && block.BlockMaterial != EnumBlockMaterial.Sand && block.BlockMaterial != EnumBlockMaterial.Snow)
+                            {
                                 world.BlockAccessor.BreakBlock(tempPos, player);
+                            }
                         }
                     }
                 }
