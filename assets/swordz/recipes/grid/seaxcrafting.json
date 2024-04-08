@@ -1,0 +1,321 @@
+[	
+	{
+		ingredientPattern: "FKF,FGF,FFF",
+		ingredients: {
+			"K": { type: "item", code: "seax-*", isTool: true },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"G": { type: "item", code: "game:drygrass", quantity: 9 }
+		},
+		width: 3,
+		height: 3,
+		name: "improvised wood armor",
+		output: { type: "item", code: "game:armor-body-improvised-wood"  }
+	},
+	{
+		ingredientPattern: "K,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", code: "seax-*", isTool: true },
+			"H": { type: "block", code: "game:linen-*", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:bandage-clean", quantity: 4 }
+	},
+
+
+
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-small", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-medium", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-large", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-huge", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-small" },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-medium" },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-*", allowedVariants: ["large", "huge"] },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,_H_",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "KH",
+		recipeGroup: 4,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},
+	{
+		ingredientPattern: "_K_,H_H",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "K,H",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["large", "huge"], quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 2 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 2,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-large", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "HK",
+		recipeGroup: 3,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"K": { type: "item", code: "seax-*", isTool: true  }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+
+
+
+	{
+		ingredientPattern: "__K,LL_,LL_",
+		ingredients: {
+			"K": { type: "item", code: "seax-*", isTool: true },
+			"L": { type: "item", code: "game:cattailtops", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rushmat"  }
+	},
+	{
+		ingredientPattern: "__K,PP_,PP_",
+		ingredients: {
+			"K": { type: "item", code: "seax-*", isTool: true },
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rushmat"  }
+	},
+
+
+
+	{
+	ingredientPattern: "K,H",
+	enabled: true,
+	shapeless: true,
+	ingredients: {
+		"K": { type: "item", code: "seax-*", isTool: true },
+		"H": { type: "item", code: "game:hide-soaked-*", quantity: 1, name: "size" },
+	},
+	name: "scrapedhide",
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:hide-scraped-{size}", quantity: 1 }
+	},
+
+
+
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "seax-*", isTool: true },
+			"B": { type: "block", code: "game:sapling-greenbambooshoots-free" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:vegetable-bambooshoot", quantity: 2 }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "seax-*", isTool: true },
+			"B": { type: "block", code: "game:sapling-brownbambooshoots-free" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:vegetable-bambooshoot", quantity: 2 }
+	},
+	{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "seax-*", isTool: true },
+		"P": { type: "item", code: "game:rawcassava-soaked" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:vegetable-cassava", quantity: 1  }
+	},
+	{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "seax-*", isTool: true },
+		"P": { type: "block", code: "game:pineapple" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:fruit-pineapple", quantity: 12  }
+	},
+	{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "seax-*", isTool: true },
+		"P": { type: "block", code: "game:pumpkin-fruit-4" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:vegetable-pumpkin", quantity: 4  }
+	},
+]

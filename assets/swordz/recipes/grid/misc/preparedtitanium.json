@@ -1,0 +1,16 @@
+[	
+	{
+		ingredientPattern: "_H_,RNL,_I_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 8 },
+			"R": { type: "item", code: "swordz:manganesepowder",quantity: 4},
+			"I" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+			"N" : { type: "item", code: "game:nugget-ilmenite", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:2},
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedtitanium", quantity: 1  }
+	},
+]      

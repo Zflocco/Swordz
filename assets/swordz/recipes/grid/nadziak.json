@@ -1,0 +1,15 @@
+[	
+	{
+		ingredientPattern: "HN,_T,_S",
+//		requiresTrait: "",
+		ingredients: {
+			"T": { type: "item", code: "nadziakhead-*",name:"metal"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
+			"N": { type: "item", code: "game:metalnailsandstrips-*" },
+			"S": { type: "item", code: "game:stick"},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "nadziak-{metal}", quantity: 1  }
+	},
+]

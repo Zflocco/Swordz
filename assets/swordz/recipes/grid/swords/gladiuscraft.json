@@ -1,0 +1,47 @@
+[	
+	{
+		ingredientPattern: "B,S,L",
+		ingredients: {
+			"B": { type: "item", code: "gladiusblade-iron-*",name:"sharpness" },
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-*" }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "gladius-iron-{sharpness}"}
+	},
+
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "gladiusblade-iron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "gladiusblade-iron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "gladiusblade-iron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "gladiusblade-iron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "gladiusblade-iron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "gladiusblade-iron-honed"}
+	}
+]

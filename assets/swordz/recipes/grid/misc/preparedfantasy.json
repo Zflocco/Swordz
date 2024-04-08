@@ -1,0 +1,118 @@
+[
+	{	enabled:true,
+		ingredientPattern: "_H,LI,_M",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-mithril", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:3},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedmithril", quantity: 1  }
+	},
+	{	enabled:true,
+		ingredientPattern: "H_,IL,M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-mithril", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:3},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedmithril", quantity: 1  }
+	},	
+	
+	
+	
+	{	enabled:true,
+		ingredientPattern: "_H,LI,_M",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-adamant", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:4},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedadamant", quantity: 1  }
+	},
+	{	enabled:true,
+		ingredientPattern: "H_,IL,M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-adamant", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:4},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedadamant", quantity: 1  }
+	},		
+	
+	
+	
+	{	enabled:true,
+		ingredientPattern: "_H,LI,_M",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-orichalcum", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:5},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedorichalcum", quantity: 1  }
+	},
+	{	enabled:true,
+		ingredientPattern: "H_,IL,M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-orichalcum", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:5},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedorichalcum", quantity: 1  }
+	},	
+
+
+
+	{	enabled:true,
+		ingredientPattern: "_H,LI,_M",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-aithril", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:5},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedaithril", quantity: 1  }
+	},
+	{	enabled:true,
+		ingredientPattern: "H_,IL,M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 6 },
+			"I" : { type: "item", code: "game:nugget-aithril", quantity:20},
+			"L" : { type: "item", code: "game:lime", quantity:5},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedaithril", quantity: 1  }
+	},		
+
+
+
+]

@@ -1,0 +1,14 @@
+[	
+	{
+		ingredientPattern: "SDB",
+		shapeless:"false",
+		ingredients: {
+			"D": { type: "item", code: "game:strawdummy" },
+			"B": { type: "item", code: "game:shield-crude" },
+			"S": { type: "item", code: "game:stick" },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "swordz:trainingdummy", quantity: 1  }
+	},
+]      

@@ -1,0 +1,15 @@
+[	
+	{
+		ingredientPattern: "TW,SL",
+//		requiresTrait: "",
+		ingredients: {
+			"T": { type: "item", code: "swordzshortblade-*",name:"metal"},
+			"S": { type: "item", code: "game:stick" },
+			"W": { type: "item", code: "whetstone-*",allowedVariants:["suevite","sandstone","granite"]},
+			"L": { type: "item", code: "game:leather-plain" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "swordzshort-{metal}", quantity: 1  }
+	},
+]

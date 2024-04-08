@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "T	S",
+	ingredients: {
+		"T": { type: "item", code: "game:pickaxehead-stainlesssteel" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "swordz:pickaxe-stainlesssteel", quantity: 1  }
+}

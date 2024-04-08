@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "T	S",
+	ingredients: {
+		"T": { type: "item", code: "game:prospectingpickhead-titanium" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "swordz:prospectingpick-titanium", quantity: 1  }
+}

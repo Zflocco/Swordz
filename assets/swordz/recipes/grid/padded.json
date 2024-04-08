@@ -1,0 +1,13 @@
+[	
+	{
+		ingredientPattern: "LT,S_",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxtwine",quantity:2},
+			"L": { type: "item", code: "game:leather-plain"},
+			"S": { type: "item", code: "game:stick"},
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "padded", quantity: 1  }
+	},
+]      

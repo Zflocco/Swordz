@@ -1,0 +1,15 @@
+[	
+	{
+		ingredientPattern: "BW,S_,L_",
+//		requiresTrait: "",
+		ingredients: {
+			"B": { type: "item", code: "seaxblade-*",name:"metal"},
+			"W": { type: "item", code: "whetstone-*",allowedVariants:["suevite","sandstone","granite"]},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "seax-{metal}", quantity: 1  }
+	},
+]

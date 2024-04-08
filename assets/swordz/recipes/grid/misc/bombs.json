@@ -1,0 +1,26 @@
+[
+	{	enabled:false,
+		ingredientPattern: "BTC",
+		shapeless:"false",
+		ingredients: {
+			"B": { type: "item", code: "game:blastingpowder", quantity:8},
+			"T": { type: "item", code: "game:flaxtwine",quantity:1 },
+			"C": { type: "item", code: "game:cloth-plain",quantity: 2},
+	},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "swordz:bigbomb", quantity: 1  }
+	},
+	{	enabled:false,
+		ingredientPattern: "B,T,C",
+		shapeless:"false",
+		ingredients: {
+			"B": { type: "item", code: "game:blastingpowder", quantity:16},
+			"T": { type: "item", code: "game:flaxtwine",quantity:2 },
+			"C": { type: "item", code: "game:cloth-plain",quantity: 2},
+	},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "swordz:largebomb", quantity: 1  }
+	},
+]

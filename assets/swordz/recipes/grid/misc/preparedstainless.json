@@ -1,0 +1,50 @@
+[
+	{
+		ingredientPattern: "NHL,CIR,_M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 8 },
+			"C": { type: "item", code: "game:crushed-chromite",quantity:5 },
+			"R": { type: "item", code: "swordz:manganesepowder",quantity: 4},
+			"I" : { type: "item", code: "game:nugget-magnetite", quantity:18},
+			"N" : { type: "item", code: "game:nugget-pentlandite", quantity:4},
+			"L" : { type: "item", code: "game:lime", quantity:2},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedstainless", quantity: 1  }
+	},
+	{
+		ingredientPattern: "NHL,CIR,_M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 8 },
+			"C": { type: "item", code: "game:crushed-chromite",quantity:5 },
+			"R": { type: "item", code: "swordz:manganesepowder",quantity: 4},
+			"I" : { type: "item", code: "game:nugget-hematite", quantity:20},
+			"N" : { type: "item", code: "game:nugget-pentlandite", quantity:4},
+			"L" : { type: "item", code: "game:lime", quantity:4},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedstainless", quantity: 1  }
+	},
+	{
+		ingredientPattern: "NHL,CIR,_M_",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 8 },
+			"C": { type: "item", code: "game:crushed-chromite",quantity:5 },
+			"R": { type: "item", code: "swordz:manganesepowder",quantity: 4},
+			"I" : { type: "item", code: "game:nugget-limonite", quantity:28},
+			"N" : { type: "item", code: "game:nugget-pentlandite", quantity:4},
+			"L" : { type: "item", code: "game:lime", quantity:8},
+			"M" : { type: "block", code: "game:ingotmold-burned", quantity:1},
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "swordz:ingot-preparedstainless", quantity: 1  }
+	},
+]

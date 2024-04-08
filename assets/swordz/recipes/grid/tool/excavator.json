@@ -1,0 +1,14 @@
+[	
+		{
+		ingredientPattern: "EH,SN,S_",
+		ingredients: {
+			"E": { type: "item", code: "excavatorhead-*",name:"head",allowedVariants:["steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril"]},
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 3 },
+			"N": { type: "item", code: "game:metalnailsandstrips-*" },
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "excavator-{head}", quantity: 1  }
+	},
+]
