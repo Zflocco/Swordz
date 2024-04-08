@@ -1,0 +1,65 @@
+[
+  {
+    "enabled": false,
+    "op": "add",
+    "path": "/crushingPropsByType",
+    "value": {
+      "nugget-rhodochrosite": {
+        "crushedStack": {
+          "type": "item",
+          "code": "stick"
+        },
+        "quantity": { "avg": ".33" },
+        "hardnessTier": 4
+      }
+    },
+    "file": "game:itemtypes/resource/nugget.json"
+  },
+  {
+    "enabled": false,
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-chromite-*",
+    "value": false,
+    "file": "game:itemtypes/resource/nugget.json"
+  },
+  {
+    "enabled": false,
+    "op": "add",
+    "path": "/crushingPropsByType",
+    "value": {
+      "ore-poor-rhodochrosite-*": {
+        "crushedStack": {
+          "type": "item",
+          "code": "stick"
+        },
+        "quantity": { "avg": 1 },
+        "hardnessTier": 4
+      },
+      "ore-medium-rhodochrosite-*": {
+        "crushedStack": {
+          "type": "item",
+          "code": "stick"
+        },
+        "hardnessTier": 4,
+        "quantity": { "avg": 1.33 }
+      },
+      "ore-rich-rhodochrosite-*": {
+        "crushedStack": {
+          "type": "item",
+          "code": "stick"
+        },
+        "hardnessTier": 4,
+        "quantity": { "avg": 1.66 }
+      },
+      "ore-bountiful-rhodochrosite-*": {
+        "crushedStack": {
+          "type": "item",
+          "code": "stick"
+        },
+        "hardnessTier": 4,
+        "quantity": { "avg": 2.33 }
+      }
+    },
+    "file": "game:itemtypes/resource/ore-graded.json"
+  }
+]

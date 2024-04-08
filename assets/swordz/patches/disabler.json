@@ -1,0 +1,927 @@
+[
+
+
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/mithril.json",
+    "condition": {
+		"when": "fantasymetalsenabled",
+		"isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/adamant.json",
+    "condition": {
+      "when": "fantasymetalsenabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/orichalcum.json",
+    "condition": {
+      "when": "fantasymetalsenabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/aithril.json",
+    "condition": {
+      "when": "fantasymetalsenabled",
+      "isValue": "false"
+	}
+},
+//////////////////////////////////////////////////	Disable Stainless or Titanium Ingot //////////////////////////////////////////////////
+{
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/misc/preparedstainless.json",
+    "condition": {
+      "when": "stainlessenabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/misc/preparedstainless.json",
+    "condition": {
+      "when": "stainlessenabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/misc/preparedstainless.json",
+    "condition": {
+      "when": "stainlessenabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/misc/preparedtitanium.json",
+    "condition": {
+      "when": "titaniumenabled",
+      "isValue": "false"
+	}
+},
+//////////////////////////////////////////////////	Disable Bombs //////////////////////////////////////////////////
+{
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:blocktypes/bigbomb.json",
+    "condition": {
+      "when": "bombsdisabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:blocktypes/largebomb.json",
+    "condition": {
+      "when": "bombsdisabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:blocktypes/giantbomb.json",
+    "condition": {
+      "when": "bombsdisabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "file": "swordz:recipes/grid/misc/bombs.json",
+    "condition": {
+      "when": "bombsdisabled",
+      "isValue": "false"
+	}
+},
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "file": "swordz:recipes/grid/misc/bombs.json",
+    "condition": {
+      "when": "bombsdisabled",
+      "isValue": "false"
+	}
+},
+//////////////////////////////////////////////////	Disable Fantasy Ingot Handbook //////////////////////////////////////////////////
+
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-adamant",
+    "value": true,
+    "file": "game:itemtypes/resource/ingot.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-aithril",
+    "value": true,
+    "file": "game:itemtypes/resource/ingot.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-mithril",
+    "value": true,
+    "file": "game:itemtypes/resource/ingot.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-orichalcum",
+    "value": true,
+    "file": "game:itemtypes/resource/ingot.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-unfoldedmithril",
+    "value": true,
+    "file": "game:itemtypes/resource/ingot.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+
+////////////////////////////////////////////////// figure out how to disable these easily //////////////////////////////////////////////////
+
+/*
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-mithril",
+    "value": true,
+    "file": "swordz:itemtypes/tool/excavator.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-adamant",
+    "value": true,
+    "file": "swordz:itemtypes/tool/excavator.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-orichalcum",
+    "value": true,
+    "file": "swordz:itemtypes/tool/excavator.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-aithril",
+    "value": true,
+    "file": "swordz:itemtypes/tool/excavator.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-mithril",
+    "value": true,
+    "file": "swordz:itemtypes/tool/sledgehammer.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-adamant",
+    "value": true,
+    "file": "swordz:itemtypes/tool/sledgehammer.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-orichalcum",
+    "value": true,
+    "file": "swordz:itemtypes/tool/sledgehammer.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-aithril",
+    "value": true,
+    "file": "swordz:itemtypes/tool/sledgehammer.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-mithril",
+    "value": true,
+    "file": "swordz:itemtypes/tool/tunneler.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-adamant",
+    "value": true,
+    "file": "swordz:itemtypes/tool/tunneler.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-orichalcum",
+    "value": true,
+    "file": "swordz:itemtypes/tool/tunneler.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/excludeByType/*-aithril",
+    "value": true,
+    "file": "swordz:itemtypes/tool/tunneler.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+
+*/
+
+////////////////////////////////////////////////// Skip/Disable Fantasy Tools //////////////////////////////////////////////////
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/axe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/axe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "axe-felling-mithril",
+    "file": "swordz:itemtypes/tool/axe-metal.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "axe-felling-adamant",
+    "file": "swordz:itemtypes/tool/axe-metal.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "axe-felling-orichalcum",
+    "file": "swordz:itemtypes/tool/axe-metal.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "axe-felling-aithril",
+    "file": "swordz:itemtypes/tool/axe-metal.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+    {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/chisel.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "chisel-mithril",
+    "file": "swordz:itemtypes/tool/chisel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "chisel-adamant",
+    "file": "swordz:itemtypes/tool/chisel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "chisel-orichalcum",
+    "file": "swordz:itemtypes/tool/chisel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "chisel-aithril",
+    "file": "swordz:itemtypes/tool/chisel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/cleaver.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "cleaver-mithril",
+    "file": "swordz:itemtypes/tool/cleaver.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "cleaver-adamant",
+    "file": "swordz:itemtypes/tool/cleaver.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "cleaver-orichalcum",
+    "file": "swordz:itemtypes/tool/cleaver.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "cleaver-aithril",
+    "file": "swordz:itemtypes/tool/cleaver.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+
+
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/hammer.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+
+
+
+
+
+
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/hoe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {	
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/hoe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "hoe-mithril",
+    "file": "swordz:itemtypes/tool/hoe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "hoe-adamant",
+    "file": "swordz:itemtypes/tool/hoe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "hoe-orichalcum",
+    "file": "swordz:itemtypes/tool/hoe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "hoe-aithril",
+    "file": "swordz:itemtypes/tool/hoe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+
+
+
+
+
+
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/knife.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {	
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/knife.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "knife-generic-mithril",
+    "file": "swordz:itemtypes/tool/knife.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "knife-generic-adamant",
+    "file": "swordz:itemtypes/tool/knife.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "knife-generic-orichalcum",
+    "file": "swordz:itemtypes/tool/knife.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "knife-generic-aithril",
+    "file": "swordz:itemtypes/tool/knife.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/padlock.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "padlock-mithril",
+    "file": "swordz:itemtypes/tool/padlock.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "padlock-adamant",
+    "file": "swordz:itemtypes/tool/padlock.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "padlock-orichalcum",
+    "file": "swordz:itemtypes/tool/padlock.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "padlock-aithril",
+    "file": "swordz:itemtypes/tool/padlock.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/pickaxe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {	
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/pickaxe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "pickaxe-mithril",
+    "file": "swordz:itemtypes/tool/pickaxe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "pickaxe-adamant",
+    "file": "swordz:itemtypes/tool/pickaxe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "pickaxe-orichalcum",
+    "file": "swordz:itemtypes/tool/pickaxe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "pickaxe-aithril",
+    "file": "swordz:itemtypes/tool/pickaxe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/prospectingpick.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {	
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/prospectingpick.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "prospectingpick-mithril",
+    "file": "swordz:itemtypes/tool/prospectingpick.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "prospectingpick-adamant",
+    "file": "swordz:itemtypes/tool/prospectingpick.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "prospectingpick-orichalcum",
+    "file": "swordz:itemtypes/tool/prospectingpick.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "prospectingpick-aithril",
+    "file": "swordz:itemtypes/tool/prospectingpick.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  
+  
+  
+  
+    {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/saw.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  
+  
+  
+  
+  
+  
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/scythe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/scythe.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "scythe-mithril",
+    "file": "swordz:itemtypes/tool/scythe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "scythe-adamant",
+    "file": "swordz:itemtypes/tool/scythe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "scythe-orichalcum",
+    "file": "swordz:itemtypes/tool/scythe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "scythe-aithril",
+    "file": "swordz:itemtypes/tool/scythe.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/shears.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "shears-mithril",
+    "file": "swordz:itemtypes/tool/shears.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "shears-adamant",
+    "file": "swordz:itemtypes/tool/shears.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "shears-orichalcum",
+    "file": "swordz:itemtypes/tool/shears.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "shears-aithril",
+    "file": "swordz:itemtypes/tool/shears.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/shovel.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/tool/fantasy/shovel.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "shovel-mithril",
+    "file": "swordz:itemtypes/tool/shovel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "shovel-adamant",
+    "file": "swordz:itemtypes/tool/shovel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "shovel-orichalcum",
+    "file": "swordz:itemtypes/tool/shovel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "shovel-aithril",
+    "file": "swordz:itemtypes/tool/shovel.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": false,
+    "file": "swordz:recipes/smithing/fantasy/wrench.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "wrench-mithril",
+    "file": "swordz:itemtypes/tool/wrench.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/1",
+    "value": "wrench-adamant",
+    "file": "swordz:itemtypes/tool/wrench.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/2",
+    "value": "wrench-orichalcum",
+    "file": "swordz:itemtypes/tool/wrench.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/3",
+    "value": "wrench-aithril",
+    "file": "swordz:itemtypes/tool/wrench.json",
+	"condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  
+  
+  
+  
+ ////////////////////////////////////////////////// Disable Fantasy Armour //////////////////////////////////////////////////
+  
+  
+  
+  
+  
+  
+  
+  
+////////////////////////////////////////////////// Disable Metal Blocks //////////////////////////////////////////////////
+
+  {
+    "op": "add",
+    "path": "/skipVariants/21",
+    "value": "metalblock-*-*-mithril",
+    "file": "game:blocktypes/metal/metalblock.json",
+	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/22",
+    "value": "metalblock-*-*-unfoldedmithril",
+    "file": "game:blocktypes/metal/metalblock.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/23",
+    "value": "metalblock-*-*-adamant",
+    "file": "game:blocktypes/metal/metalblock.json",
+	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/24",
+    "value": "metalblock-*-*-orichalcum",
+    "file": "game:blocktypes/metal/metalblock.json",
+  	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/25",
+    "value": "metalblock-*-*-aithril",
+    "file": "game:blocktypes/metal/metalblock.json",
+  	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+    {
+    "op": "add",
+    "path": "/ingredients/G/skipVariants/13",
+    "value": "mithril",
+    "file": "game:recipes/grid/metalblock.json",
+  	"condition": { "when": "metalblocksdisabled", "isValue": "true" }	
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/G/skipVariants/14",
+    "value": "unfoldedmithril",
+    "file": "game:recipes/grid/metalblock.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/G/skipVariants/15",
+    "value": "adamant",
+    "file": "game:recipes/grid/metalblock.json",
+  	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/G/skipVariants/16",
+    "value": "orichalcum",
+    "file": "game:recipes/grid/metalblock.json",
+  	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/G/skipVariants/17",
+    "value": "aithril",
+    "file": "game:recipes/grid/metalblock.json",
+  	"condition": { "when": "metalblocksdisabled", "isValue": "true" }
+  },
+
+////////////////////////////////////////////////// Disable Metalore Deposits //////////////////////////////////////////////////
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/mithril.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/adamant.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/orichalcum.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:worldgen/deposits/metalore/aithril.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+////////////////////////////////////////////////// Disable Sheets - Not working //////////////////////////////////////////////////
+  {
+    "op": "add",
+    "path": "/skipVariants",
+    "value": [
+      "unfoldedmithril"
+    ],
+    "file": "game:blocktypes/metal/sheet.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants",
+    "value": [
+      "unfoldedmithril",
+	  "mithril",
+	  "adamant",
+	  "orichalcum",
+	  "aithril"
+    ],
+    "file": "game:blocktypes/metal/sheet.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
