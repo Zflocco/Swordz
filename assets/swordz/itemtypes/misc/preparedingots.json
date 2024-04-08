@@ -1,0 +1,144 @@
+{
+	"code": "ingot",
+	"class": "ItemIngot",
+	"maxstacksize": 16,	"storageFlags": 5, "creativeinventory": { "general": [ "*" ], "items": [ "*" ], "swordz": ["*"]},
+	
+	"behaviors": [ { "name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/ingot",
+				"stackingModelByType": { "*": "game:block/metal/ingotpile" },
+				"stackingTexturesByType": { 
+					"*-preparedstainless": { "metal": "game:block/metal/tarnished/blackbronze" },
+					"*-preparedtitanium": { "metal": "game:block/metal/tarnished/silver" },
+					"*-preparedmithril": { "metal": "game:block/metal/tarnished/preparedmithril" },
+					"*-preparedadamant": { "metal": "game:block/metal/tarnished/adamant" },
+					"*-preparedorichalcum": { "metal": "game:block/metal/tarnished/orichalcum" },
+					"*-preparedaithril": { "metal": "game:block/metal/tarnished/aithril" },
+					},
+				"modelItemsToStackSizeRatio": 1,
+				"stackingCapacity": 64,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.125,
+					"z2": 1
+				},
+				"cbScaleYByLayer": 0.125
+			}
+		}
+	],
+	"attributes": {
+		"reinforcementStrengthByType": { },
+		"workableTemperatureByType": { },
+		"requiresAnvilTierByType": { "*-unfoldedmithril": 6,"*-adamant": 7,"*-orichalcum": 8,"*-aithril": 8, },
+		"carburizablePropsByType": { 
+			"ingot-preparedstainless": { "carburizedOutput": { "type": "item", "code": "game:ingot-stainlesssteel" } }, 
+			"ingot-preparedtitanium": { "carburizedOutput": { "type": "item", "code": "game:ingot-titanium" } },
+			"ingot-preparedmithril": { "carburizedOutput": { "type": "item", "code": "game:ingot-mithril" } },
+			"ingot-preparedadamant": { "carburizedOutput": { "type": "item", "code": "game:ingot-adamant" } },
+			"ingot-preparedorichalcum": { "carburizedOutput": { "type": "item", "code": "game:ingot-orichalcum" } },
+			"ingot-preparedaithril": { "carburizedOutput": { "type": "item", "code": "game:ingot-aithril" } },
+			},
+		"displaycaseable": true, "shelvable": true,
+		"onshelfTransform": { "rotation": { "x": 0, "y": 75, "z": 0 } } },
+	
+	"variantgroups": [ { "code": "metal", "states": [ "preparedstainless","preparedtitanium","preparedmithril","preparedadamant","preparedorichalcum","preparedaithril" ] } ],
+	"skipVariants": [],	
+	"shapeByType": { "*": { "base": "game:item/ingot" } },		
+	"texturesByType": { 
+		"*-preparedstainless": { "metal": { "base": "game:block/metal/tarnished/blackbronze" } },
+		"*-preparedtitanium": { "metal": { "base": "game:block/metal/tarnished/silver" } },
+		"*-preparedmithril": { "metal": { "base": "game:block/metal/tarnished/preparedmithril" } },
+		"*-preparedadamant": { "metal": { "base": "game:block/metal/tarnished/adamant" } },
+		"*-preparedorichalcum": { "metal": { "base": "game:block/metal/tarnished/orichalcum" } },
+		"*-preparedaithril": { "metal": { "base": "game:block/metal/tarnished/aithril" } },
+},
+
+	"materialDensityByType": { "*-preparedstainless": 7820, "*-preparedtitanium": 4510, "*-preparedmithril": 3812,"*-preparedmithril": 7150,"*-preparedorichalcum": 17896,"*-preparedaithril": 4380,	},
+	
+	"combustiblePropsByType": { 
+		"ingot-preparedstainless": { "meltingPoint": 1530, "meltingDuration": 30, "smeltedRatio": 1, "smeltedStack": { "type": "item", "code": "ingot-preparedstainless" } }, 
+		"ingot-preparedtitanium": { "meltingPoint": 1668, "meltingDuration": 30, "smeltedRatio": 1, "smeltedStack": { "type": "item", "code": "ingot-preparedtitanium" } },
+		"ingot-preparedmithril": { "meltingPoint": 1907, "meltingDuration": 30, "smeltedRatio": 1, "smeltedStack": { "type": "item", "code": "ingot-preparedmithril" } },
+		"ingot-preparedadamant": { "meltingPoint": 2146, "meltingDuration": 30, "smeltedRatio": 1, "smeltedStack": { "type": "item", "code": "ingot-preparedadamant" } },
+		"ingot-preparedorichalcum": { "meltingPoint": 1883, "meltingDuration": 30, "smeltedRatio": 1, "smeltedStack": { "type": "item", "code": "ingot-preparedorichalcum" } },
+		"ingot-preparedaithril": { "meltingPoint": 1883, "meltingDuration": 30, "smeltedRatio": 1, "smeltedStack": { "type": "item", "code": "ingot-preparedaithril" } },
+		},	
+	"guiTransform": {
+		"translation": {
+			"x": 2,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 149,
+			"y": -36,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 3.5
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0.1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 65,
+			"y": 21,
+			"z": -6
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 2.15
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.77,
+			"y": -0.15,
+			"z": -0.64
+		},
+		"rotation": {
+			"x": 0,
+			"y": -71,
+			"z": 18
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 0.75
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.8
+	}
+}

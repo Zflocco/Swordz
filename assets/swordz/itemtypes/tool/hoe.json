@@ -1,0 +1,137 @@
+	{
+	code: "hoe",
+	class: "ItemHoe",
+	heldTpUseAnimation: "hoe",
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	attributes: {
+		groundStorageTransformByType: {
+			"@hoe-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": {
+				translation: { x: 0, y: 0.04, z: -0.23 },
+				rotation: { x: 23, y: 87, z: -90 },
+				scale: 0.88
+			},			
+			"*": {
+				translation: { x: 0, y: 0.13, z: -0.13 },
+				rotation: { x: 30, y: 87, z: -90 },
+				scale: 0.88
+			},
+		},
+		handbook: {	
+		groupBy: ["hoe-*"],
+		excludeByType: {},
+		},
+		toolrackTransformByType: {
+			"@hoe-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.35, y: 0.6 },
+				scale: 1.25,
+			}
+		}
+	},
+	variantgroups: [ { code: "material", states: ["stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril" ] }, ],
+	skipVariants: [],
+	damagedby: ["blockbreaking", "attacking"],
+	shapeByType: {
+		"*-stainlesssteel": { "base": "game:item/tool/hoe-copper" },
+		"*-titanium": { "base": "game:item/tool/hoe-copper" },
+		"*-mithril": { "base": "game:item/tool/hoe-copper" },
+		"*-adamant": { "base": "game:item/tool/hoe-copper" },
+		"*-orichalcum": { "base": "game:item/tool/hoe-copper" },
+		"*-aithril": { "base": "game:item/tool/hoe-copper" },
+	},
+	heldTpHitAnimation: "breaktool",
+	texturesByType: {
+		"@hoe-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": { "material": { base: "game:block/metal/ingot/{material}" } },
+		"*": { "material": { "base": "game:block/stone/rock/{material}1" } }, 
+		},
+	tool: "hoe",
+	miningspeedbytype: {
+		"hoe-stainlesssteel": {
+			"soil": 5.25
+		},
+		"hoe-titanium": {
+			"soil": 5.75	
+		},
+		"hoe-mithril": {
+			"soil": 6
+		},
+		"hoe-adamant": {
+			"soil": 6.5
+		},
+		"hoe-orichalcum": {
+			"soil": 7.5
+		},
+		"hoe-aithril": {
+			"soil": 7.8
+		}
+	},
+	durabilitybytype: {
+		"hoe-stainlesssteel": 1750,
+		"hoe-titanium": 2250,
+		"hoe-mithril": 2750,
+		"hoe-adamant": 3500,
+		"hoe-orichalcum": 5000,
+		"hoe-aithril": 5500,
+	},
+	attackpowerbytype: {
+		"hoe-stainlesssteel": 2.75,
+		"hoe-titanium": 3,
+		"hoe-mithril": 3.25,
+		"hoe-adamant": 3.5,
+		"hoe-orichalcum": 4,
+		"hoe-aithril": 4.2
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.2, z: 0 },
+		rotation: { x: -7, y: 16, z: 90 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"@hoe-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -56, y: -127, z: -180 },
+			origin: { x: 0.35, y: 0, z: 0.55 },
+			scale: 1.43
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -66, y: -130, z: -180 },
+			origin: { x: 0.55, y: 0, z: 0.52 },
+			scale: 1.6
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransformByType: {
+		"@hoe-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": {
+			translation: { x: -1, y: -0.5, z: -0.08 },
+			rotation: { x: 90, y: 0, z: -5 },
+			scale: 1
+		},
+		"*": {
+			translation: { x: -0.8, y: -0.5, z: -0.1 },
+			rotation: { x: 90, y: 0, z: -10 },
+			scale: 1
+		},
+	}
+}

@@ -1,0 +1,134 @@
+{
+	code: "shovel",
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 2,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	attributes: {
+		groundStorageTransformByType: {
+			"@shovel-(stainlesssteel|titanium|mithril|adamant|orichalcum)": {
+				translation: { x: 0, y: 0.5, z: -0.16 },
+				rotation: { x: 13, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*": {
+				translation: { x: 0, y: 0.35, z: -0.135 },
+				rotation: { x: 13, y: 88, z: -87 },
+				scale: 0.88
+			}
+		},
+		handbook: {
+			groupBy: ["shovel-*"],
+			excludeByType: {},
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.47, y: 0.6 },
+			scale: 1.25,
+		}
+	},
+	variantgroups: [ { code: "material", states: ["stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril" ] }, ],
+	skipVariants: [],
+	tool: "shovel",
+	damagedby: ["blockbreaking", "attacking"],
+	shapeByType: {
+		"shovel-stainlesssteel": { base: "game:item/tool/shovel-copper" },
+		"shovel-titanium": { base: "game:item/tool/shovel-copper" },
+		"shovel-mithril": { base: "game:item/tool/shovel-copper" },
+		"shovel-adamant": { base: "game:item/tool/shovel-copper" },
+		"shovel-orichalcum": { base: "game:item/tool/shovel-copper" },
+		"shovel-aithril": { base: "game:item/tool/shovel-copper" }
+	},
+	heldTpHitAnimation: "shoveldig",
+	texturesByType: { "*": { "material": { base: "game:block/metal/ingot/{material}" }, }, },
+	miningspeedbytype: {		
+		"shovel-stainlesssteel": {
+			"soil": 7.5,
+			"sand": 7.5,
+			"gravel": 4,
+			"snow": 4
+		},
+		"shovel-titanium": {
+			"soil": 8,
+			"sand": 8,
+			"gravel": 4.4,
+			"snow": 4.4
+		},
+		"shovel-mithril": {
+			"soil": 8.5,
+			"sand": 8.5,
+			"gravel": 5,
+			"snow": 5
+		},
+		"shovel-adamant": {
+			"soil": 9.25,
+			"sand": 9.25,
+			"gravel": 5.5,
+			"snow": 5.5
+		},
+		"shovel-orichalcum": {
+			"soil": 10,
+			"sand": 10,
+			"gravel": 6,
+			"snow": 6
+		},
+		"shovel-aithril": {
+			"soil": 10.5,
+			"sand": 10.5,
+			"gravel": 6.2,
+			"snow": 6.2
+		}
+	},
+	attackpowerbytype: {
+		"shovel-stainlesssteel": 2.75,
+		"shovel-titanium": 3,
+		"shovel-mithril": 3.5,
+		"shovel-adamant": 3.75,
+		"shovel-orichalcum": 4.25,
+		"shovel-aithril": 4.5
+	},
+	durabilitybytype: {
+		"shovel-stainlesssteel": 4000,
+		"shovel-titanium": 5000,
+		"shovel-mithril": 6000,
+		"shovel-adamant": 7000,
+		"shovel-orichalcum": 8000,
+		"shovel-aithril": 8500
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.046875, y: -0.2, z: 0 },
+		rotation: { x: -15, y: 15, z: 100 },
+		scale: 2
+	},
+	guiTransformByType: {
+		"@shovel-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -113, y: -147, z: 139 },
+			origin: { x: 0.2, y: 0.7, z: 0.8 }
+		},
+		"*": {
+		translation: { x: 7, y: 0, z: 1 },
+		rotation: { x: -112, y: -147, z: 139 },
+		origin: { x: 0.3, y: 0.7, z: 0.7 },
+		scale: 1.18
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.04, y: -0.24, z: -0.61 },
+		rotation: { x: 0, y: 0, z: -10 },
+		scale: 0.8
+	}
+}

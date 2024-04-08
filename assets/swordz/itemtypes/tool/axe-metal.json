@@ -1,0 +1,139 @@
+{
+	code: "axe",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "axe",
+	class: "ItemAxe",
+	attributes: {
+		handbook: {
+			groupBy: ["axe-*"],
+			excludeByType: {},
+		},
+		toolrackTransformByType: {
+			"*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.3, y: 0.6 },
+				scale: 1.25,
+			}
+		},
+		groundStorageTransformByType: {
+			"*": {
+				translation: { x: 0, y: 0.19, z: -0.125 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 0.88
+			}
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffYByType: {
+				"*": 1
+			},
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [
+		{ code: "type", states: ["felling"] },
+		{ code: "material", states: ["stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril" ] } ],
+	skipVariants: [],
+	shapeByType: {
+		"axe-felling-stainlesssteel": { "base": "game:item/tool/axe/iron" },
+		"axe-felling-titanium": { "base": "game:item/tool/axe/iron" },
+		"axe-felling-mithril": { "base": "game:item/tool/axe/iron" },
+		"axe-felling-adamant": { "base": "game:item/tool/axe/iron" },
+		"axe-felling-orichalcum": { "base": "game:item/tool/axe/iron" },
+		"axe-felling-aithril": { "base": "game:item/tool/axe/iron" },
+	},
+	heldTpHitAnimation: "axechop",
+	texturesByType: { "axe-felling-*": { "material": { base: "game:block/metal/ingot/{material}" } } },
+	attackRange: 2,
+	tooltierbytype: {
+		"*-stainlesssteel": 6,
+		"*-titanium": 7,
+		"*-mithril": 8,
+		"*-adamant": 9,
+		"*-orichalcum": 10,
+		"*-aithril": 10,
+	},
+	miningspeedbytype: {
+		"axe-felling-stainlesssteel": {
+			"wood": 11.5,
+			"plant": 6.5,
+			"leaves": 4.5
+		},
+		"axe-felling-titanium": {
+			"wood": 12.5,
+			"plant": 7,
+			"leaves": 5
+		},
+		"axe-felling-mithril": {
+			"wood": 14,
+			"plant": 8,
+			"leaves": 6
+		},
+		"axe-felling-adamant": {
+			"wood": 16,
+			"plant": 9,
+			"leaves": 7
+		},
+		"axe-felling-orichalcum": {
+			"wood": 18,
+			"plant": 10,
+			"leaves": 8
+		},
+		"axe-felling-aithril": {
+			"wood": 19,
+			"plant": 10.5,
+			"leaves": 8.5
+		}
+	},
+	durabilitybytype: {
+		"axe-felling-stainlesssteel": 2500,
+		"axe-felling-titanium": 3000,
+		"axe-felling-mithril": 4000,
+		"axe-felling-adamant": 5000,
+		"axe-felling-orichalcum": 6000,
+		"axe-felling-aithril": 6500
+	},
+	attackpowerbytype: {
+		"axe-felling-stainlesssteel": 4.25,
+		"axe-felling-titanium": 4.5,
+		"axe-felling-mithril": 5,
+		"axe-felling-adamant": 5.25,
+		"axe-felling-orichalcum": 5.75,
+		"axe-felling-aithril": 6
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: -0.3, y: -0.5, z: 0.3 },
+		rotation: { x: -29, y: 1, z: 88 },
+		origin: { x: 0.2, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -63, y: -123, z: -180 },
+			origin: { x: 0.61, y: 0, z: 0.47 },
+			scale: 1.58
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.6
+		}
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -0.89, y: -0.5, z: -0.1 },
+			rotation: { x: 90, y: 0, z: -10 },
+			scale: 0.95
+		}
+	}
+}

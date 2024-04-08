@@ -1,0 +1,127 @@
+{
+	code: "longsword",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["longsword"] },
+		toolrackTransform: {
+			translation: { x: -0.04, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 180, z: 1 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.55, z: 0.08 },
+			rotation: { x: 6, y: 90, z: -87 },
+			scale: 0.63
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ 
+	{ code: "metal", states: ["iron","meteoriciron","steel"]}, 
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
+	],
+	shape: { base: "swords/longsword" },
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "knap",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}"},
+	"metaltwo": {base: "game:block/metal/plate/{metal}"},
+	"grip": {base: "game:block/leather/plain"},
+	"chappe": {base: "game:block/leather/black"},
+	"gem": {base: "game:item/resource/ungraded/cinnabar"},
+	"brass": {base: "game:block/metal/ingot/brass"}
+},
+	attackRange: 2.75,
+	allowedVariants: [
+	"longsword-iron-blunt",
+	"longsword-iron-dull",
+	"longsword-iron-sharp",
+	"longsword-iron-honed",
+	"longsword-meteoriciron-blunt",
+	"longsword-meteoriciron-dull",
+	"longsword-meteoriciron-sharp",
+	"longsword-meteoriciron-honed",
+	"longsword-steel-blunt",
+	"longsword-steel-dull",
+	"longsword-steel-sharp",
+	"longsword-steel-honed",
+	],
+	tooltierbytype: {
+		"longsword-iron-blunt": 2,
+		"longsword-iron-dull": 3,
+		"longsword-iron-sharp": 4,
+		"longsword-iron-honed": 5,
+		"longsword-meteoriciron-blunt":2,
+		"longsword-meteoriciron-dull":3,
+		"longsword-meteoriciron-sharp":4,
+		"longsword-meteoriciron-honed":5,
+		"longsword-steel-blunt": 3,
+		"longsword-steel-dull": 4,
+		"longsword-steel-sharp": 5,
+		"longsword-steel-honed": 6
+	},
+	durabilitybytype: {
+		"longsword-iron-blunt": 600,
+		"longsword-iron-dull": 700,
+		"longsword-iron-sharp": 800,
+		"longsword-iron-honed": 900,
+		"longsword-meteoriciron-blunt":775,
+		"longsword-meteoriciron-dull":900,
+		"longsword-meteoriciron-sharp":1025,
+		"longsword-meteoriciron-honed":1150,
+		"longsword-steel-blunt": 1250,
+		"longsword-steel-dull": 1600,
+		"longsword-steel-sharp": 1800,
+		"longsword-steel-honed": 2000
+	},
+	attackpowerbytype: {
+		"longsword-iron-blunt": 2.6,
+		"longsword-iron-dull": 4.4,
+		"longsword-iron-sharp": 5.6,
+		"longsword-iron-honed": 5.9,
+		
+		"longsword-meteoriciron-blunt":2.6,
+		"longsword-meteoriciron-dull":4.5,
+		"longsword-meteoriciron-sharp":5.7,
+		"longsword-meteoriciron-honed":6,
+		
+		"longsword-steel-blunt": 2.9,
+		"longsword-steel-dull": 5.4,
+		"longsword-steel-sharp": 5.9,
+		"longsword-steel-honed": 6.2
+	},
+	creativeinventory: { "general": ["*"],"swordz": ["*"]},
+	fpHandTransform: {	
+		translation: { x: -0.2, y: 0.2, z: 0 },
+		rotation: { x: -18, y: 15, z: 90 },
+		scale: 1.97
+	},
+	guiTransform: {
+			translation: { x: 18, y: -23, z: 0 },
+			rotation: { x: -90, y: 50, z: -13 },
+			origin: { x: 0.65, y: 0.1, z: 0.45 },
+			scale: 1.65
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0.04, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -1.56, y: 0.055, z: -0.7799 },
+		rotation: { x: 85, y: 0, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.63
+	},
+}

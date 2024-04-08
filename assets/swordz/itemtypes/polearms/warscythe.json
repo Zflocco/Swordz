@@ -1,0 +1,98 @@
+{
+	code: "warscythe",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "spear",
+	attributes: {
+		handbook: { groupBy: ["warscythe"] },
+		toolrackTransform: {
+			translation: { x: -0.6, y: 0.59, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.55, z: -0.04 },
+			rotation: { x: 7, y: 90, z: -92 },
+			scaleXyz: { x: -0.8, y: 0.8, z: 0.8 }
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ { code: "metal", states: ["copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]}, ],
+	shape: { base: "polearms/warscythe" },
+	heldTpHitAnimation: "polearmswing",
+	heldTPIdleAnimation: "crudeOarIdle",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}" },
+	"handle": {base: "game:item/tool/material/handle"}	},
+	attackRange: 2.8,
+// maybe revise attack range, -2 tier because 'crude' polearm , mediocre damage : compare to bec
+	tooltierbytype: {
+		"warscythe-copper": 0,
+		"warscythe-bismuthbronze": 1,
+		"warscythe-tinbronze":1,
+		"warscythe-blackbronze": 1,
+		"warscythe-iron": 2,
+		"warscythe-meteoriciron":2,
+		"warscythe-steel": 3
+	},
+	durabilitybytype: {
+		"warscythe-copper": 450,
+		"warscythe-bismuthbronze": 750,
+		"warscythe-tinbronze":600,
+		"warscythe-blackbronze": 900,
+		"warscythe-iron": 1350,
+		"warscythe-meteoriciron": 1800,
+		"warscythe-steel": 3400
+	},
+	attackpowerbytype: {
+		"warscythe-copper": 2.5,
+		"warscythe-bismuthbronze": 2.75,
+		"warscythe-tinbronze":3,
+		"warscythe-blackbronze": 3.25,
+		"warscythe-iron": 3.5,
+		"warscythe-meteoriciron":4,
+		"warscythe-steel": 4.5
+	},
+//	damageByType: {
+//		"warscythe-copper": 2.5,
+//		"warscythe-bismuthbronze": 2.75,
+//		"warscythe-tinbronze":3,
+//		"warscythe-blackbronze": 3.25,
+//		"warscythe-iron": 3.5,
+//		"warscythe-meteoriciron":4,
+//		"warscythe-steel": 4.5
+//	},	
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	    fpHandTransform: {
+        translation: { x: 0.7, y: -0.7, z: 0 },
+		rotation: { x: -18, y: 25, z: 90 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: -32, y: 44, z: 0 },
+		rotation: { x: 81, y: -62, z: -6 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scale: 1.82
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+        translation: { x: -0.08, y: -0.5, z: -0.25 },
+		rotation: { x: -67, y: 164, z: -171 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 1
+    }
+}

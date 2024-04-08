@@ -1,0 +1,145 @@
+{	enabled: true,
+	code: "sledgehammer",
+	storageFlags: 5,
+	class: "Sledgehammer",
+	attributes: {
+		handbook: {
+			groupBy: ["sledgehammer-*"],
+			excludeByType: {},
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.1, z: -0.085 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	attackRange: 2.25,
+	variantgroups: [ 
+	{ code: "metal", states: ["iron","steel","stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril"] },
+
+	],
+	
+	tool: "pickaxe",
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "swordz:misc/sledgehammer" },
+	heldTpHitAnimation: "axechop",
+	texturesByType: {
+		"*": {
+			"metal": { base: "game:block/metal/plate/{metal}" },
+			"metaltwo": { base: "game:block/metal/plate/{metal}", "overlays": ["game:block/slightlydarker"] },
+			"handle": {base: "game:item/tool/material/handle", "overlays": [ "game:block/slightlydarker" ] },
+		}
+	},
+	tooltierbytype: {
+		"sledgehammer-iron": 2,
+		"sledgehammer-steel": 3,
+		"sledgehammer-stainlesssteel": 4,
+		"sledgehammer-titanium": 5,
+		"sledgehammer-mithril": 6,
+		"sledgehammer-adamant": 7,
+		"sledgehammer-orichalcum": 8,
+		"sledgehammer-aithril": 8,
+	},
+	miningspeedbytype: {
+		"sledgehammer-iron": {
+			"stone": 1.5,
+			"ore": 1.5,
+			"metal": 1.5,
+		},
+		"sledgehammer-steel": {
+			"stone": 3.5,
+			"ore": 2,
+			"metal": 2
+		},
+		"sledgehammer-stainlesssteel": {
+			"stone": 4.5,
+			"ore": 2.5,
+			"metal": 2.5
+		},
+		"sledgehammer-titanium": {
+			"stone": 4.75,
+			"ore": 3,
+			"metal": 3
+		},
+		"sledgehammer-mithril": {
+			"stone": 5.5,
+			"ore": 4,
+			"metal": 4
+		},
+		"sledgehammer-adamant": {
+			"stone": 6,
+			"ore": 4.5,
+			"metal": 4.5
+		},
+		"sledgehammer-orichalcum": {
+			"stone": 7,
+			"ore": 5,
+			"metal": 5
+		},
+		"sledgehammer-aithril": {
+			"stone": 7.5,
+			"ore": 5.5,
+			"metal": 5.5
+		}
+	},
+	attackpowerbytype: {
+		"sledgehammer-iron": 5,
+		"sledgehammer-steel": 6,
+		"sledgehammer-stainlesssteel": 6.25,
+		"sledgehammer-titanium": 6.75,
+		"sledgehammer-mithril": 7.5,
+		"sledgehammer-adamant": 8,
+		"sledgehammer-orichalcum": 9,
+		"sledgehammer-aithril": 9.5
+	},
+//	Durability is 50% of the standard pickaxe
+	durabilitybytype: {
+		"sledgehammer-iron": 500,
+		"sledgehammer-steel": 1250,
+		"sledgehammer-stainlesssteel": 1750,
+		"sledgehammer-titanium": 2250,
+		"sledgehammer-mithril": 2750,
+		"sledgehammer-adamant": 3250,
+		"sledgehammer-orichalcum": 3750,
+		"sledgehammer-aithril": 4500
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0.4, z: 0.6 },
+		rotation: { x: -46, y: 12, z: 90 },
+		origin: { x: 0.1, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: 5, y: 0, z: 0 },
+		rotation: { x: 107, y: -51, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 1.68
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.125, y: -0.5299, z: -0.11 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

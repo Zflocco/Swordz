@@ -1,0 +1,117 @@
+{
+	code: "knife",
+	"__comment": "ItemKnife contains code for harvesting animal carcasses",
+	class: "ItemKnife",
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+		handbook: {
+			groupBy: ["knife-*"],
+			excludeByType: {},
+		},
+		toolrackTransformByType: {
+			"*": {
+				translation: { x: -0.3, y: 0.6, z: -0.1 },
+				rotation: { x: 97, y: 180, z: 3 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 1.8
+			}
+		},
+		groundStorageTransformByType: {
+			"@knife-generic-(stainlesssteel|titanium|mithril|adamant|orichalcum|aithril)": {
+				translation: { x: 0, y: 0.01, z: -0.044 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			},
+			"*": {
+				translation: { x: 0, y: 0.04, z: -0.054 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			}
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ { code: "type", states: ["generic"] }, { code: "material", states: [ "stainlesssteel","titanium","mithril","adamant","orichalcum","aithril" ] }, ],
+	
+	skipVariants: [ "knife-generic-ruined" ],
+	allowedVariants: [ "knife-generic-*", ],
+	shapeByType: { "*": { base: "game:item/tool/knife/copper" } },
+	heldTpHitAnimation: "breaktool",
+	heldTpUseAnimation: "knap",
+	texturesByType: { "knife-generic-*": { "material": { base: "game:block/metal/ingot/{material}" } }, },
+	durabilitybytype: {
+		"knife-generic-stainlesssteel": 3000,
+		"knife-generic-titanium": 4000,
+		"knife-generic-mithril": 5000,
+		"knife-generic-adamant": 6000,
+		"knife-generic-orichalcum": 7500,
+		"knife-generic-aithril": 8000,
+	},
+	miningspeedbytype: {
+		"knife-generic-stainlesssteel": {
+			"plant": 2.6,
+		},
+		"knife-generic-titanium": {
+			"plant": 2.8,
+		},
+		"knife-generic-mithril": {
+			"plant": 3
+		},
+		"knife-generic-adamant": {
+			"plant": 3.3
+		},
+		"knife-generic-orichalcum": {
+			"plant": 3.6,
+		},
+		"knife-generic-aithril": {
+			"plant": 3.8,
+		},
+	},
+	attackpowerbytype: {
+		"knife-generic-stainlesssteel": 4.3,
+		"knife-generic-titanium": 4.65,
+		"knife-generic-mithril": 5,
+		"knife-generic-adamant": 5.4,
+		"knife-generic-orichalcum": 5.8,
+		"knife-generic-aithril": 6,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: 0.2, y: 0.1, z: 0.5 },
+			rotation: { x: 140, y: 93, z: -75 },
+			scale: 2.5
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -158, y: 0, z: 48 },
+			origin: { x: 0.48, y: 0.1, z: 0.5 },
+			scale: 2.41
+		},
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -0.85, y: -0.2, z: -0.48 },
+			rotation: { x: 0, y: 0, z: -30 },
+			scale: 1		
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	code: "stilettoblade",
+	variantgroups: [ { code: "metal", states: ["copper","tinbronze","bismuthbronze","iron","meteoriciron","steel"]}, ],
+	shape: { base: "shapes/knives/parts/stilettoblade" },
+	textures: { "metal": {base: "game:block/metal/plate/{metal}" } },
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.2, y: -0.2, z: 0 },
+		rotation: { x: -21, y: 15, z: 90 },
+		scale: 3.2
+	},
+	guiTransform: {
+			translation: { x: 0, y: -12, z: 0 },
+			rotation: { x: 180, y: 0, z: 45 },
+			origin: { x: 0.65, y: 0.1, z: 0.45 },
+			scaleXyz: { x: -3.5, y: 3.5, z: 3.5 }
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.2
+	},
+	tpHandTransform: {
+			translation: { x: -0.83, y: -0.01, z: -0.66 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.8
+	}
+}
