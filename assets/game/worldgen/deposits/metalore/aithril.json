@@ -1,0 +1,36 @@
+[
+	{	enabled: true,
+		code: "surfaceaithril",
+		_comment: "Surface aithril deposits",
+		triesPerChunk: 0.005,
+		scaleWithWorldheight: false,
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["andesite", "granite", "bauxite", "basalt", "peridotite", "claystone", "sandstone", "shale", "chalk", "chert", "conglomerate", "phyllite", "slate"] },
+			placeblock: {
+				code: "ore-*-aithril-{rock}",
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["poor"],
+					"rock-basalt": ["poor"],
+					"rock-bauxite": ["poor"],
+					"rock-claystone": ["poor"],
+					"rock-chalk": ["poor"],
+					"rock-chert": ["poor"],
+					"rock-conglomerate": ["poor"],
+					"rock-granite": ["poor"],			
+					"rock-peridotite": ["poor"],
+					"rock-phyllite": ["poor"],
+					"rock-sandstone": ["poor"],
+					"rock-shale": ["poor"],
+					"rock-slate": ["poor"]
+				}
+			},
+			surfaceBlock: { code: "looseores-aithril-{rock}-free" },
+			surfaceBlockChance: 0.33,
+			radius: { dist: "uniform", avg: 3.35, var: 1 },
+			yPosRel: {dist: "uniform", avg: 0.965, var: 0.03 },
+			thickness: { dist: "stronginvexp", avg: 1, var: 1 },
+		}
+	},
+]
