@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["tinbronze","iron","meteoriciron","steel" ], name: "metal" },
+	pattern: [[
+		"___#____________",
+		"___#######______",
+		"#############___",
+		"___#######______",
+		"___#____________",
+	]],
+	name: "Arming Sword Blade",
+	output: { type: "item", code: "sordblade-{metal}-blunt"  }
+}

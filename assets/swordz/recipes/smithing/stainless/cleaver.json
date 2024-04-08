@@ -1,0 +1,11 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+	pattern: [[
+		"########____",
+		"############",
+		"########____",
+		"########____",
+	]],
+	name: "Cleaver",
+	output: { type: "item", code: "swordz:cleaver-{metal}"  }
+}

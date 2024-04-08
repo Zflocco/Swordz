@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril"] },
+	pattern: [[
+		"_____######___",
+		"__############",
+		"_#__________##"
+	]],
+	name: "Tunneler",
+	output: { type: "item", code: "swordz:tunnelerhead-{metal}"  }
+}

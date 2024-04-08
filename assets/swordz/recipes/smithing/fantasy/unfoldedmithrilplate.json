@@ -1,0 +1,16 @@
+{	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-unfoldedmithril"},
+	name: "Fantasy plate",
+	pattern: [[
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+	]],
+	output: { type: "item", code: "game:metalplate-unfoldedmithril"  }
+}

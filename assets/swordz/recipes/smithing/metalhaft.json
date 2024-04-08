@@ -1,0 +1,16 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: [ "copper","bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril" ], name: "metal" },
+	pattern: [[
+		"________________",
+		"___##########___",
+		"___##########___",
+		"________________"
+	],[
+		"________________",
+		"___##########___",
+		"___##########___",
+		"________________",
+	]],
+	name: "Metal Haft",
+	output: { type: "item", code: "haft-{metal}"  }
+}

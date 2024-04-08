@@ -1,0 +1,29 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["iron","steel","stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril"], name: "metal" },
+	pattern: [
+	[
+		"_________",
+		"_________",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"_________",
+		"_________",
+	],
+	[
+		"_________",
+		"_________",
+		"_________",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"_________",
+		"_________",	
+	],
+	],
+	name: "Sledgehammer head",
+	output: { type: "item", code: "sledgehammerhead-{metal}"  }
+}

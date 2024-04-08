@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["copper","tinbronze","bismuthbronze","blackbronze"], name: "metal" },
+	pattern: [[
+		"________________",
+		"________________",
+		"#####_______#___",
+		"____########____",
+		"________________",
+	]],
+	name: "Khopesh Blade",
+	output: { type: "item", code: "khopeshblade-{metal}-blunt"  }
+}
