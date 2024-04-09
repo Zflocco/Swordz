@@ -1,0 +1,50 @@
+{	enabled : true,
+	code: "stone",
+	class: "ItemStone",
+	storageFlags: 5,
+//								block/rockwithdeposit is specifically under worldproperties , it has suevite in it.
+	variantgroups: [ { code:"rock", states: ["meteorite-aithril"] }, ],
+
+	maxstacksize: 64,
+
+	shape: { base: "game:item/stone" },
+
+	textures: { "material" : { base: "swordz:block/stone/rock/{rock}1" }, },
+
+	attributesByType: {	"*": {	displaycaseable: true, shelvable: true } },	
+
+	combustiblePropsByType: {
+		"*-meteorite-aithril": {
+			meltingPoint: 1476,
+			meltingDuration: 30,
+			smeltedRatio: 2,
+			smeltedStack: { type: "item", code: "game:ingot-aithril" }
+		}
+	},
+	
+	guiTransform: {
+		translation: { x: 2, y: 1, z: 0 },
+		rotation: { x: 150, y: -38, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.8
+	},
+	fpHandTransform: {
+		translation: { x: 0.05, y: 0.2, z: 0 },
+		rotation: { x: 94, y: 95, z: -21 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1.78
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.12, z: -0.7 },
+		rotation: { x: -44, y: 7, z: -9 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.7
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "swordz": ["*"] }
+}

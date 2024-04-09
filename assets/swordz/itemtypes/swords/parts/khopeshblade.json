@@ -1,4 +1,4 @@
-{
+{	enabled:false,
 	code: "khopeshblade",
 	variantgroups: [ 
 	{ code: "metal", states: ["copper","tinbronze","bismuthbronze","blackbronze"]}, 
