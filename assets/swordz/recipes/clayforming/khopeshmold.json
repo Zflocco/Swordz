@@ -1,4 +1,4 @@
-{
+{	enabled:false,
 	ingredient: { type: "item", code: "game:clay-*", name: "type", allowedVariants: ["blue", "fire","red","brown"] },
 	pattern: [[
 		"##############",
