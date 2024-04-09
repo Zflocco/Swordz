@@ -1147,6 +1147,10 @@ There's also tales of another metal, ancient dwarven tales speak of a sky-metal,
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-//"block-meteorite-aithril": "Aithril",
+"block-meteorite-aithril": "Aithril",
+"item-stone-meteorite-aithril": "Aithril Piece",
+
+
+
 
 }
