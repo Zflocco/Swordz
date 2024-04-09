@@ -1,0 +1,557 @@
+[
+////////////////////////////////////////////////// Disable Fantasy Armour //////////////////////////////////////////////////
+{
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "armor-*-*-aithril",
+    "file": "swordz:itemtypes/wearable/armor.json",
+	"condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},
+{
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "armor-*-*-orichalcum",
+    "file": "swordz:itemtypes/wearable/armor.json",
+	"condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "armor-*-*-adamant",
+    "file": "swordz:itemtypes/wearable/armor.json",
+	"condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "armor-*-*-mithril",
+    "file": "swordz:itemtypes/wearable/armor.json",
+	"condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+////////////////
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/scale.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/scale.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/scale.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/plate.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/plate.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/plate.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/chain.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/chain.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/chain.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/brigandine.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/brigandine.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/fantasy/brigandine.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+//////////////
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/scale.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/scale.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/scale.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/plate.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/plate.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/plate.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/chain.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/chain.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/chain.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/brigandine.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/brigandine.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/fantasy/brigandine.json",
+    "condition": { "when": "fantasyarmorenabled", "isValue": "false" }
+},
+////////////////////////////////////////////////// Disable Titanium Armour //////////////////////////////////////////////////
+{
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "armor-*-*-titanium",
+    "file": "swordz:itemtypes/wearable/armor.json",
+	"condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},
+/////
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/scale.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/scale.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/scale.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/plate.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/plate.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/plate.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/chain.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/chain.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/chain.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/brigandine.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/brigandine.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/titanium/brigandine.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+/////
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/scale.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/scale.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/scale.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/plate.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/plate.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/plate.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/chain.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/chain.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/chain.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/brigandine.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/brigandine.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/titanium/brigandine.json",
+    "condition": { "when": "titaniumarmorenabled", "isValue": "false" }
+},
+////////////////////////////////////////////////// Disable Stainless Armour //////////////////////////////////////////////////
+{
+    "op": "replace",
+    "path": "/enabled",
+    "value": "false",
+    "file": "swordz:itemtypes/wearable/armor.json",
+	"condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},
+/////
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/scale.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/scale.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/scale.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/plate.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/plate.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/plate.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/chain.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/chain.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/chain.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/brigandine.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/brigandine.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armor/stainless/brigandine.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+/////
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/scale.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/scale.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/scale.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/plate.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/plate.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/plate.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/chain.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/chain.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/chain.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/brigandine.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/brigandine.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},  
+{
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": false,
+    "file": "swordz:recipes/grid/armorrepair/stainless/brigandine.json",
+    "condition": { "when": "stainlessarmorenabled", "isValue": "false" }
+},
+]

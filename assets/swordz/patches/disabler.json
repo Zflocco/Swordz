@@ -772,16 +772,96 @@
   
   
   
-  
- ////////////////////////////////////////////////// Disable Fantasy Armour //////////////////////////////////////////////////
-  
-  
-  
-  
-  
-  
-  
-  
+////////////////////////////////////////////////// Enable Khopesh //////////////////////////////////////////////////
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:recipes/smithing/khopesh.json",
+    "condition": { "when": "khopeshenabled", "isValue": "true" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:itemtypes/swords/khopesh.json",
+    "condition": { "when": "khopeshenabled", "isValue": "true" }
+  },  
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:itemtypes/swords/parts/khopesh.json",
+    "condition": { "when": "khopeshenabled", "isValue": "true" }
+  },    
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:recipes/clayforming/khopeshmold.json",
+    "condition": { "when": "khopeshenabled", "isValue": "true" }
+  },      
+{
+    "op": "add",
+    "path": "/skipVariants/0",
+    "value": "*-*-khopeshblade",
+    "file": "swordz:blocktypes/clay/toolmold.json",
+	"condition": { "when": "khopeshenabled", "isValue": "false" }
+},
+ ////////////////////////////////////////////////// Enable Naginata //////////////////////////////////////////////////
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:recipes/smithing/heads/naginatahead.json",
+    "condition": { "when": "naginataenabled", "isValue": "true" }
+  },
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:itemtypes/polearms/naginata.json",
+    "condition": { "when": "naginataenabled", "isValue": "true" }
+  },  
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:itemtypes/swords/parts/naginatahead.json",
+    "condition": { "when": "naginataenabled", "isValue": "true" }
+  },
+{
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "swordz:recipes/grid/polearms/naginata.json",
+    "condition": { "when": "naginataenabled", "isValue": "true" }
+},
+////////////////////////////////////////////////// Disable Excavator //////////////////////////////////////////////////
+
+
+
+
+
+
+////////////////////////////////////////////////// Disable Sledgehammer //////////////////////////////////////////////////
+
+
+
+
+
+
+////////////////////////////////////////////////// Disable Tunneler //////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
 ////////////////////////////////////////////////// Disable Metal Blocks //////////////////////////////////////////////////
 
   {
