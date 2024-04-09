@@ -1,0 +1,39 @@
+[
+	{	enabled:true,
+		ingredientPattern: "LPL,PCP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
+			"C": { type: "item", code: "swordz:armor-head-chain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"], recipeAttributes: { repairMat: { type:"item", code: "metalchain-{metal}", stacksize: 4 } } },
+			"L": { type: "item", code: "game:leather-plain" }
+		},
+		width: 3,
+		height: 2,
+		name: "plate helmet",
+		output: { type: "item", code: "swordz:armor-head-plate-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "PCP,PPP,PPP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
+			"C": { type: "item", code: "swordz:armor-body-chain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"], recipeAttributes: { repairMat: { type:"item", code: "metalchain-{metal}", stacksize: 12 } } },
+		},
+		width: 3,
+		height: 3,
+		name: "plate body armor",
+		output: { type: "item", code: "swordz:armor-body-plate-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "PPP,PCP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
+			"C": { type: "item", code: "swordz:armor-legs-chain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"], recipeAttributes: { repairMat: { type:"item", code: "metalchain-{metal}", stacksize: 6 } } },
+		},
+		width: 3,
+		height: 2,
+		name: "plate leg armor",
+		output: { type: "item", code: "swordz:armor-legs-plate-{metal}"  }
+	}
+]

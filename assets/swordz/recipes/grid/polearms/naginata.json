@@ -1,0 +1,14 @@
+[	
+	{	enabled:false,
+		ingredientPattern: "HZN,_S_,_S_",
+		ingredients: {
+			"Z": { type: "item", code: "naginatahead-*",name:"metal"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
+			"N": { type: "item", code: "game:metalnailsandstrips-*",quantity: 1 },
+			"S": { type: "item", code: "game:stick"},
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "naginata-{metal}", quantity: 1  }
+	},
+]

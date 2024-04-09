@@ -1,5 +1,5 @@
 [	
-	{
+	{	enabled:false,
 		ingredientPattern: "KF",
 		ingredients: {
 			"K": { type: "item", code: "khopeshblade-copper-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
@@ -9,7 +9,7 @@
 		height: 1,
 		output: { type: "item", code: "khopesh-copper-{sharpness}", quantity: 1  }
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "KF",
 		ingredients: {
 			"K": { type: "item", code: "khopeshblade-tinbronze-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
@@ -19,7 +19,7 @@
 		height: 1,
 		output: { type: "item", code: "khopesh-tinbronze-{sharpness}", quantity: 1  }
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "KF",
 		ingredients: {
 			"K": { type: "item", code: "khopeshblade-bismuthbronze-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
@@ -29,7 +29,7 @@
 		height: 1,
 		output: { type: "item", code: "khopesh-bismuthbronze-{sharpness}", quantity: 1  }
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "KF",
 		ingredients: {
 			"K": { type: "item", code: "khopeshblade-blackbronze-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
@@ -43,7 +43,7 @@
 
 
 
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -54,7 +54,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-copper-dull"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -65,7 +65,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-copper-sharp"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -76,7 +76,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-copper-honed"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -87,7 +87,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-tinbronze-dull"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -98,7 +98,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-tinbronze-sharp"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -109,7 +109,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-tinbronze-honed"}
 	},	
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -120,7 +120,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-bismuthbronze-dull"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -131,7 +131,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-bismuthbronze-sharp"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -142,7 +142,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-bismuthbronze-honed"}
 	},	
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -153,7 +153,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-blackbronze-dull"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {
@@ -164,7 +164,7 @@
 		height: 1,
 		output: { type: "item", code: "khopeshblade-blackbronze-sharp"}
 	},
-	{
+	{	enabled:false,
 		ingredientPattern: "BW",
 		shapeless: "true",
 		ingredients: {

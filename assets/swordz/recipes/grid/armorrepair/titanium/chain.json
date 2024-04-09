@@ -1,0 +1,51 @@
+[
+
+	{	enabled:true,
+		ingredientPattern: "T,C",
+		recipeGroup: 2,
+		ingredients: {
+			"T": { type: "item", code: "swordz:armor-head-chain-*", name: "metal", allowedVariants: ["titanium"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		name: "chain helmet repair",
+		output: { type: "item", code: "swordz:armor-head-chain-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "T,L,C",
+		recipeGroup: 2,
+		ingredients: {
+			"T": { type: "item", code: "swordz:armor-body-chain-*", name: "metal", allowedVariants: ["titanium"] },
+			"L": { type: "item", code: "game:leather-plain" },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] }
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		name: "chain body armor repair",
+		output: { type: "item", code: "swordz:armor-body-chain-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "T,L,C",
+		recipeGroup: 2,
+		ingredients: {
+			"T": { type: "item", code: "swordz:armor-legs-chain-*", name: "metal", allowedVariants: ["titanium"] },
+			"L": { type: "item", code: "game:leather-plain" },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] }
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		name: "chain leg armor repair",
+		output: { type: "item", code: "swordz:armor-legs-chain-{metal}"  }
+	}
+	
+]
