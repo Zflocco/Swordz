@@ -12,6 +12,7 @@
 		],
 		"*": [{name: "UnstableFalling"}],
 	},
+	skipVariants: [],
 	variantgroups: [
 		{ code:"materialtype", states: ["raw", "burned"] },
 		{ code:"tooltype", states: ["khopeshblade","arrowhead","largearrowhead", /*"bullets"*/] }
