@@ -198,12 +198,12 @@ Warhammers : These are comparable to Nadziak, they're +1 tier off their base met
 			1.1.7
 	Added : 
 	Polski Tłumaczenie 1.1.7 : Kredyty dla "Veir"
-	Khopesh : Ancient design from an ancient kingdom, only available in copper and bronze.
+	Khopesh : Ancient design from an ancient kingdom, only available in copper and bronze. (Off by default)
+	Khopesh Mold (Off by default)
 	Arrowhead Molds : Small = 6 Arrowheads costs 1 ingot , Large = 9 Arrowheads costs 1.5 Ingots
-	Naginata : 
-	Pollaxe : 
-	Halberd : 
-	
+	Naginata : A moderate reach polearm with good damage. (disabled by default)
+	Pollaxe & Halberd : Fairly similar polearms both of which are quite effective with decent range and damage.
+	Configs to disable new armours : Fantasy / Titanium / Stainless
 	
 	Adjusted : 
 	Disabling fantasy does a bit more.
@@ -219,32 +219,12 @@ Warhammers : These are comparable to Nadziak, they're +1 tier off their base met
 
 	
 	Todo : 
-	
-	
+
 fix new hoe heads from being displayed as stone hoe heads, not metal.
-add config to turn khopesh off
-
-
 
 Raise stats for durability on tunnelers higher, they're metal hafted
 
-
-
-
-
-
-
-
-Blade / Recipes
-
-naginata
-change voulge head smithing to naginata
-
-
-
-
-
-figure out how to disable fantasy armours / tunneler / excav/ sledge etc.
+figure out how to disable tunneler / excav/ sledge etc.
 
 
 
