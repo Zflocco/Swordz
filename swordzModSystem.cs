@@ -34,10 +34,11 @@ namespace swordz
             api.RegisterItemClass("Sledgehammer", typeof(ToolSledgehammer));
             api.RegisterItemClass("Excavator", typeof(ToolExcavator));
 
-            //  api.RegisterBlockClass("BlockFantasyMeteorite",typeof (BlockOre));
+            api.RegisterBlockClass("BlockFantasyMeteorite",typeof (BlockOre));
 
 
-         
+
+
             try
             {
                 Config = api.LoadModConfig<SwordzConfig>("SwordzConfig.json");
@@ -63,9 +64,21 @@ namespace swordz
             api.World.Config.SetBool("stainlessenabled", Config.stainlessenabled);
             api.World.Config.SetBool("titaniumenabled", Config.titaniumenabled);
             api.World.Config.SetBool("fantasymetalsenabled", Config.fantasymetalsenabled);
+            //
+            api.World.Config.SetBool("metalblocksdisabled", Config.metalblocksdisabled);
+            api.World.Config.SetBool("fantasyarmorenabled", Config.fantasyarmorenabled);
+            api.World.Config.SetBool("titaniumarmorenabled", Config.titaniumarmorenabled);
+            api.World.Config.SetBool("stainlessarmorenabled", Config.stainlessarmorenabled);
+            //  Misc. Utility Items
             api.World.Config.SetBool("bombsdisabled", Config.bombsdisabled);
             api.World.Config.SetBool("sterilizedbandageenabled", Config.sterilizedbandageenabled);
-            api.World.Config.SetBool("metalblocksdisabled", Config.metalblocksdisabled);
+            api.World.Config.SetBool("excavatorenabled", Config.excavatorenabled);
+            api.World.Config.SetBool("tunnelerenabled", Config.tunnelerenabled);
+            api.World.Config.SetBool("sledgehammerenabled", Config.sledgehammerenabled);
+            //  Weapons
+            api.World.Config.SetBool("khopeshenabled", Config.khopeshenabled);
+            api.World.Config.SetBool("naginataenabled", Config.naginataenabled);
+
 
 
 
@@ -80,10 +93,17 @@ namespace swordz
             public bool bombsdisabled = true;
             public bool sterilizedbandageenabled = true;
             public bool metalblocksdisabled = true;
+           
+            public bool khopeshenabled = false;
+            public bool naginataenabled = false;
 
+            public bool excavatorenabled = true;
+            public bool tunnelerenabled = true;
+            public bool sledgehammerenabled = true;
 
-
-
+            public bool fantasyarmorenabled = true;
+            public bool titaniumarmorenabled = true;
+            public bool stainlessarmorenabled = true;
         }
 
 
