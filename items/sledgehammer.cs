@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.API.MathTools;
+using Vintagestory.GameContent;
 
 namespace swordz.src
 {
@@ -29,7 +30,7 @@ namespace swordz.src
                         }
                         else
                         {
-                            if (block.BlockMaterial != EnumBlockMaterial.Mantle && block.BlockMaterial != EnumBlockMaterial.Soil && block.BlockMaterial != EnumBlockMaterial.Gravel && block.BlockMaterial != EnumBlockMaterial.Sand && block.BlockMaterial != EnumBlockMaterial.Snow)
+                            if (block.BlockMaterial == EnumBlockMaterial.Stone || block.BlockMaterial == EnumBlockMaterial.Ore)
                             {
                                 world.BlockAccessor.BreakBlock(tempPos, player);
                             }
