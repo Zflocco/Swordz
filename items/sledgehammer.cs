@@ -30,7 +30,7 @@ namespace swordz.src
                         }
                         else
                         {
-                            if (block.BlockMaterial == EnumBlockMaterial.Stone || block.BlockMaterial == EnumBlockMaterial.Ore)
+                            if (block.BlockMaterial == EnumBlockMaterial.Stone)
                             {
                                 world.BlockAccessor.BreakBlock(tempPos, player);
                             }
