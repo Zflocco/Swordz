@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.PortableExecutable;
@@ -33,7 +33,7 @@ namespace swordz.src
                             if (player.WorldData.CurrentGameMode == EnumGameMode.Creative)
                                 world.BlockAccessor.SetBlock(0, tempPos);
                             else
-                                world.BlockAccessor.BreakBlock(tempPos, player);
+                                world.BlockAccessor.BreakBlock(tempPos, player,0.7f);
                         }
                     }
                 }
@@ -58,7 +58,7 @@ namespace swordz.src
                     break;
             }
         }
-        public override bool OnBlockBrokenWith(IWorldAccessor world, Entity byEntity, ItemSlot itemslot, BlockSelection blockSel, float dropQuantityMultiplier = 1)
+        public override bool OnBlockBrokenWith(IWorldAccessor world, Entity byEntity, ItemSlot itemslot, BlockSelection blockSel, float dropQuantityMultiplier)
         {
             if (base.OnBlockBrokenWith(world, byEntity, itemslot, blockSel))
             {
