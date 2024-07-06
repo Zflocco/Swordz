@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -141,7 +141,7 @@ namespace Vintagestory.GameContent
 
                 if (!blAcc.IsSideSolid(tmpPos.X, tmpPos.Y-1, tmpPos.Z, BlockFacing.UP)) continue;
 
-                if (worldgenRand.NextDouble() < 0.3)
+                if (worldgenRand.NextDouble() < 0.8)
                 {
                     blAcc.SetBlock(fragmentBlockId, tmpPos);
                 } else
