@@ -1,0 +1,224 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin/handle/collar/shaft/head,Root/origin/handle1/socket/bladeneck/blademiddleN/bladebeard1N,Root/origin/handle/spike4,Root/origin/handle1/socket/bladeneck/blademiddleN",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"metal": [16,16],
+		"wood": [16,16],
+		"handle": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "handle1",
+					"from": [ -8.0, 0.0, -0.7 ],
+					"to": [ 8.0, 1.5, 0.8 ],
+					"faces": {
+						"north": { "texture": "#handle", "uv": [ 0.0, 13.0, 16.0, 14.5 ] },
+						"east": { "texture": "#handle", "uv": [ 12.0, 4.0, 13.5, 5.5 ] },
+						"south": { "texture": "#handle", "uv": [ 0.0, 8.5, 16.0, 10.0 ] },
+						"up": { "texture": "#handle", "uv": [ 0.0, 8.0, 16.0, 9.5 ] },
+						"down": { "texture": "#handle", "uv": [ 0.0, 13.5, 16.0, 15.0 ] }
+					},
+					"children": [
+						{
+							"name": "handle2",
+							"from": [ -12.0, 0.0, 0.0 ],
+							"to": [ 0.0, 1.5, 1.5 ],
+							"rotationOrigin": [ -4.0, 0.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#handle", "uv": [ 0.5, 9.0, 12.5, 10.5 ] },
+								"east": { "texture": "#handle", "uv": [ 7.0, 0.5, 8.5, 2.0 ] },
+								"south": { "texture": "#handle", "uv": [ 0.0, 13.0, 12.0, 14.5 ] },
+								"west": { "texture": "#handle", "uv": [ 5.5, 10.0, 7.0, 11.5 ] },
+								"up": { "texture": "#handle", "uv": [ 1.0, 12.5, 13.0, 14.0 ] },
+								"down": { "texture": "#handle", "uv": [ 5.0, 11.0, 17.0, 12.5 ] }
+							}
+						},
+						{
+							"name": "socket",
+							"from": [ 13.3, -0.2, -0.2 ],
+							"to": [ 15.5, 1.7, 1.7 ],
+							"rotationOrigin": [ 13.3, 0.75, 0.75 ],
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 12.0, 4.5, 14.0, 6.0 ] },
+								"east": { "texture": "#metal", "uv": [ 4.0, 8.5, 5.5, 10.0 ] },
+								"south": { "texture": "#metal", "uv": [ 2.5, 10.5, 4.5, 12.0 ] },
+								"west": { "texture": "#metal", "uv": [ 12.5, 0.0, 14.0, 1.5 ] },
+								"up": { "texture": "#metal", "uv": [ 10.0, 10.5, 12.0, 12.0 ] },
+								"down": { "texture": "#metal", "uv": [ 10.5, 11.0, 12.5, 12.5 ] }
+							},
+							"children": [
+								{
+									"name": "socket2",
+									"from": [ 1.9, 0.1, 0.7 ],
+									"to": [ 2.9, 1.8, 1.7 ],
+									"rotationOrigin": [ 1.9, 1.05, 1.65 ],
+									"rotationY": 45.0,
+									"faces": {
+										"east": { "texture": "#metal", "uv": [ 4.0, 8.5, 5.0, 10.0 ], "windMode": [-1,-1,-1,-1] },
+										"south": { "texture": "#metal", "uv": [ 2.5, 10.5, 3.5, 12.0 ] },
+										"up": { "texture": "#metal", "uv": [ 10.0, 10.5, 11.0, 11.5 ] },
+										"down": { "texture": "#metal", "uv": [ 10.5, 11.0, 11.5, 12.0 ] }
+									}
+								},
+								{
+									"name": "socket3",
+									"from": [ -0.01, 0.1, -0.79 ],
+									"to": [ 0.99, 1.8, 0.21 ],
+									"rotationOrigin": [ 0.0, 1.05, 0.25 ],
+									"rotationY": -135.0,
+									"faces": {
+										"east": { "texture": "#metal", "uv": [ 4.0, 8.5, 5.0, 10.0 ] },
+										"south": { "texture": "#metal", "uv": [ 2.5, 10.5, 3.5, 12.0 ] },
+										"up": { "texture": "#metal", "uv": [ 10.0, 10.5, 11.0, 11.5 ] },
+										"down": { "texture": "#metal", "uv": [ 10.5, 11.0, 11.5, 12.0 ] }
+									}
+								},
+								{
+									"name": "blademiddleN",
+									"from": [ 0.0, 0.9, -4.15 ],
+									"to": [ 3.0, 1.1, -2.55 ],
+									"rotationOrigin": [ 1.5, 0.95, -2.25 ],
+									"rotationY": 5.0,
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 9.5, 12.5, 12.5, 13.0 ] },
+										"east": { "texture": "#metal", "uv": [ 3.0, 12.0, 4.5, 12.5 ] },
+										"south": { "texture": "#metal", "uv": [ 4.5, 14.0, 7.5, 14.5 ] },
+										"west": { "texture": "#metal", "uv": [ 5.0, 4.0, 6.5, 4.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 10.5, 3.0, 12.0 ] },
+										"down": { "texture": "#metal", "uv": [ 1.5, 11.5, 4.5, 13.0 ] }
+									},
+									"children": [
+										{
+											"name": "bladebeard1N",
+											"from": [ -2.0, 0.0, 0.0 ],
+											"to": [ 0.0, 0.2, 1.5 ],
+											"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+											"rotationY": 12.0,
+											"rotationZ": 1.0,
+											"faces": {
+												"north": { "texture": "#metal", "uv": [ 6.0, 8.0, 8.0, 8.5 ] },
+												"south": { "texture": "#metal", "uv": [ 4.0, 14.0, 6.0, 14.5 ] },
+												"west": { "texture": "#metal", "uv": [ 3.5, 13.5, 5.0, 14.0 ] },
+												"up": { "texture": "#metal", "uv": [ 12.0, 5.5, 14.0, 7.0 ] },
+												"down": { "texture": "#metal", "uv": [ 12.5, 7.0, 14.5, 8.5 ] }
+											},
+											"children": [
+												{
+													"name": "bladebeard2N",
+													"from": [ -1.5, 0.0, 0.0 ],
+													"to": [ 0.0, 0.205, 1.4 ],
+													"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+													"rotationY": 12.0,
+													"rotationZ": -1.0,
+													"faces": {
+														"north": { "texture": "#metal", "uv": [ 12.5, 5.0, 14.0, 5.5 ] },
+														"east": { "texture": "#metal", "uv": [ 0.0, 11.5, 1.0, 12.0 ] },
+														"south": { "texture": "#metal", "uv": [ 6.5, 6.5, 8.0, 7.0 ] },
+														"west": { "texture": "#metal", "uv": [ 10.0, 13.0, 11.0, 13.5 ] },
+														"up": { "texture": "#metal", "uv": [ 1.0, 13.5, 2.5, 14.5 ] },
+														"down": { "texture": "#metal", "uv": [ 8.5, 4.0, 10.0, 5.0 ] }
+													},
+													"children": [
+														{
+															"name": "bladebeard3N",
+															"from": [ -1.0, 0.0, 0.0 ],
+															"to": [ 0.0, 0.2, 1.4 ],
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"rotationZ": 1.0,
+															"faces": {
+																"north": { "texture": "#metal", "uv": [ 6.5, 2.5, 7.5, 3.0 ] },
+																"south": { "texture": "#metal", "uv": [ 0.0, 6.0, 1.0, 6.5 ] },
+																"west": { "texture": "#metal", "uv": [ 2.0, 5.0, 3.0, 5.5 ] },
+																"up": { "texture": "#metal", "uv": [ 5.0, 10.0, 6.0, 11.0 ] },
+																"down": { "texture": "#metal", "uv": [ 2.5, 14.5, 3.5, 15.5 ] }
+															}
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "bladehorn1N",
+											"from": [ 3.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.2, 1.6 ],
+											"rotationOrigin": [ 3.0, 0.0, 0.0 ],
+											"rotationY": -17.5,
+											"rotationZ": -1.0,
+											"faces": {
+												"north": { "texture": "#metal", "uv": [ 10.0, 14.5, 11.0, 15.0 ] },
+												"east": { "texture": "#metal", "uv": [ 2.0, 4.0, 3.5, 4.5 ] },
+												"south": { "texture": "#metal", "uv": [ 1.0, 0.5, 2.0, 1.0 ] },
+												"up": { "texture": "#metal", "uv": [ 4.0, 5.0, 5.0, 6.5 ] },
+												"down": { "texture": "#metal", "uv": [ 10.5, 10.0, 11.5, 11.5 ] }
+											}
+										},
+										{
+											"name": "blademiddleN4",
+											"from": [ 1.31, -0.02, 1.74 ],
+											"to": [ 2.31, 0.18, 4.24 ],
+											"rotationOrigin": [ 2.7552, 0.05, 3.6159 ],
+											"rotationX": 0.0,
+											"rotationY": -35.0,
+											"rotationZ": 0.0,
+											"faces": {
+												"north": { "texture": "#metal", "uv": [ 9.5, 12.5, 10.5, 13.0 ] },
+												"east": { "texture": "#metal", "uv": [ 3.0, 12.0, 5.5, 12.5 ] },
+												"south": { "texture": "#metal", "uv": [ 4.5, 14.0, 5.5, 14.5 ] },
+												"west": { "texture": "#metal", "uv": [ 5.0, 4.0, 7.5, 4.5 ] },
+												"up": { "texture": "#metal", "uv": [ 0.0, 10.5, 1.0, 13.0 ] },
+												"down": { "texture": "#metal", "uv": [ 1.5, 11.5, 2.5, 14.0 ] }
+											}
+										}
+									]
+								},
+								{
+									"name": "blademiddleN2",
+									"from": [ 0.0, 0.85, -0.95 ],
+									"to": [ 2.2, 1.15, 0.05 ],
+									"rotationOrigin": [ 1.5, 0.95, 0.95 ],
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 9.5, 12.5, 11.5, 13.0 ] },
+										"east": { "texture": "#metal", "uv": [ 3.0, 12.0, 4.0, 12.5 ] },
+										"south": { "texture": "#metal", "uv": [ 4.5, 14.0, 6.5, 14.5 ] },
+										"west": { "texture": "#metal", "uv": [ 5.0, 4.0, 6.0, 4.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 10.5, 2.0, 11.5 ] },
+										"down": { "texture": "#metal", "uv": [ 1.5, 11.5, 3.5, 12.5 ] }
+									}
+								},
+								{
+									"name": "blademiddleN3",
+									"from": [ -1.5, 0.85, -2.65 ],
+									"to": [ 2.5, 1.15, -0.95 ],
+									"rotationOrigin": [ 0.0, 0.95, -0.75 ],
+									"faces": {
+										"north": { "texture": "#metal", "uv": [ 9.5, 12.5, 13.5, 13.0 ] },
+										"east": { "texture": "#metal", "uv": [ 3.0, 12.0, 4.5, 12.5 ] },
+										"south": { "texture": "#metal", "uv": [ 4.5, 14.0, 8.5, 14.5 ] },
+										"west": { "texture": "#metal", "uv": [ 5.0, 4.0, 6.5, 4.5 ] },
+										"up": { "texture": "#metal", "uv": [ 0.0, 10.5, 4.0, 12.0 ] },
+										"down": { "texture": "#metal", "uv": [ 1.5, 11.5, 5.5, 13.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}
