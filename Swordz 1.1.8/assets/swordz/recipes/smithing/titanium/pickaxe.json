@@ -1,0 +1,10 @@
+{	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["titanium"] },
+	pattern: [[
+		"_____####_____",
+		"__##########__",
+		"#####____#####"
+	]],
+	name: "Pickaxe",
+	output: { type: "item", code: "game:pickaxehead-{metal}"  }
+}

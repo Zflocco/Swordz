@@ -1,0 +1,16 @@
+{	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-*", name: "fantasy", allowedVariants: ["mithril","adamant","orichalcum","aithril"] },
+	pattern: [[
+		"###_###_###",
+		"###_###_###",
+		"_#___#___#_",
+		"###_###_###",
+		"###_###_###",
+		"_#___#___#_",
+		"###_###_###",
+		"###_###_###",
+		"_#___#___#_",		
+	]],
+	name: "scales",
+	output: { type: "item", code: "game:metalscale-{fantasy}", stacksize: 2  }
+}

@@ -1,0 +1,10 @@
+{	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["mithril","adamant","orichalcum","aithril"] },
+	pattern: [[
+		"_###########____",
+		"______######____",
+		"________________",
+	]],
+	name: "Knife",
+	output: { type: "item", code: "game:knifeblade-{metal}"   }
+}

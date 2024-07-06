@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["iron","meteoriciron","steel" ], name: "metal" },
+	pattern: [[
+		"________________",
+		"________________",
+		"###############_",
+		"__###########___",
+		"________________"
+	]],
+	name: "Voulge head",
+	output: { type: "item", code: "voulgehead-{metal}"  }
+}
