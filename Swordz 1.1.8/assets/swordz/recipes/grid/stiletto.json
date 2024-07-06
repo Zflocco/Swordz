@@ -1,0 +1,13 @@
+[	
+	{
+		ingredientPattern: "TL",
+//		requiresTrait: "",
+		ingredients: {
+			"T": { type: "item", code: "stilettoblade-*",name:"metal"},
+			"L": { type: "item", code: "game:leather-*" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "stiletto-{metal}", quantity: 1  }
+	},
+]

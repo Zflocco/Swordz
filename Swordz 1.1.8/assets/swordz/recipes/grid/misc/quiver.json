@@ -1,0 +1,26 @@
+[	
+	{
+		ingredientPattern: "L_L,LSL,LBL",
+		requiresTrait: "clothier",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-*" },
+			"B": { type: "item", code: "game:ingot-brass" },
+			"S": { type: "item", code: "game:sewingkit" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:quiver", quantity: 1  }
+	},
+	{
+		ingredientPattern: "LTL,LCL,LBL",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-*" },
+			"B": { type: "item", code: "game:ingot-brass" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"C": { type: "item", code: "game:cloth-*" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:quiver", quantity: 1  }
+	},
+]      

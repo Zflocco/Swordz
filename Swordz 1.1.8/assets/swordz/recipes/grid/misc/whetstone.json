@@ -1,0 +1,15 @@
+[	
+	{
+		ingredientPattern: "HCS",
+		shapeless:"false",
+//		requiresTrait: "",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 15 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true,"toolDurabilityCost": 15 },
+			"S": { type: "block", code: "game:rockpolished-*",allowedVariants:["suevite","sandstone","granite"],name:"stone" },
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "whetstone-{stone}", quantity: 1  }
+	},
+]      

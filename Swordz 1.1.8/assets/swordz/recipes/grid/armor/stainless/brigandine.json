@@ -1,0 +1,38 @@
+[
+	{	enabled:true,
+		ingredientPattern: "LPL,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-plain", quantity: 2, recipeAttributes: { repairMat: { type: "item", code: "leather-plain", stacksize: 1 } } },
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["stainlesssteel"], quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		name: "brigandine helmet",
+		output: { type: "item", code: "swordz:armor-head-brigandine-{metal}"  }
+	},
+	{	enabled:true,
+      ingredientPattern: "P_P,PJP,PPP",
+      recipeGroup: 1,
+      ingredients: {
+          "J": { type: "item", code: "game:armor-body-jerkin-leather", quantity: 1, recipeAttributes: { repairMat: { type: "item", code: "leather-plain", stacksize: 9 } } },
+          "P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["stainlesssteel"], quantity: 1 }
+      },
+      width: 3,
+      height: 3,
+      name: "brigandine body armor",
+      output: { type: "item", code: "swordz:armor-body-brigandine-{metal}"  }
+  },
+	{	enabled:true,
+		ingredientPattern: "PJP,P_P",
+		recipeGroup: 1,
+		ingredients: {
+			"J": { type: "item", code: "game:armor-legs-jerkin-leather", recipeAttributes: { repairMat: { type: "item", code: "leather-plain", stacksize: 6 } } },
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["stainlesssteel"], quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		name: "brigandine leg armor",
+		output: { type: "item", code: "swordz:armor-legs-brigandine-{metal}"  }
+	}
+]

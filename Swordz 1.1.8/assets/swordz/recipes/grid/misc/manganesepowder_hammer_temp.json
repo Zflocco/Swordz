@@ -1,0 +1,13 @@
+[	
+	{
+		ingredientPattern: "HR",
+		shapeless:"false",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-steel", isTool: true,"toolDurabilityCost": 15 },
+			"R": { type: "item", code: "game:nugget-rhodochrosite",quantity:5},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "manganesepowder", quantity: 1  }
+	},
+]      

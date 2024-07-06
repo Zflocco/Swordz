@@ -1,0 +1,190 @@
+[	
+	{	enabled:false,
+		ingredientPattern: "KF",
+		ingredients: {
+			"K": { type: "item", code: "khopeshblade-copper-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"F": { type: "item", code: "game:flaxtwine",quantity:1},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopesh-copper-{sharpness}", quantity: 1  }
+	},
+	{	enabled:false,
+		ingredientPattern: "KF",
+		ingredients: {
+			"K": { type: "item", code: "khopeshblade-tinbronze-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"F": { type: "item", code: "game:flaxtwine",quantity:1},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopesh-tinbronze-{sharpness}", quantity: 1  }
+	},
+	{	enabled:false,
+		ingredientPattern: "KF",
+		ingredients: {
+			"K": { type: "item", code: "khopeshblade-bismuthbronze-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"F": { type: "item", code: "game:flaxtwine",quantity:1},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopesh-bismuthbronze-{sharpness}", quantity: 1  }
+	},
+	{	enabled:false,
+		ingredientPattern: "KF",
+		ingredients: {
+			"K": { type: "item", code: "khopeshblade-blackbronze-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"F": { type: "item", code: "game:flaxtwine",quantity:1},
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopesh-blackbronze-{sharpness}", quantity: 1  }
+	},
+
+
+
+
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-copper-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-copper-dull"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-copper-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-copper-sharp"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-copper-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-copper-honed"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-tinbronze-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-tinbronze-dull"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-tinbronze-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-tinbronze-sharp"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-tinbronze-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-tinbronze-honed"}
+	},	
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-bismuthbronze-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-bismuthbronze-dull"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-bismuthbronze-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-bismuthbronze-sharp"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-bismuthbronze-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-bismuthbronze-honed"}
+	},	
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-blackbronze-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-blackbronze-dull"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-blackbronze-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-blackbronze-sharp"}
+	},
+	{	enabled:false,
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "khopeshblade-blackbronze-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "khopeshblade-blackbronze-honed"}
+	},	
+]

@@ -1,0 +1,140 @@
+[	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "longswordblade-iron-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "longsword-iron-{sharpness}"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-iron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-iron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-iron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-iron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-iron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-iron-honed"}
+	},
+	
+	
+	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "longswordblade-meteoriciron-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "longsword-meteoriciron-{sharpness}"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-meteoriciron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-meteoriciron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-meteoriciron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-meteoriciron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-meteoriciron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-meteoriciron-honed"}
+	},
+	
+	
+	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "longswordblade-steel-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "longsword-steel-{sharpness}"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-steel-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-steel-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-steel-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-steel-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "longswordblade-steel-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "longswordblade-steel-honed"}
+	},
+]

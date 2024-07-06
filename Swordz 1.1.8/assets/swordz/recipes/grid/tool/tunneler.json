@@ -1,0 +1,14 @@
+[	
+	{	enabled:true,
+		ingredientPattern: "H_,P_,SL",
+		ingredients: {
+			"P": { type: "item", code: "tunnelerhead-*",name:"head",allowedVariants:["iron","steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril"]},
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
+			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["iron","steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril"]},
+			"L": { type: "item", code: "game:leather-*"}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "tunneler-{head}-{haft}", quantity: 1  }
+	},
+]

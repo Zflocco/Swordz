@@ -1,0 +1,270 @@
+[	
+	{
+		ingredientPattern: "_Z_,_C_,LSL",
+		ingredients: {
+			"Z": { type: "item", code: "zweihanderblade-iron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["iron"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "zweihander-iron-{cgm}-{sharpness}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_Z_,_C_,LSL",
+		ingredients: {
+			"Z": { type: "item", code: "zweihanderblade-iron-*",name:"sharpness",allowedvariants:["sharp","honed"]},
+			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["silver","gold"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "zweihander-iron-{cgm}-{sharpness}", quantity: 1  }
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		ingredientPattern: "_Z_,_C_,LSL",
+		ingredients: {
+			"Z": { type: "item", code: "zweihanderblade-meteoriciron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["meteoriciron"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "zweihander-meteoriciron-{cgm}-{sharpness}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_Z_,_C_,LSL",
+		ingredients: {
+			"Z": { type: "item", code: "zweihanderblade-meteoriciron-*",name:"sharpness",allowedvariants:["sharp","honed"]},
+			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["silver","gold"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "zweihander-meteoriciron-{cgm}-{sharpness}", quantity: 1  }
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		ingredientPattern: "_Z_,_C_,LSL",
+		ingredients: {
+			"Z": { type: "item", code: "zweihanderblade-steel-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["steel"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "zweihander-steel-{cgm}-{sharpness}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_Z_,_C_,LSL",
+		ingredients: {
+			"Z": { type: "item", code: "zweihanderblade-steel-*",name:"sharpness",allowedvariants:["sharp","honed"]},
+			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["silver","gold"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "zweihander-steel-{cgm}-{sharpness}", quantity: 1  }
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-iron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-iron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-iron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-iron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-iron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-iron-honed"}
+	},
+
+
+
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-meteoriciron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-meteoriciron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-meteoriciron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-meteoriciron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-meteoriciron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-meteoriciron-honed"}
+	},	
+
+
+
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-steel-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-steel-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-steel-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-steel-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "zweihanderblade-steel-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "zweihanderblade-steel-honed"}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+]

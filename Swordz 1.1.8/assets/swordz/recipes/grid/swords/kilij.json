@@ -1,0 +1,155 @@
+[	
+	{
+		ingredientPattern: "_S_,_B_,__L",
+		ingredients: {
+			"S": { type: "item", code: "kilijblade-iron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"B": { type: "item", code: "game:ingot-brass"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "kilij-iron-{sharpness}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_S_,_B_,__L",
+		ingredients: {
+			"S": { type: "item", code: "kilijblade-meteoriciron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"B": { type: "item", code: "game:ingot-brass"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "kilij-meteoriciron-{sharpness}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_S_,_B_,__L",
+		ingredients: {
+			"S": { type: "item", code: "kilijblade-steel-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
+			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"B": { type: "item", code: "game:ingot-brass"}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "kilij-steel-{sharpness}", quantity: 1  }
+	},
+
+
+
+
+
+
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-iron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-iron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-iron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-iron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-iron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-iron-honed"}
+	},
+
+
+
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-meteoriciron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-meteoriciron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-meteoriciron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-meteoriciron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-meteoriciron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-meteoriciron-honed"}
+	},	
+
+
+
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-steel-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-steel-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-steel-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-steel-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		shapeless: "true",
+		ingredients: {
+			"B": { type: "item", code: "kilijblade-steel-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "kilijblade-steel-honed"}
+	},	
+]

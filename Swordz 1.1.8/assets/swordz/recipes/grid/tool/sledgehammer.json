@@ -1,0 +1,17 @@
+[	
+	{	enabled:true,
+		ingredientPattern: "EH,S_,S_",
+		ingredients: {
+			"E": { type: "item", 
+			code: "sledgehammerhead-*",
+			name:"head",
+			allowedVariants:["iron","steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril"],
+			skipVariants:[]},
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 3 },
+			"S": { type: "item", code: "game:stick"}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "item", code: "sledgehammer-{head}", quantity: 1  }
+	},
+]

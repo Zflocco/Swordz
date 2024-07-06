@@ -1,0 +1,14 @@
+[	
+	{
+		ingredientPattern: "HS,NW",
+		ingredients: {
+			"S": { type: "item", code: "game:scythe-*",name:"metal",skipVariants:["silver","gold"]},
+			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
+			"N": { type: "item", code: "game:metalnailsandstrips-*" },
+			"W": { type: "item", code: "game:wrench-*",isTool:true,toolDurabilityCost: 5},
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "warscythe-{metal}", quantity: 1  }
+	},
+]

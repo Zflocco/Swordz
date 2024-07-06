@@ -1,0 +1,194 @@
+[	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "sordblade-tinbronze-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "sord-tinbronze-{sharpness}"}
+	},
+	{
+        ingredientPattern: "BW",
+        ingredients: {
+            "B": { type: "item", code: "sordblade-tinbronze-blunt"},
+            "W": { type: "item", code: "whetstone-granite"},
+        },
+        copyAttributesFrom: "B",
+        width: 2,
+        height: 1,
+        output: { type: "item", code: "sordblade-tinbronze-dull"}
+    },
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-tinbronze-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-tinbronze-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-tinbronze-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-tinbronze-honed"}
+	},
+	
+	
+	
+	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "sordblade-iron-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "sord-iron-{sharpness}"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-iron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",		
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-iron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-iron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-iron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-iron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-iron-honed"}
+	},
+	
+	
+	
+	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "sordblade-meteoriciron-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "sord-meteoriciron-{sharpness}"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-meteoriciron-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",		
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-meteoriciron-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-meteoriciron-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-meteoriciron-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-meteoriciron-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-meteoriciron-honed"}
+	},
+	
+	
+	
+	
+	{
+		ingredientPattern: "T_,SL",
+		ingredients: {
+			"T": { type: "item", code: "sordblade-steel-*",name:"sharpness"},
+			"S": { type: "item", code: "game:stick" },
+			"L": { type: "item", code: "game:leather-plain" },
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "sord-steel-{sharpness}"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-steel-blunt"},
+			"W": { type: "item", code: "whetstone-granite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-steel-dull"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-steel-dull"},
+			"W": { type: "item", code: "whetstone-sandstone"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-steel-sharp"}
+	},
+	{
+		ingredientPattern: "BW",
+		ingredients: {
+			"B": { type: "item", code: "sordblade-steel-sharp"},
+			"W": { type: "item", code: "whetstone-suevite"},
+		},
+        copyAttributesFrom: "B",
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "sordblade-steel-honed"}
+	},
+	
+	
+	
+]
