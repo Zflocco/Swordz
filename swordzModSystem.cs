@@ -1,4 +1,4 @@
-﻿using swordz.src;
+using swordz.src;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
@@ -20,11 +20,11 @@ namespace swordz
         // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
-            api.Logger.Notification("Tis but a flesh wound!: " + api.Side);
-            
-            
-            api.RegisterItemClass("ItemMithrilBloom", typeof(ItemMithrilBloom));
             base.Start(api);
+            api.Logger.Notification("Tis but a flesh wound!: " + api.Side);
+
+            api.RegisterItemClass("ItemMithrilBloom", typeof(ItemMithrilBloom));
+           
             api.RegisterItemClass("Tunneler", typeof(ToolTunneler));
             api.RegisterItemClass("Pila", typeof(Pila));
 
@@ -34,7 +34,7 @@ namespace swordz
             api.RegisterItemClass("Sledgehammer", typeof(ToolSledgehammer));
             api.RegisterItemClass("Excavator", typeof(ToolExcavator));
 
-            api.RegisterBlockClass("BlockFantasyMeteorite",typeof (BlockOre));
+            api.RegisterBlockClass("BlockFantasyMeteorite",typeof (BlockFantasyMeteorite));
 
 
 
@@ -64,6 +64,7 @@ namespace swordz
             api.World.Config.SetBool("stainlessenabled", Config.stainlessenabled);
             api.World.Config.SetBool("titaniumenabled", Config.titaniumenabled);
             api.World.Config.SetBool("fantasymetalsenabled", Config.fantasymetalsenabled);
+            api.World.Config.SetBool("bloomedbits", Config.bloomedbits);
             //
             api.World.Config.SetBool("metalblocksdisabled", Config.metalblocksdisabled);
             api.World.Config.SetBool("fantasyarmorenabled", Config.fantasyarmorenabled);
@@ -93,6 +94,7 @@ namespace swordz
             public bool bombsdisabled = true;
             public bool sterilizedbandageenabled = true;
             public bool metalblocksdisabled = true;
+            public bool bloomedbits = false;
            
             public bool khopeshenabled = false;
             public bool naginataenabled = false;
