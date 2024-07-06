@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/9",
+    "value": "stainlesssteel",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "condition": { "when": "stainlessenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/10",
+    "value": "titanium",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "condition": { "when": "titaniumenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/11",
+    "value": "mithril",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/12",
+    "value": "adamant",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/13",
+    "value": "orichalcum",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/13",
+    "value": "aithril",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+]
