@@ -1,0 +1,77 @@
+{
+	code: "becdecorbin",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "spear",
+	attributes: {
+		handbook: { groupBy: ["becdecorbin"] },
+		toolrackTransform: {
+			translation: { x: -0.035, y: 0.58, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.65, z: -0.035 },
+			rotation: { x: 24, y: 90, z: -92 },
+			scaleXyz: { x: -0.8, y: 0.8, z: 0.8 }
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ { code: "metal", states: ["iron","meteoriciron","steel"]}, ],
+	shape: { base: "polearms/becdecorbin" },
+	heldTpHitAnimation: "polearmswing",
+	heldTpIdleAnimation: "crudeOarIdle",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}" },
+	"metal2": {base: "game:block/metal/plate/{metal}" },
+	"handle": {base: "game:item/tool/material/handle"}	},
+	attackRange: 3,
+	tooltierbytype: {
+		"becdecorbin-iron": 5,
+		"becdecorbin-meteoriciron":5,
+		"becdecorbin-steel": 6
+	},
+	durabilitybytype: {
+		"becdecorbin-iron": 800,
+		"becdecorbin-meteoriciron": 1000,
+		"becdecorbin-steel": 1400
+	},
+	attackpowerbytype: {
+		"becdecorbin-iron": 5,
+		"becdecorbin-meteoriciron":5.5,
+		"becdecorbin-steel": 6
+	},
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	    fpHandTransform: {
+        translation: { x: 1, y: 0.1, z: 0 },
+        rotation: { x: -18, y: -171, z: 90 },
+        scale: 3
+	},
+	guiTransform: {
+		translation: { x: 15, y: -8, z: 0 },
+		rotation: { x: 81, y: -125, z: -6 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scaleXyz: { x: -2.87, y: 2.87, z: 2.87 }
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+        translation: { x: -0.78, y: 0.155, z: 0.28 },
+		rotation: { x: 121, y: -162, z: 168 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 1
+    }
+}

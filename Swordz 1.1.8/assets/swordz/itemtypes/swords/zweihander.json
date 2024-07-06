@@ -1,0 +1,197 @@
+{
+	code: "zweihander",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["zweihander"] },
+		toolrackTransform: {
+			translation: { x: 0.56, y: 0.6, z: -0.2 },
+			rotation: { x: -16, y: 180, z: 1 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 1.33, z: 0.065 },
+			rotation: { x: 24, y: 90, z: -87 },
+			scale: 0.63
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ 
+	{ code: "metal", states: ["iron","meteoriciron","steel"]},
+	{ code: "cgm", states: ["silver","gold","iron","meteoriciron","steel"]},
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
+	],
+	shape: { base: "swords/zweihander" },
+	heldTpHitAnimation: "zweiswing",
+	heldTpIdleAnimation: "crudeOarIdle",
+	textures: {
+	"blackbronze": {base: "game:block/metal/plate/{metal}"},
+	"cgm": {base: "game:block/metal/ingot/{cgm}"},
+	"handle": {base: "game:block/leather/plain"},
+	},
+	attackRange: 3,
+	allowedVariants: [
+	"zweihander-iron-iron-blunt",
+	"zweihander-iron-iron-dull",
+	"zweihander-iron-iron-sharp",
+	"zweihander-iron-iron-honed",
+
+	"zweihander-iron-silver-sharp",
+	"zweihander-iron-silver-honed",
+
+	"zweihander-iron-gold-sharp",
+	"zweihander-iron-gold-honed",
+
+	"zweihander-meteoriciron-meteoriciron-blunt",
+	"zweihander-meteoriciron-meteoriciron-dull",
+	"zweihander-meteoriciron-meteoriciron-sharp",
+	"zweihander-meteoriciron-meteoriciron-honed",
+
+	"zweihander-meteoriciron-silver-sharp",
+	"zweihander-meteoriciron-silver-honed",
+
+	"zweihander-meteoriciron-gold-sharp",
+	"zweihander-meteoriciron-gold-honed",
+
+	"zweihander-steel-steel-blunt",
+	"zweihander-steel-steel-dull",
+	"zweihander-steel-steel-sharp",
+	"zweihander-steel-steel-honed",
+
+	"zweihander-steel-silver-sharp",
+	"zweihander-steel-silver-honed",
+	
+	"zweihander-steel-gold-sharp",
+	"zweihander-steel-gold-honed",
+	],
+	tooltierbytype: {
+		"zweihander-iron-iron-*": 3,
+		"zweihander-iron-silver-*": 3,
+		"zweihander-iron-gold-*": 3,
+		"zweihander-meteoriciron-meteoriciron-*":3,
+		"zweihander-meteoriciron-silver-*": 3,
+		"zweihander-meteoriciron-gold-*": 3,
+		"zweihander-steel-steel-*": 4,
+		"zweihander-steel-silver-*": 4,
+		"zweihander-steel-gold-*": 4
+	},
+
+	durabilitybytype: {
+		"zweihander-iron-iron-blunt": 500,
+		"zweihander-iron-iron-dull": 625,
+		"zweihander-iron-iron-sharp": 750,
+		"zweihander-iron-iron-honed": 875,
+//		"zweihander-iron-silver-blunt": 500,
+//		"zweihander-iron-silver-dull": 625,
+		"zweihander-iron-silver-sharp": 750,
+		"zweihander-iron-silver-honed": 875,
+//		"zweihander-iron-gold-blunt": 500,
+//		"zweihander-iron-gold-dull": 625,
+		"zweihander-iron-gold-sharp": 750,
+		"zweihander-iron-gold-honed": 875,
+
+		"zweihander-meteoriciron-meteoriciron-blunt": 650,
+		"zweihander-meteoriciron-meteoriciron-dull": 800,
+		"zweihander-meteoriciron-meteoriciron-sharp": 950,
+		"zweihander-meteoriciron-meteoriciron-honed": 1100,
+//		"zweihander-meteoriciron-silver-blunt": 650,
+//		"zweihander-meteoriciron-silver-dull": 800,
+		"zweihander-meteoriciron-silver-sharp": 950,
+		"zweihander-meteoriciron-silver-honed": 1100,
+//		"zweihander-meteoriciron-gold-blunt": 650,
+//		"zweihander-meteoriciron-gold-dull": 800,
+		"zweihander-meteoriciron-gold-sharp": 950,
+		"zweihander-meteoriciron-gold-honed": 1100,
+
+		"zweihander-steel-steel-blunt": 1200,
+		"zweihander-steel-steel-dull": 1300,
+		"zweihander-steel-steel-sharp": 1400,
+		"zweihander-steel-steel-honed": 1500,
+//		"zweihander-steel-silver-blunt": 1200,
+//		"zweihander-steel-silver-dull": 1300,
+		"zweihander-steel-silver-sharp": 1400,
+		"zweihander-steel-silver-honed": 1500,
+//		"zweihander-steel-gold-blunt": 1200,
+//		"zweihander-steel-gold-dull": 1300,
+		"zweihander-steel-gold-sharp": 1400,
+		"zweihander-steel-gold-honed": 1500,
+		},
+
+	attackpowerbytype: {
+		"zweihander-iron-iron-blunt": 6,
+		"zweihander-iron-iron-dull": 6.5,
+		"zweihander-iron-iron-sharp": 7,
+		"zweihander-iron-iron-honed": 7.5,
+//		"zweihander-iron-silver-blunt": 6,
+//		"zweihander-iron-silver-dull": 6.5,
+		"zweihander-iron-silver-sharp": 7,
+		"zweihander-iron-silver-honed": 7.5,
+//		"zweihander-iron-gold-blunt": 6,
+//		"zweihander-iron-gold-dull": 6.5,
+		"zweihander-iron-gold-sharp": 7,
+		"zweihander-iron-gold-honed": 7.5,
+
+		"zweihander-meteoriciron-meteoriciron-blunt":6.5,
+		"zweihander-meteoriciron-meteoriciron-dull":7,
+		"zweihander-meteoriciron-meteoriciron-sharp":7.5,
+		"zweihander-meteoriciron-meteoriciron-honed":8,
+//		"zweihander-meteoriciron-silver-blunt":6.5,
+//		"zweihander-meteoriciron-silver-dull":7,
+		"zweihander-meteoriciron-silver-sharp":7.5,
+		"zweihander-meteoriciron-silver-honed":8,
+//		"zweihander-meteoriciron-gold-blunt":6.5,
+//		"zweihander-meteoriciron-gold-dull":7,
+		"zweihander-meteoriciron-gold-sharp":7.5,
+		"zweihander-meteoriciron-gold-honed":8,
+
+		"zweihander-steel-steel-blunt": 7,
+		"zweihander-steel-steel-dull": 7.5,
+		"zweihander-steel-steel-sharp": 8,
+		"zweihander-steel-steel-honed": 8.5,
+//		"zweihander-steel-silver-blunt": 7,
+//		"zweihander-steel-silver-dull": 7.5,
+		"zweihander-steel-silver-sharp": 8,
+		"zweihander-steel-silver-honed": 8.5,
+//		"zweihander-steel-gold-blunt": 7,
+//		"zweihander-steel-gold-dull": 7.5,
+		"zweihander-steel-gold-sharp": 8,
+		"zweihander-steel-gold-honed": 8.5,
+		},
+
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.2, y: -0.6, z: 0 },
+		rotation: { x: -18, y: 15, z: 90 },
+		scale: 2.27
+	},
+	guiTransform: {
+		translation: { x: -2, y: -11, z: -5 },
+		rotation: { x: -93, y: 131, z: 37 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scale: 1.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+//	translation: { x: -0.68, y: 0.055, z: -0.7799 }, rotation: { x: 85, y: 0, z: 2 }, origin: { x: 0.5, y: 0, z: 0.5 }, scale: 0.67	- without oar idle 
+	tpHandTransform: {
+		translation: { x: -0.68, y: 0.055, z: -0.7799 },
+		rotation: { x: 39, y: 16, z: -15 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.67
+	}
+}

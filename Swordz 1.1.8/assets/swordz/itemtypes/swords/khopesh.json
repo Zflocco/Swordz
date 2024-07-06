@@ -1,0 +1,130 @@
+{	enabled:false,
+	code: "khopesh",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["khopesh"] },
+		toolrackTransform: {
+			translation: { x: 0.17, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 180, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.34, z: 0.065 },
+			rotation: { x: 24, y: 90, z: -87 },
+			scale: 0.63
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ 
+	{ code: "metal", states: ["copper","tinbronze","bismuthbronze","blackbronze"]},
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
+	],
+	shape: { base: "swords/khopesh" },
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "knap",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}"},
+	"metaltwo": {base: "game:block/metal/plate/{metal}", "overlays": ["game:block/slightlydarker"]},
+	"brass": {base: "game:block/metal/ingot/brass"},
+	"handle": {base: "game:block/wood/debarked/acacia"}, 
+	},
+	attackRange: 2.3,
+	tooltierbytype: {
+		"khopesh-copper-blunt": 0,
+		"khopesh-copper-dull": 1,
+		"khopesh-copper-sharp": 2,
+		"khopesh-copper-honed": 3,
+		
+		"khopesh-tinbronze-blunt": 1,
+		"khopesh-tinbronze-dull": 2,
+		"khopesh-tinbronze-sharp": 3,
+		"khopesh-tinbronze-honed": 4,
+		
+		"khopesh-bismuthbronze-blunt": 1,
+		"khopesh-bismuthbronze-dull": 2,
+		"khopesh-bismuthbronze-sharp": 3,
+		"khopesh-bismuthbronze-honed": 4,
+		
+		"khopesh-blackbronze-blunt": 1,
+		"khopesh-blackbronze-dull": 2,
+		"khopesh-blackbronze-sharp": 3,
+		"khopesh-blackbronze-honed": 4,
+	},					
+	durabilitybytype: {
+		"khopesh-copper-blunt": 50,
+		"khopesh-copper-dull": 150,
+		"khopesh-copper-sharp": 250,
+		"khopesh-copper-honed": 400,
+		
+		"khopesh-tinbronze-blunt": 150,
+		"khopesh-tinbronze-dull": 300,
+		"khopesh-tinbronze-sharp": 450,
+		"khopesh-tinbronze-honed": 600,
+		
+		"khopesh-bismuthbronze-blunt": 230,
+		"khopesh-bismuthbronze-dull": 380,
+		"khopesh-bismuthbronze-sharp": 530,
+		"khopesh-bismuthbronze-honed": 680,
+		
+		"khopesh-blackbronze-blunt": 300,
+		"khopesh-blackbronze-dull": 450,
+		"khopesh-blackbronze-sharp": 600,
+		"khopesh-blackbronze-honed": 750,
+	},
+	attackpowerbytype: {
+		"khopesh-copper-blunt": 1,
+		"khopesh-copper-dull": 2,
+		"khopesh-copper-sharp": 3.8,
+		"khopesh-copper-honed": 4,
+		
+		"khopesh-tinbronze-blunt": 3.3,
+		"khopesh-tinbronze-dull": 3.8,
+		"khopesh-tinbronze-sharp": 4.3,
+		"khopesh-tinbronze-honed": 4.5,
+		
+		"khopesh-bismuthbronze-blunt": 3.2,
+		"khopesh-bismuthbronze-dull": 3.7,
+		"khopesh-bismuthbronze-sharp": 4.2,
+		"khopesh-bismuthbronze-honed": 4.4,
+		
+		"khopesh-blackbronze-blunt": 3.3,
+		"khopesh-blackbronze-dull": 3.8,
+		"khopesh-blackbronze-sharp": 4.8,
+		"khopesh-blackbronze-honed": 5,
+	},
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.2, y: 0.2, z: 0 },
+		rotation: { x: -15, y: -2, z: 90 },
+		scale: 2.3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -106, y: 133, z: 21 },
+		origin: { x: 0.65, y: 0.2, z: 0.47 },
+		scale: 1.7
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -1.26, y: 0.05, z: -0.55 },
+		rotation: { x: 85, y: 0, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.85
+	}
+}

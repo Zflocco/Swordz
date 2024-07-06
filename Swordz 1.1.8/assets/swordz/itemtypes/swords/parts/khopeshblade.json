@@ -1,0 +1,37 @@
+{	enabled:false,
+	code: "khopeshblade",
+	variantgroups: [ 
+	{ code: "metal", states: ["copper","tinbronze","bismuthbronze","blackbronze"]}, 
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]}, ],
+	shape: { base: "shapes/swords/khopesh" },
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}"},
+	"metaltwo": {base: "game:block/metal/plate/{metal}", "overlays": ["game:block/slightlydarker"]},
+	"brass": {base: "game:block/transparent"},
+	"handle": {base: "game:block/transparent"}, 
+	},
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: 0.8, y: -0.5, z: -0.4 },
+		rotation: { x: -16, y: -13, z: 89 },
+		scaleXyz: { x: -2.4, y: 2.4, z: 2.4 }
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -106, y: 133, z: 21 },
+		origin: { x: 0.65, y: 0.2, z: 0.47 },
+		scale: 1.7
+	},
+	tpHandTransform: {
+		translation: { x: -1.26, y: 0.05, z: -0.55 },
+		rotation: { x: 85, y: 0, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.85
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	}
+}

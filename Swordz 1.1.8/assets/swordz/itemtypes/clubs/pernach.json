@@ -1,0 +1,143 @@
+{
+	code: "pernach",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["pernach"] },
+		toolrackTransform: {
+			translation: { x: 0.05, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 180, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.5, z: -0.085 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ 
+	{ code: "metal", states: ["lead","copper","bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel"]},
+	{ code: "haft", states: ["copper","bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel"]},
+	],
+	shape: { base: "shapes/clubs/pernach" },
+	heldTpHitAnimation: "falx",
+	textures: { 
+	"metal": {base: "game:block/metal/ingot/{metal}" }, 
+	"metaltwo": {base: "game:block/metal/ingot/{metal}" }, 
+	"shaft": {base: "game:block/metal/plate/{haft}",skipVariants:["lead"] },
+	"handle": {base: "game:item/tool/shield/leather/red" },
+	},
+	allowedVariants: [
+	"pernach-lead-copper",
+	"pernach-lead-bismuthbronze",
+	"pernach-lead-tinbronze",
+	"pernach-lead-blackbronze",
+	"pernach-lead-iron",
+	"pernach-lead-meteoriciron",
+	"pernach-lead-steel",
+		
+	"pernach-copper-copper",
+	"pernach-copper-bismuthbronze",
+	"pernach-copper-tinbronze",
+	"pernach-copper-blackbronze",
+	"pernach-copper-iron",
+	"pernach-copper-meteoriciron",
+	"pernach-copper-steel",
+		
+	"pernach-tinbronze-tinbronze",
+	"pernach-tinbronze-bismuthbronze",
+	"pernach-tinbronze-blackbronze",
+	"pernach-tinbronze-iron",
+	"pernach-tinbronze-meteoriciron",
+	"pernach-tinbronze-steel",
+
+	"pernach-bismuthbronze-tinbronze",
+	"pernach-bismuthbronze-bismuthbronze",
+	"pernach-bismuthbronze-blackbronze",
+	"pernach-bismuthbronze-iron",
+	"pernach-bismuthbronze-meteoriciron",
+	"pernach-bismuthbronze-steel",
+		
+	"pernach-blackbronze-tinbronze",
+	"pernach-blackbronze-bismuthbronze",
+	"pernach-blackbronze-blackbronze",
+	"pernach-blackbronze-iron",
+	"pernach-blackbronze-meteoriciron",
+	"pernach-blackbronze-steel",
+		
+	"pernach-iron-iron",
+	"pernach-iron-meteoriciron",
+	"pernach-iron-steel",
+		
+	"pernach-meteoriciron-iron",
+	"pernach-meteoriciron-meteoriciron",
+	"pernach-meteoriciron-steel",
+		
+	"pernach-steel-steel",
+	],
+	
+	attackRange: 2,
+	tooltierbytype: {
+		"pernach-lead-*": 3,
+		"pernach-copper-*": 3,
+		"pernach-bismuthbronze-*": 4,
+		"pernach-tinbronze-*": 4,
+		"pernach-blackbronze-*":4,
+		"pernach-iron-*": 5,
+		"pernach-meteoriciron-*":5,
+		"pernach-steel-*": 6,
+	},
+	durabilitybytype: {
+		"pernach-lead-*": 150,
+		"pernach-copper-*": 500,
+		"pernach-bismuthbronze-*": 850,
+		"pernach-tinbronze-*": 700,
+		"pernach-blackbronze-*":1000,
+		"pernach-iron-*": 1500,
+		"pernach-meteoriciron-*": 2000,
+		"pernach-steel-*": 3000,
+	},
+	attackpowerbytype: {
+		"pernach-lead-*": 4.5,
+		"pernach-copper-*": 2.5,
+		"pernach-bismuthbronze-*": 2.75,
+		"pernach-tinbronze-*": 3,
+		"pernach-blackbronze-*":3.25,
+		"pernach-iron-*": 3.5,
+		"pernach-meteoriciron-*":3.75,
+		"pernach-steel-*": 4,
+	},
+	creativeinventory: { "general": ["*"], "tools": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0.4, z: 0.6 },
+		rotation: { x: -46, y: 12, z: 90 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: -1, y: 11, z: 0 },
+		rotation: { x: 107, y: -58, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 1.68
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.85, y: -0.5299, z: -0.05 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

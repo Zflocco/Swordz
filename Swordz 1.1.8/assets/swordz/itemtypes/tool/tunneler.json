@@ -1,0 +1,147 @@
+{	enabled:true,
+	code: "tunneler",
+	storageFlags: 5,
+	class: "Tunneler",
+	attributes: {
+		handbook: {
+			groupBy: ["tunneler-*"],
+			excludeByType: {},
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.1, z: -0.085 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	
+	variantgroups: [ 
+	{ code: "metal", states: ["iron","steel","stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril"] },
+	{ code: "haft", states: ["iron","steel","stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril"] },
+	],
+	skipVariants: [],
+	tool: "pickaxe",
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "swordz:misc/tunneler" },
+	heldTpHitAnimation: "smithing",
+	texturesByType: {
+		"*": {
+			"metal": { base: "game:block/metal/plate/{metal}" },
+			"haft": { base: "game:block/metal/ingot/{haft}", "overlays": [ "game:block/slightlydarker" ] },
+			"brass": { base: "game:block/metal/ingot/brass", "overlays": [ "game:block/slightlydarker" ] },
+			"handle": { base: "game:item/tool/shield/leather/red", "overlays": [ "game:block/slightlydarker" ] },
+		}
+	},
+	tooltierbytype: {
+		"tunneler-iron-*":  4,
+		"tunneler-steel-*": 5,
+		"tunneler-stainlesssteel-*": 6,
+		"tunneler-titanium-*": 7,
+		"tunneler-mithril-*": 8,
+		"tunneler-adamant-*": 9,
+		"tunneler-orichalcum-*": 10,
+		"tunneler-aithril-*": 10,
+	},
+	miningspeedbytype: {
+		"tunneler-iron-*": {
+			"stone": 5.5,
+			"ore": 5.5,
+			"metal": 5.5,
+		},
+		"tunneler-steel-*": {
+			"stone": 7,
+			"ore": 7,
+			"metal": 7
+		},
+		"tunneler-stainlesssteel-*": {
+			"stone": 7.5,
+			"ore": 7.5,
+			"metal": 7.5
+		},
+		"tunneler-titanium-*": {
+			"stone": 8,
+			"ore": 8,
+			"metal": 8
+		},
+		"tunneler-mithril-*": {
+			"stone": 9,
+			"ore": 9,
+			"metal": 9
+		},
+		"tunneler-adamant-*": {
+			"stone": 10,
+			"ore": 10,
+			"metal": 10
+		},
+		"tunneler-orichalcum-*": {
+			"stone": 11.5,
+			"ore": 11.5,
+			"metal": 11.5
+		},
+		"tunneler-aithril-*": {
+			"stone": 12,
+			"ore": 12,
+			"metal": 12
+		}
+	},
+	attackpowerbytype: {
+		"tunneler-iron-*": 2,
+		"tunneler-steel-*": 2.5,
+		"tunneler-stainlesssteel-*": 2.75,
+		"tunneler-titanium-*": 3,
+		"tunneler-mithril-*": 3.25,
+		"tunneler-adamant-*": 3.5,
+		"tunneler-orichalcum-*": 4,
+		"tunneler-aithril-*": 4.25
+	},
+//	Durability is 75% of the standard pickaxe - steel=1875 , stainless=2626, titanium=3375, mithril=4125, adamant=4875, orichal=5625, aithril=6250
+	durabilitybytype: {
+		"tunneler-iron-*": 1000,
+		"tunneler-steel-*": 1875,
+		"tunneler-stainlesssteel-*": 2625,
+		"tunneler-titanium-*": 3375,
+		"tunneler-mithril-*": 4125,
+		"tunneler-adamant-*": 4875,
+		"tunneler-orichalcum-*": 5625,
+		//			Aithril value is a placeholder
+		"tunneler-aithril-*": 6250
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0.4, z: 0.6 },
+		rotation: { x: -46, y: 12, z: 90 },
+		origin: { x: 0.1, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 107, y: -58, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 1.68
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.925, y: -0.5299, z: -0.11 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

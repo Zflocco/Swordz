@@ -1,0 +1,54 @@
+{	enabled:true,
+	code: "tunnelerhead",
+	storageFlags: 5,
+	attributes: {
+		handbook: {
+			groupBy: ["tunnelerhead-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.1, z: -0.085 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		},
+	},
+	skipVariants: [],
+	variantgroups: [ { code: "metal", states: ["steel","stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril"] },	],
+	shape: { base: "swordz:misc/tunneler" },
+	texturesByType: {
+		"*": {
+			"metal": { base: "game:block/metal/plate/{metal}" },
+			"haft": { base: "game:block/transparent" },
+			"brass": { base: "game:block/transparent" },
+			"handle": { base: "game:block/transparent" },
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0.2, y: -0.7, z: 0.6 },
+		rotation: { x: -40, y: 5, z: 90 },
+		origin: { x: 0.1, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: -11, y: 14, z: 0 },
+		rotation: { x: 107, y: -58, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 2.45
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.24, y: -0.5299, z: -0.11 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

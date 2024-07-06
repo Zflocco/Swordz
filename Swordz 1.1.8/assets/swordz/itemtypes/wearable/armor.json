@@ -1,0 +1,531 @@
+{	enabled:true,
+	code: "armor",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "bodypart",  states: ["head", "body", "legs"] },
+		{ code: "construction",  states: [ "brigandine", "chain", "scale", "plate" ]},
+		{ code: "material", states: [ "stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril" ] } ],
+	allowedVariants: [
+		"armor-*-scale-*",
+		"armor-*-chain-*",
+		"armor-*-plate-*",
+		"armor-*-brigandine-*",
+	],
+	skipVariants: [],
+	
+	shapeByType: {
+
+		"armor-head-chain-stainlesssteel": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-chain-titanium": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+		"armor-head-chain-mithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-silver" },
+		"armor-head-chain-adamant": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-chain-orichalcum": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-gold" },
+		"armor-head-chain-aithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-gold" },
+
+		"armor-head-brigandine-stainlesssteel": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-brigandine-titanium": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-brigandine-mithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-bronze" },
+		"armor-head-brigandine-adamant": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-brigandine-orichalcum": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+		"armor-head-brigandine-aithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+
+		"armor-head-scale-stainlesssteel": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-scale-titanium": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-scale-adamant": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-scale-mithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-scale-orichalcum": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+		"armor-head-scale-aithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+
+		"armor-head-plate-stainlesssteel": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-plate-titanium": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-copper" },
+		"armor-head-plate-adamant": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-steel" },
+		"armor-head-plate-mithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-silver" },
+		"armor-head-plate-orichalcum": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+		"armor-head-plate-aithril": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}-meteoriciron" },
+
+		"armor-*": { base: "entity/humanoid/seraph/armor/{construction}/{bodypart}" },
+
+	},
+	
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" },
+			"material": { 
+				baseByType: {
+					"*": "entity/humanoid/serapharmor/{construction}/{material}",
+					"armor-head-plate-adamant": "entity/humanoid/serapharmor/plate/adamant",
+					"armor-head-plate-mithril": "entity/humanoid/serapharmor/plate/mithril",
+					"armor-head-plate-orichalcum": "entity/humanoid/serapharmor/plate/orichalcum",
+					"armor-head-plate-aithril": "entity/humanoid/serapharmor/plate/aithril",
+					"armor-head-scale-adamant": "entity/humanoid/serapharmor/scale/adamant",
+					"armor-head-scale-mithril": "entity/humanoid/serapharmor/scale/mithril",
+					"armor-head-scale-orichalcum": "entity/humanoid/serapharmor/scale/orichalcum",
+					"armor-head-scale-aithril": "entity/humanoid/serapharmor/scale/aithril",
+					"armor-head-chain-adamant": "entity/humanoid/serapharmor/chain/adamant",
+					"armor-head-chain-mithril": "entity/humanoid/serapharmor/chain/mithril",
+					"armor-head-chain-orichalcum": "entity/humanoid/serapharmor/chain/orichalcum",
+					"armor-head-chain-aithril": "entity/humanoid/serapharmor/chain/aithril",
+					"armor-head-brigandine-adamant": "entity/humanoid/serapharmor/brigandine/adamant",
+					"armor-head-brigandine-mithril": "entity/humanoid/serapharmor/brigandine/mithril",
+					"armor-head-brigandine-orichalcum": "entity/humanoid/serapharmor/brigandine/orichalcum",
+					"armor-head-brigandine-aithril": "entity/humanoid/serapharmor/brigandine/aithril",
+				}
+			}
+		}
+	},
+	
+	
+	storageFlags: 128,
+	attributes: {
+		wearableAttachment: true,
+		clothescategoryByType: { "armor-head-*": "armorhead", "armor-body-*": "armorbody", "armor-legs-*": "armorlegs", },
+		disableElementsByType: {
+			"armor-head-plate-*": ["Hair tile upper part", "Ponytail1", "Hair", "hideme"],
+			"armor-head-*": ["Hair tile upper part", "Ponytail1", "hideme"]
+		},
+		defaultProtLoss: { perTierRelativeProtectionLoss: [0.03, 0.15], perTierFlatDamageReductionLoss: [0.1, 0.2], },
+		
+		footStepSoundByType: {
+			"armor-body-brigandine-*": "game:wearable/brigandine*",
+			"armor-body-chain-*": "game:wearable/chain*",
+			"armor-body-scale-*": "game:wearable/scale*",
+			"armor-body-plate-*": "game:wearable/plate*",
+		},
+		
+		protectionModifiersByType: {
+			"armor-*-chain-stainlesssteel": {
+				relativeProtection: 0.88,
+				flatDamageReduction: 1.4,
+				protectionTier: 5			
+				},
+			"armor-*-chain-titanium": {
+				relativeProtection: 0.90,
+				flatDamageReduction: 1.5,
+				protectionTier: 6			
+				},
+			"armor-*-chain-mithril": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.6,
+				highDamageTierResistant: true,
+				protectionTier: 7			
+				},
+			"armor-*-chain-adamant": {
+				relativeProtection: 0.935,
+				flatDamageReduction: 1.7,
+				protectionTier: 8			
+				},
+			"armor-*-chain-orichalcum": {
+				relativeProtection: 0.95,
+				flatDamageReduction: 1.8,
+				protectionTier: 9			
+				},
+			"armor-*-chain-aithril": {
+				relativeProtection: 0.95,
+				flatDamageReduction: 1.9,
+				protectionTier: 9			
+				},				
+
+
+
+			"armor-*-brigandine-stainlesssteel": {
+				relativeProtection: 0.86,
+				flatDamageReduction: 1.4,
+				protectionTier: 5			
+				},
+			"armor-*-brigandine-titanium": {
+				relativeProtection: 0.88,
+				flatDamageReduction: 1.5,
+				protectionTier: 6			
+				},
+			"armor-*-brigandine-mithril": {
+				relativeProtection: 0.90,
+				flatDamageReduction: 1.7,
+				protectionTier: 7			
+				},
+			"armor-*-brigandine-adamant": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.85,
+				protectionTier: 8			
+				},
+			"armor-*-brigandine-orichalcum": {
+				relativeProtection: 0.94,
+				flatDamageReduction: 2,
+				protectionTier: 9			
+				},
+			"armor-*-brigandine-aithril": {
+				relativeProtection: 0.94,
+				flatDamageReduction: 2.1,
+				protectionTier: 9			
+				},
+
+
+
+			"armor-*-scale-stainlesssteel": {
+				relativeProtection: 0.90,
+				flatDamageReduction: 1.6,
+				protectionTier: 5			
+				},
+			"armor-*-scale-titanium": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.7,
+				protectionTier: 6			
+				},
+			"armor-*-scale-mithril": {
+				relativeProtection: 0.94,
+				flatDamageReduction: 1.9,
+				protectionTier: 7			
+				},
+			"armor-*-scale-adamant": {
+				relativeProtection: 0.95,
+				flatDamageReduction: 2.05,
+				protectionTier: 8			
+				},
+			"armor-*-scale-orichalcum": {
+				relativeProtection: 0.96,
+				flatDamageReduction: 2.2,
+				protectionTier: 9			
+				},
+			"armor-*-scale-aithril": {
+				relativeProtection: 0.96,
+				flatDamageReduction: 2.3,
+				protectionTier: 9			
+				},
+
+
+			"armor-*-plate-stainlesssteel": {
+				relativeProtection: 0.98,
+				flatDamageReduction: 1.9,
+				highDamageTierResistant: true,
+				protectionTier: 5			
+				},
+			"armor-*-plate-titanium": {
+				relativeProtection: 0.98,
+				flatDamageReduction: 2,
+				highDamageTierResistant: true,
+				protectionTier: 6			
+				},
+			"armor-*-plate-mithril": {
+				relativeProtection: 0.99,
+				flatDamageReduction: 2.2,
+				highDamageTierResistant: true,
+				protectionTier: 7			
+				},
+			"armor-*-plate-adamant": {
+				relativeProtection: 0.99,
+				flatDamageReduction: 2.35,
+				highDamageTierResistant: true,
+				protectionTier: 8			
+				},
+			"armor-*-plate-orichalcum": {
+				relativeProtection: 0.99,
+				flatDamageReduction: 2.5,
+				highDamageTierResistant: true,
+				protectionTier: 9			
+				},
+			"armor-*-plate-aithril": {
+				relativeProtection: 0.99,
+				flatDamageReduction: 2.6,
+				highDamageTierResistant: true,
+				protectionTier: 9			
+				},
+				
+			},
+
+
+
+		statModifiersByType: {
+			"armor-*-brigandine-stainlesssteel": {
+				rangedWeaponsAcc: -0.07,
+				rangedWeaponsSpeed: -0.14,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.17,
+				hungerrate: 0.12	
+				},
+			"armor-*-chain-stainlesssteel": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.06,
+				walkSpeed: -0.03,
+				healingeffectivness: -0.10,
+				hungerrate: 0.07	
+				},
+			"armor-*-scale-stainlesssteel": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.17,
+				hungerrate: 0.12	
+				},
+			"armor-*-plate-stainlesssteel": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.14,
+				healingeffectivness: -0.33,
+				hungerrate: 0.24
+				},
+
+
+
+			"armor-*-brigandine-titanium": {
+				rangedWeaponsAcc: -0.07,
+				rangedWeaponsSpeed: -0.14,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.17,
+				hungerrate: 0.12	
+				},
+			"armor-*-chain-titanium": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.06,
+				walkSpeed: -0.03,
+				healingeffectivness: -0.10,
+				hungerrate: 0.07	
+				},
+			"armor-*-scale-titanium": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.17,
+				hungerrate: 0.12	
+				},
+			"armor-*-plate-titanium": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.14,
+				healingeffectivness: -0.33,
+				hungerrate: 0.24
+				},
+
+
+
+			"armor-*-brigandine-mithril": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.07,
+				walkSpeed: -0.02,
+				healingeffectivness: -0.1,
+				hungerrate: 0.06	
+				},
+			"armor-*-chain-mithril": {
+				healingeffectivness: -0.05,
+				hungerrate: 0.05	
+				},
+			"armor-*-scale-mithril": {
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.10,
+				walkSpeed: -0.04,
+				healingeffectivness: -0.1,
+				hungerrate: 0.06	
+				},
+			"armor-*-plate-mithril": {
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
+				walkSpeed: -0.1,
+				healingeffectivness: -0.18,
+				hungerrate: 0.12
+				},
+
+
+
+			"armor-*-brigandine-adamant": {
+				rangedWeaponsAcc: -0.07,
+				rangedWeaponsSpeed: -0.14,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.17,
+				hungerrate: 0.12	
+				},
+			"armor-*-chain-adamant": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.06,
+				walkSpeed: -0.03,
+				healingeffectivness: -0.10,
+				hungerrate: 0.07	
+				},
+			"armor-*-scale-adamant": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.17,
+				hungerrate: 0.12	
+				},
+			"armor-*-plate-adamant": {
+				rangedWeaponsAcc: -0.1,
+				rangedWeaponsSpeed: -0.20,
+				walkSpeed: -0.14,
+				healingeffectivness: -0.33,
+				hungerrate: 0.24
+				},
+
+
+
+			"armor-*-brigandine-orichalcum": {
+				rangedWeaponsAcc: -0.14,
+				rangedWeaponsSpeed: -0.28,
+				walkSpeed: -0.08,
+				healingeffectivness: -0.30,
+				hungerrate: 0.24	
+				},
+			"armor-*-chain-orichalcum": {
+				rangedWeaponsAcc: -0.06,
+				rangedWeaponsSpeed: -0.12,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.2,
+				hungerrate: 0.14	
+				},
+			"armor-*-scale-orichalcum": {
+				rangedWeaponsAcc: -0.2,
+				rangedWeaponsSpeed: -0.4,
+				walkSpeed: -0.10,
+				healingeffectivness: -0.30,
+				hungerrate: 0.24	
+				},
+			"armor-*-plate-orichalcum": {
+				rangedWeaponsAcc: -0.2,
+				rangedWeaponsSpeed: -0.4,
+				walkSpeed: -0.20,
+				healingeffectivness: -0.33,
+				hungerrate: 0.58
+				},
+				
+				
+				
+			"armor-*-brigandine-aithril": {
+				rangedWeaponsAcc: -0.05,
+				rangedWeaponsSpeed: -0.1,
+				walkSpeed: -0.04,
+				healingeffectivness: -0.15,
+				hungerrate: 0.1	
+				},
+			"armor-*-chain-aithril": {
+				rangedWeaponsAcc: -0.02,
+				rangedWeaponsSpeed: -0.4,
+				walkSpeed: -0.02,
+				healingeffectivness: -0.08,
+				hungerrate: 0.06	
+				},
+			"armor-*-scale-aithril": {
+				rangedWeaponsAcc: -0.08,
+				rangedWeaponsSpeed: -0.15,
+				walkSpeed: -0.09,
+				healingeffectivness: -0.22,
+				hungerrate: 0.16	
+				},
+			"armor-*-plate-aithril": {
+				rangedWeaponsAcc: -0.08,
+				rangedWeaponsSpeed: -0.15,
+				walkSpeed: -0.12,
+				healingeffectivness: -0.26,
+				hungerrate: 0.18
+				},
+		},
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "swordz": ["*"] },
+	renderAlphaTest: 0.25,
+	durabilityByType: {
+		"armor-*-chain-stainlesssteel": 2500,
+		"armor-*-chain-titanium": 3500,
+		"armor-*-chain-mithril": 5000,
+		"armor-*-chain-adamant": 7500, 
+		"armor-*-chain-orichalcum": 10000,
+		"armor-*-chain-aithril": 10500,
+		
+		"armor-*-brigandine-stainlesssteel": 3000,
+		"armor-*-brigandine-titanium": 4000,
+		"armor-*-brigandine-mithril": 5500,
+		"armor-*-brigandine-adamant": 7750,
+		"armor-*-brigandine-orichalcum": 10500,
+		"armor-*-brigandine-aithril": 11000,
+
+		"armor-*-scale-stainlesssteel": 4000,
+		"armor-*-scale-titanium": 5000,
+		"armor-*-scale-mithril": 6000,
+		"armor-*-scale-adamant": 8000,
+		"armor-*-scale-orichalcum": 11000,
+		"armor-*-scale-aithril": 11500,
+		
+		"armor-*-plate-stainlesssteel": 6000,
+		"armor-*-plate-titanium": 7000,
+		"armor-*-plate-mithril": 8000,
+		"armor-*-plate-adamant": 10000,
+		"armor-*-plate-orichalcum": 12500,
+		"armor-*-plate-aithril": 13000,
+	},
+	
+	fpHandTransformByType: {
+		"armor-head-*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+		"armor-body-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+		"armor-legs-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		}
+	},
+	tpHandTransformByType: {
+		"armor-head-*": {
+			translation: { x: -0.92, y: -3.2, z: -0.8 },
+			rotation: { x: -26, y: -26, z: -34 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.55
+		},
+		"armor-body-*": {
+			translation: { x: -1, y: -2.5, z: -0.8 },
+			rotation: { x: -13, y: -80, z: 16 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.55
+		},
+		"armor-legs-*": {
+			translation: { x: -0.7, y: -1.1, z: -0.8 },
+			rotation: { x: 71, y: 17, z: 88 },
+			origin: { x: 0.5, y: 0.7, z: 0.5 },
+			scale: 0.55
+		}
+	},
+	guiTransformByType: {
+		"armor-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+		"armor-body-*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 1.11, z: 0.5 },
+			scale: 1.37
+		},
+		"armor-legs-*": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 },
+			scale: 1.25
+		}
+	},
+	groundTransformByType: {
+		"armor-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+		"armor-body-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		},
+		"armor-legs-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		}
+	}
+}

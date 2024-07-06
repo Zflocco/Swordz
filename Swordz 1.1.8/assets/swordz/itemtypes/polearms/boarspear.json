@@ -1,0 +1,83 @@
+{
+	code: "boarspear",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "spear",
+	attributes: {
+		handbook: { groupBy: ["boarspear"] },
+			toolrackTransform: {
+			translation: { x: 0.56, y: 0.02, z: -0.6 },
+			rotation: { x: -90, y: 0, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0.45, y: 1.05, z: 0.27 },
+			rotation: { x: 13, y: 0, z: -92 },
+			scaleXyz: { x: -0.8, y: 0.8, z: 0.8 }
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ { code: "metal", states: ["iron","meteoriciron","steel"]}, ],
+	shape: { base: "polearms/boarspear" },
+	heldTpHitAnimation: "spearhit",
+	heldTpIdleAnimation: "crudeOarIdle",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}" },
+	"handle": {base: "game:block/wood/charred"}	},
+	attackRange: 3.8,
+	tooltierbytype: {
+		"boarspear-iron": 2,
+		"boarspear-meteoriciron":2,
+		"boarspear-steel": 3
+	},
+	durabilitybytype: {
+		"boarspear-iron": 800,
+		"boarspear-meteoriciron": 1000,
+		"boarspear-steel": 1500
+	},
+	attackpowerbytype: {
+		"boarspear-iron": 4.2,
+		"boarspear-meteoriciron":4.5,
+		"boarspear-steel": 4.8
+	},
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	    fpHandTransform: {
+        translation: { x: 0.1, y: -0.2, z: -0.2 },
+		rotation: { x: -31, y: -73, z: 75 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 4, y: -5, z: 0 },
+		rotation: { x: 0, y: -150, z: -41 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scaleXyz: { x: -1.85, y: 1.85, z: 1.85 }
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+//	tpHandTransform: {
+//		translation: { x: -1.0799, y: 0.1, z: 0.28 },
+//		rotation: { x: 121, y: -162, z: 168 },
+//		origin: { x: 0, y: 0, z: 0 },
+//		scale: 1
+//	}
+	tpHandTransform: {
+        translation: { x: -0.78, y: 0.155, z: 0.28 },
+		rotation: { x: 121, y: -162, z: 168 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 1
+    }
+}

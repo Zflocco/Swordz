@@ -1,0 +1,103 @@
+{
+	code: "seax",
+	damagedby: ["blockbreaking", "attacking"],
+	class: "ItemKnife",
+	tool: "knife",
+	attributes: {
+		handbook: { groupBy: ["seax"] },
+		toolrackTransform: {
+			translation: { x: -0.1, y: 0.1, z: 0.5 },
+			rotation: { x: 90, y: 180, z: 1 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.05, z: 0.1 },
+			rotation: { x: 20, y: 90, z: -90 },
+			scale: 0.7
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ { code: "metal", states: ["copper","bismuthbronze","tinbronze","iron","meteoriciron","steel"]}, ],
+	shape: { base: "knives/seax" },
+//	animation of "breaktool" ?
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "knap",
+	textures: { "metal": {base: "game:block/metal/plate/{metal}" } },
+	attackRange: 1.8,
+	tooltierbytype: {
+		"seax-copper": 2,
+		"seax-bismuthbronze": 3,
+		"seax-tinbronze": 3,
+//		"seax-blackbronze":3,
+		"seax-iron": 4,
+		"seax-meteoriciron":4,
+		"seax-steel": 5,
+//		"seax-adminharvester": 9,
+	},
+	durabilitybytype: {
+		"seax-copper": 400,
+		"seax-bismuthbronze": 650,
+		"seax-tinbronze": 575,
+//		"seax-blackbronze":700,
+		"seax-iron": 1000,
+		"seax-meteoriciron": 1250,
+		"seax-steel": 2400,
+//		"seax-adminharvester": 6666,
+	},
+	attackpowerbytype: {
+		"seax-copper": 2,
+		"seax-bismuthbronze": 2.5,
+		"seax-tinbronze": 3,
+//		"seax-blackbronze":3.5,
+		"seax-iron": 3.5,
+		"seax-meteoriciron":3.8,
+		"seax-steel": 4,
+//		"seax-adminharvester": 42,
+	},
+	miningspeedbytype: {
+		"seax-copper": {"plant": 0.8},
+		"seax-bismuthbronze": {"plant": 1},
+		"seax-tinbronze": {"plant": 1.1},
+//		"seax-blackbronze": {"plant": 1},
+		"seax-iron": {"plant": 1.3},
+		"seax-meteoriciron": {"plant": 1.5},
+		"seax-steel": {"plant": 1.7},
+//		"seax-adminharvester": {"plant": 69},
+	},
+//	knifeHarvestingSpeedbytype: {
+//		"seax-*":1
+//	},
+	creativeinventory: { "general": ["*"], "tools": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: 0.7, y: 0, z: 0 },
+		rotation: { x: -13, y: 85, z: 65 },
+		scale: 3.2
+	},
+	guiTransform: {
+			translation: { x: 1, y: -2, z: 0 },
+			rotation: { x: 180, y: 0, z: 45 },
+			origin: { x: 0.65, y: 0.1, z: 0.45 },
+			scale: 1.7
+	},
+	groundTransform: {
+			translation: { x: 0.05, y: 0.05, z: 0.1 },
+			rotation: { x: 90, y: 0, z: 0 },
+			scale: 3.2
+	},
+	tpHandTransform: {
+			translation: { x: 0.1, y: -0.09, z: 0.46 },
+			rotation: { x: 0, y: 0, z: 8 },
+			origin: { x: 0, y: 0, z: 0 },
+			scale: 0.8
+	}
+}

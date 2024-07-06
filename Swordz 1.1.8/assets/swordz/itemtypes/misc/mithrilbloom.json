@@ -1,0 +1,42 @@
+{	enabled:true,
+	code: "mithrilbloom",
+	class: "ItemMithrilBloom",
+	shape: { base: "game:item/ironbloom" },
+	creativeinventory: { "general": ["*"], "items": ["*"],"swordz": ["*"] },
+	textures: { "ironbloom": {base: "game:block/stone/ore/mithril"}  },
+	maxstacksize: 64,
+	attributes: {
+		forgable: true,
+		workableTemperature: 1000,
+		displaycaseable: true, 
+		shelvable: true,
+		mergeUnitsInBloomery: true,
+		requiresAnvilTier: 6,
+		handbook: { exclude: false },		
+	},
+	materialDensity: 3000,
+	heldTpHitAnimation: "breaktool",
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 1, y: 90, z: 0 },
+		scale: 2
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -29, y: -31, z: -180 },
+		origin: { x: 0.53, y: 0.18, z: 0.5 },
+		scale: 2.59
+	},
+	tpHandTransform: {
+		translation: { x: -0.55, y: -0.1, z: -0.47 },
+		rotation: { x: 25, y: -174, z: 95 },
+		origin: { x: 0.5, y: 0.12, z: 0.5 },
+		scale: 1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.22, z: 0.54 },
+		scale: 4.5
+	},
+}

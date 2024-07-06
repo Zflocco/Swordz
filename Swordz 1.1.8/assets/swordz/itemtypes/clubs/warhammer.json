@@ -1,0 +1,87 @@
+{
+	code: "warhammer",
+	damagedby: ["attacking"],
+	class: "ItemSword",
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["warhammer-*"] },
+		toolrackTransform: {
+			translation: { x: -0.77, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 1, z: -1 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.5, z: -0.085 },
+			rotation: { x: 15, y: 88, z: -87 },
+			scale: 0.88
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	variantgroups: [ 
+	{ code: "metal", states: ["bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel"]},
+//	{ code: "haft", states: ["bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel"]},	
+	],
+	shape: { base: "clubs/warhammer" },
+	heldTpHitAnimation: "zweiswing",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}" },
+	"metaltwo": {base: "game:block/metal/plate/{metal}" },
+	"haft": {base: "game:item/tool/material/handle"}	
+	},
+	attackRange: 2,
+	tooltierbytype: {
+		"warhammer-bismuthbronze": 4,
+		"warhammer-tinbronze": 4,
+		"warhammer-blackbronze":4,
+		"warhammer-iron": 5,
+		"warhammer-meteoriciron":5,
+		"warhammer-steel": 6,
+	},
+	durabilitybytype: {
+		"warhammer-bismuthbronze": 530,
+		"warhammer-tinbronze": 450,
+		"warhammer-blackbronze":600,
+		"warhammer-iron": 800,
+		"warhammer-meteoriciron": 1150,
+		"warhammer-steel": 2500,
+	},
+	attackpowerbytype: {
+		"warhammer-bismuthbronze": 3.8,
+		"warhammer-tinbronze": 3.9,
+		"warhammer-blackbronze":4,
+		"warhammer-iron": 4.5,
+		"warhammer-meteoriciron":4.6,
+		"warhammer-steel": 4.8,
+	},
+	creativeinventory: { "general": ["*"], "tools": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0, z: 0.4 },
+		rotation: { x: -27, y: 0, z: 90 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: -9, y: 25, z: 0 },
+		rotation: { x: 94, y: -56, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 1.99
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.5799, y: -0.4, z: -0.07 },
+		rotation: { x: 74, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

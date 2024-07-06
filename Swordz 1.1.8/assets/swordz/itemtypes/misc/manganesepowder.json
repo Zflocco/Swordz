@@ -1,0 +1,44 @@
+{
+	code: "manganesepowder",
+	shape: { base: "misc/powder" },
+	textures: { 
+	"dust": {base: "game:item/resource/plate/tinbronze"},
+	"paper": {base: "game:item/lore/map-blank"} },
+	creativeinventory: { "general": ["*"], "items": ["*"], "swordz": ["*"] },
+	storageFlag: 4,
+	maxstacksize: 16,
+	materialDensity: 888,
+	dissolveInWater: true,
+	combustibleProps: { burnTemperature: 1130 ,burnDuration: 8 },
+	behaviors: [ { name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } } ],
+	attributes: { groundStorageTransform: { translation: { x: 0.025, y: -0.06, z: 0.025 }, scale: 0.89 } },
+	
+	fpHandTransform: {
+		translation: { x: 0.1, y: 0.3, z: 0.1 },
+		rotation: { x: 55, y: 85, z: -60 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scaleXyz: { x: -1.53, y: 1.53, z: 1.53 }
+	},
+	guiTransform: {
+		translation: { x: 2, y: 3, z: 0 },
+		rotation: { x: -133, y: 90, z: -70 },
+		origin: { x: 0.58, y: 0.19, z: 0.44 },
+		scale: 2.9
+	},
+	tpHandTransform: {
+		translation: { x: -1.12, y: -0.04, z: -0.83 },
+		rotation: { x: 171, y: -76, z: -169 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.5899
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	},
+	groundStorageTransform: {
+			translation: { x: 0.025, y: -0.06, z: 0.025 },
+			scale: 0.89
+	},		
+}
