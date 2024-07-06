@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,16 +29,18 @@ namespace swordz.src
                         }
                         else
                         {
-                            if (block.BlockMaterial != EnumBlockMaterial.Mantle && block.BlockMaterial != EnumBlockMaterial.Soil && block.BlockMaterial != EnumBlockMaterial.Gravel && block.BlockMaterial != EnumBlockMaterial.Sand && block.BlockMaterial != EnumBlockMaterial.Snow)
+                            if (block.BlockMaterial == EnumBlockMaterial.Stone)
+//                          if (block.BlockMaterial != EnumBlockMaterial.Mantle && block.BlockMaterial != EnumBlockMaterial.Soil && block.BlockMaterial != EnumBlockMaterial.Gravel && block.BlockMaterial != EnumBlockMaterial.Sand && block.BlockMaterial != EnumBlockMaterial.Snow)
                             {
-                                world.BlockAccessor.BreakBlock(tempPos, player);
+                                // change this for drop quantity
+                                world.BlockAccessor.BreakBlock(tempPos, player,0.3f);
                             }
                         }
                     }
                 }
             }
         }
-        public override bool OnBlockBrokenWith(IWorldAccessor world, Entity byEntity, ItemSlot itemslot, BlockSelection blockSel, float dropQuantityMultiplier = 0.5f)
+        public override bool OnBlockBrokenWith(IWorldAccessor world, Entity byEntity, ItemSlot itemslot, BlockSelection blockSel, float dropQuantityMultiplier)
         {
             if (base.OnBlockBrokenWith(world, byEntity, itemslot, blockSel))
             {
