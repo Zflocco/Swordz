@@ -1,0 +1,1211 @@
+{
+  "game:tabname-swordz": "Swordz",
+
+  "game:swordz-handbook-title": "Swordz Handbook",
+"game:swordz-handbook-text":"
+<font size=24 align=middle><strong>The Swordz' handbook</strong></font><br>
+This is still a WIP, will be used as a F.A.Q and will offer some basic info.
+
+The swordz mod attempts to add a bunch of new weapons (some from the base game only found as ruined variants) that are balanced and have additional functionality, swordz tries to find a nice middle-ground between realism and game-ism, E.G. needing whetstones to sharpen a <a href=\"handbook://item-swordz:whetstone-granite\">blade</a> but not going so hard at it that it requires you to sharpen said blade for minutes at a time.
+
+<strong>Hafts</strong> - <a href=\"handbooksearch://haft\">Click me to see!</a>
+Hafts, handles! You can use different metals (or sticks) for differing values/aesthetics on your weapons & tools.
+
+<strong>Whetstones</strong> - <a href=\"handbooksearch://whetstone\">Click me to see!</a>
+Use whetstones to make better sharper blades!
+* <a href=\"handbook://item-swordz:whetstone-granite\">granite</a>, <a href=\"handbook://item-swordz:whetstone-sandstone\">sandstone</a><a href=\"handbook://item-swordz:whetstone-suevite\">suevite</a>
+* Still need to go back and add variants of blades for everything pre-1.1.2
+
+<strong>Stainless Steel</strong> - <a href=\"handbooksearch://stainless\">Click me to see!</a>
+Want something better than steel? Then you're gonna need to take your old steel and combine it with <a href=\"handbooksearch://crushed chromite\">crushed chromite</a> and <a href=\"handbooksearch://manganese powder\">manganese powder</a> to make stainless steel in a cementary.
+
+<strong><a href=\"handbooksearch://titanium\">Titanium</a></strong> - 
+Want something even better than stainless teel? Try titanium. To refine the ilmenite, you're going to need manganese powder, lime, 20 ilmenite nuggets, and an ingot mold, this will make a prepared titanium ingot, which can then be put into the cementary.
+
+<strong>Feedback</strong>
+If you have any feedback, suggestions or complaints then please go to the mod page and make a comment : <a href=\"https://mods.vintagestory.at/show/mod/9099\">here</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beyond here lies deep dwarvenly secrets.
+
+Lazh-zirak, Sabumuk, and Gazob, the three dwarvish metals of legend.
+
+One blue, one green and the last red, these three metals are said to be unbeatable in terms of strength and toughness...now if only you could find some, but even if you do..how do you refine them?
+
+There's also tales of another metal, ancient dwarven tales speak of a sky-metal, a metal so rare but so strong yet light that it puts both orichalcos and mithril to shame, Aithril they call it, but nobody knows if it exists.
+
+
+
+",
+
+
+
+  ////////////////////////////////////////////////// Shortswords : Blade Variants needed //////////////////////////////////////////////////
+  "item-swordzshortblade-copper": "Copper Shortsword Blade",
+  "item-swordzshort-copper": "Copper Shortsword",
+  "item-swordzshortblade-tinbronze": "Tin Bronze Shortsword Blade",
+  "item-swordzshort-tinbronze": "Tin Bronze Shortsword",
+  "item-swordzshortblade-bismuthbronze": "Bismuth Bronze Shortsword Blade",
+  "item-swordzshort-bismuthbronze": "Bismuth Bronze Shortsword",
+  "item-swordzshortblade-iron": "Iron Shortsword Blade",
+  "item-swordzshort-iron": "Iron Shortsword",
+  "item-swordzshortblade-meteoriciron": "Meteoric Iron Shortsword Blade",
+  "item-swordzshort-meteoriciron": "Meteoric Iron Shortsword",
+  "item-swordzshortblade-steel": "Steel Shortsword Blade",
+  "item-swordzshort-steel": "Steel Shortsword",
+
+  "itemdesc-swordzshortblade-*": "A blade in desperate need of a handle.",
+  "itemcraftdesc-swordzshortblade-*": "A short sword's blade",
+  "itemdesc-swordzshort-*": "A rather small sword that is multifunctional.",
+  ////////////////////////////////////////////////// Seax : Model might need a touchup //////////////////////////////////////////////////
+  "item-seaxblade-copper": "Copper Seax Blade",
+  "item-seax-copper": "Copper Seax",
+  "item-seaxblade-tinbronze": "Tin Bronze Seax Blade",
+  "item-seax-tinbronze": "Tin Bronze Seax",
+  "item-seaxblade-bismuthbronze": "Bismuth Bronze Seax Blade",
+  "item-seax-bismuthbronze": "Bismuth Bronze Seax",
+  "item-seaxblade-iron": "Iron Seax Blade",
+  "item-seax-iron": "Iron Seax",
+  "item-seaxblade-meteoriciron": "Meteoric Iron Seax Blade",
+  "item-seax-meteoriciron": "Meteoric Iron Seax",
+  "item-seaxblade-steel": "Steel Seax Blade",
+  "item-seax-steel": "Steel Seax",
+
+  "itemdesc-seaxblade-*": "A seax blade that really rather needs a handle.",
+  "itemcraftdesc-seaxblade-*": "A seax blade.",
+  "itemdesc-seax-*": "A large knife that's rather utilitarian.",
+  ////////////////////////////////////////////////// Whetstones : Kimberlite/Phyllite Whetstone? //////////////////////////////////////////////////
+  "item-whetstone-suevite": "Suevite Whetstone",
+  "item-whetstone-sandstone": "Sandstone Whetstone",
+  "item-whetstone-granite": "Granite Whetstone",
+  "itemdesc-whetstone-*": "A whetstone used to sharpen a blade.",
+  ////////////////////////////////////////////////// Hafts : //////////////////////////////////////////////////
+  "item-haft-copper": "Copper Haft",
+  "item-haft-tinbronze": "Tin Bronze Haft",
+  "item-haft-bismuthbronze": "Bismuth Bronze Haft",
+  "item-haft-blackbronze": "Black Bronze Haft",
+  "item-haft-iron": "Iron Haft",
+  "item-haft-meteoriciron": "Meteoric Iron Haft",
+  "item-haft-steel": "Steel Haft",
+  "item-haft-stainlesssteel": "Stainless Steel Haft",
+  "item-haft-titanium": "Titanium Haft",
+  "item-haft-mithril": "Mithril Haft",
+  "item-haft-adamant": "Adamant Haft",
+  "item-haft-orichalcum": "Orichalcos Haft",
+  "item-haft-aithril": "Aithril Haft",
+
+  "itemdesc-haft-*": "A metal handle in need of a head.",
+  "itemcraftdesc-haft-*": "A metal handle.",
+  ////////////////////////////////////////////////// Zwei : Animation needs work still //////////////////////////////////////////////////
+  "item-zweihanderblade-iron-blunt": "Blunt Iron Zweihander Blade",
+  "item-zweihanderblade-iron-dull": "Dull Iron Zweihander Blade",
+  "item-zweihanderblade-iron-sharp": "Sharp Iron Zweihander Blade",
+  "item-zweihanderblade-iron-honed": "Honed Iron Zweihander Blade",
+  "item-zweihandercrossguard-iron": "Iron Zweihander Crossguard",
+
+  "item-zweihander-iron-iron-blunt": "Blunt Iron Zweihander",
+  "item-zweihander-iron-iron-dull": "Dull Iron Zweihander",
+  "item-zweihander-iron-iron-sharp": "Sharp Iron Zweihander",
+  "item-zweihander-iron-iron-honed": "Honed Iron Zweihander",
+  "item-zweihander-iron-silver-sharp": "Sharp Iron Zweihander",
+  "item-zweihander-iron-silver-honed": "Honed Iron Zweihander",
+  "item-zweihander-iron-gold-sharp": "Sharp Iron Zweihander",
+  "item-zweihander-iron-gold-honed": "Honed Iron Zweihander",
+
+  "item-zweihanderblade-meteoriciron-blunt": "Blunt Meteoric Iron Zweihander Blade",
+  "item-zweihanderblade-meteoriciron-dull": "Dull Meteoric Iron Zweihander Blade",
+  "item-zweihanderblade-meteoriciron-sharp": "Sharp Meteoric Iron Zweihander Blade",
+  "item-zweihanderblade-meteoriciron-honed": "Honed Meteoric Iron Zweihander Blade",
+  "item-zweihandercrossguard-meteoriciron": "Meteoric Iron Zweihander Crossguard",
+
+  "item-zweihander-meteoriciron-meteoriciron-blunt": "Blunt Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-meteoriciron-dull": "Dull Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-meteoriciron-sharp": "Sharp Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-meteoriciron-honed": "Honed Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-silver-sharp": "Sharp Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-silver-honed": "Honed Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-gold-sharp": "Sharp Meteoric Iron Zweihander",
+  "item-zweihander-meteoriciron-gold-honed": "Honed Meteoric Iron Zweihander",
+
+  "item-zweihanderblade-steel-blunt": "Blunt Steel Zweihander Blade",
+  "item-zweihanderblade-steel-dull": "Dull Steel Zweihander Blade",
+  "item-zweihanderblade-steel-sharp": "Sharp Steel Zweihander Blade",
+  "item-zweihanderblade-steel-honed": "Honed Steel Zweihander Blade",
+  "item-zweihandercrossguard-steel": "Steel Zweihander Crossguard",
+
+  "item-zweihander-steel-steel-blunt": "Blunt Steel Zweihander",
+  "item-zweihander-steel-steel-dull": "Dull Steel Zweihander",
+  "item-zweihander-steel-steel-sharp": "Sharp Steel Zweihander",
+  "item-zweihander-steel-steel-honed": "Honed Steel Zweihander",
+  "item-zweihander-steel-silver-sharp": "Sharp Steel Zweihander",
+  "item-zweihander-steel-silver-honed": "Honed Steel Zweihander",
+  "item-zweihander-steel-gold-sharp": "Sharp Steel Zweihander",
+  "item-zweihander-steel-gold-honed": "Honed Steel Zweihander",
+
+  "item-zweihandercrossguard-silver": "Silver Zweihander Crossguard",
+  "item-zweihandercrossguard-gold": "Gold Zweihander Crossguard",
+
+  "itemdesc-zweihander-*": "A large and fearsome sword but onerous in maintenance",
+  "itemdesc-zweihanderblade-*": "A large and expensive blade for a large and expensive sword.",
+  "itemcraftdesc-zweihanderblade-*": "A large and expensive blade for a large and expensive sword.",
+  "itemdesc-zweihandercrossguard-*": "A crossguard for a zweihander.",
+  "itemcraftdesc-zweihandercrossguard-*": "A crossguard for a zweihander.",
+  ////////////////////////////////////////////////// Arming Sword : //////////////////////////////////////////////////
+  "item-sordblade-tinbronze-blunt": "Blunt Tin Bronze Arming Sword Blade",
+  "item-sordblade-tinbronze-dull": "Dull Tin Bronze Arming Sword Blade",
+  "item-sordblade-tinbronze-sharp": "Sharp Tin Bronze Arming Sword Blade",
+  "item-sordblade-tinbronze-honed": "Honed Tin Bronze Arming Sword Blade",
+  "item-sord-tinbronze-blunt": "Blunt Tin Bronze Arming Sword",
+  "item-sord-tinbronze-dull": "Dull Tin Bronze Arming Sword",
+  "item-sord-tinbronze-sharp": "Sharp Tin Bronze Arming Sword",
+  "item-sord-tinbronze-honed": "Honed Tin Bronze Arming Sword",
+  "item-sordblade-iron-blunt": "Blunt Iron Arming Sword Blade",
+  "item-sordblade-iron-dull": "Dull Iron Arming Sword Blade",
+  "item-sordblade-iron-sharp": "Sharp Iron Arming Sword Blade",
+  "item-sordblade-iron-honed": "Honed Iron Arming Sword Blade",
+  "item-sord-iron-blunt": "Blunt Iron Arming Sword",
+  "item-sord-iron-dull": "Dull Iron Arming Sword",
+  "item-sord-iron-sharp": "Sharp Iron Arming Sword",
+  "item-sord-iron-honed": "Honed Iron Arming Sword",
+  "item-sordblade-meteoriciron-blunt": "Blunt Meteoric Iron Arming Sword Blade",
+  "item-sordblade-meteoriciron-dull": "Dull Meteoric Iron Arming Sword Blade",
+  "item-sordblade-meteoriciron-sharp": "Sharp Meteoric Iron Arming Sword Blade",
+  "item-sordblade-meteoriciron-honed": "Honed Meteoric Iron Arming Sword Blade",
+  "item-sord-meteoriciron-blunt": "Blunt Meteoric Iron Arming Sword",
+  "item-sord-meteoriciron-dull": "Dull Meteoric Iron Arming Sword",
+  "item-sord-meteoriciron-sharp": "Sharp Meteoric Iron Arming Sword",
+  "item-sord-meteoriciron-honed": "Honed Meteoric Iron Arming Sword",
+  "item-sordblade-steel-blunt": "Blunt Steel Arming Sword Blade",
+  "item-sordblade-steel-dull": "Dull Steel Arming Sword Blade",
+  "item-sordblade-steel-sharp": "Sharp Steel Arming Sword Blade",
+  "item-sordblade-steel-honed": "Honed Steel Arming Sword Blade",
+  "item-sord-steel-blunt": "Blunt Steel Arming Sword",
+  "item-sord-steel-dull": "Dull Steel Arming Sword",
+  "item-sord-steel-sharp": "Sharp Steel Arming Sword",
+  "item-sord-steel-honed": "Honed Steel Arming Sword",
+
+  "itemdesc-sord-*": "An elegant weapon for a more civilized age.",
+  "itemdesc-sordblade-*": "A blade for a knightly sword.",
+  "itemcraftdesc-sordblade-*": "A blade for a knightly sword.",
+  ////////////////////////////////////////////////// Bearded Axe : Make head variants? //////////////////////////////////////////////////
+  "item-bearded-tinbronze": "Tin Bronze Bearded Axe",
+  "item-bearded-bismuthbronze": "Bismuth Bronze Bearded Axe",
+  "item-bearded-iron": "Iron Bearded Axe",
+  "item-bearded-meteoriciron": "Meteoric Iron Bearded Axe",
+  "item-bearded-steel": "Steel Bearded Axe",
+  "item-beardedhead-tinbronze": "Tin Bronze Bearded Axe Head",
+  "item-beardedhead-bismuthbronze": "Bismuth Bronze Bearded Axe Head",
+  "item-beardedhead-iron": "Iron Bearded Axe Head",
+  "item-beardedhead-meteoriciron": "Meteoric Iron Bearded Axe Head",
+  "item-beardedhead-steel": "Steel Bearded Axe Head",
+
+  "itemdesc-bearded-*": "An axe that can be used as both a tool and a weapon.",
+  "itemdesc-beardedhead-*": "An axehead for a bearded axe.",
+  "itemcraftdesc-beardedhead-*": "An axehead for a bearded axe.",
+  ////////////////////////////////////////////////// Nadziak : Revise model? //////////////////////////////////////////////////
+  "item-nadziak-tinbronze": "Tin Bronze Nadziak",
+  "item-nadziak-bismuthbronze": "Bismuth Bronze Nadziak",
+  "item-nadziak-blackbronze": "Black Bronze Nadziak",
+  "item-nadziak-iron": "Iron Nadziak",
+  "item-nadziak-meteoriciron": "Meteoric Iron Nadziak",
+  "item-nadziak-steel": "Steel Nadziak",
+  "item-nadziakhead-tinbronze": "Tin Bronze Nadziak Head",
+  "item-nadziakhead-bismuthbronze": "Bismuth Bronze Nadziak Head",
+  "item-nadziakhead-blackbronze": "Black Bronze Nadziak Head",
+  "item-nadziakhead-iron": "Iron Nadziak Head",
+  "item-nadziakhead-meteoriciron": "Meteoric Iron Nadziak Head",
+  "item-nadziakhead-steel": "Steel Nadziak Head",
+
+  "itemdesc-nadziak-*": "A Nadziak, a type of warhammer with a downward facing spike.",
+  "itemdesc-nadziakhead-*": "A head for a gruesome warpick.",
+  "itemcraftdesc-nadziakhead-*": "A head for a gruesome warpick.",
+  ////////////////////////////////////////////////// Pernach :  //////////////////////////////////////////////////
+  "item-pernach-lead-*": "Lead Pernach",
+  "item-pernach-copper-*": "Copper Pernach",
+  "item-pernach-tinbronze-*": "Tin Bronze Pernach",
+  "item-pernach-bismuthbronze-*": "Bismuth Bronze Pernach",
+  "item-pernach-blackbronze-*": "Black Bronze Pernach",
+  "item-pernach-iron-*": "Iron Pernach",
+  "item-pernach-meteoriciron-*": "Meteoric Iron Pernach",
+  "item-pernach-steel-*": "Steel Pernach",
+  "item-pernachhead-lead": "Lead Pernach Head",
+  "item-pernachhead-copper": "Copper Pernach Head",
+  "item-pernachhead-tinbronze": "Tin Bronze Pernach Head",
+  "item-pernachhead-bismuthbronze": "Bismuth Bronze Pernach Head",
+  "item-pernachhead-blackbronze": "Black Bronze Pernach Head",
+  "item-pernachhead-iron": "Iron Pernach Head",
+  "item-pernachhead-meteoriciron": "Meteoric Iron Pernach Head",
+  "item-pernachhead-steel": "Steel Pernach Head",
+
+  "itemdesc-pernach-*": "A pernach, this flanged mace is quite durable and effective against armour.",
+  "itemdesc-pernachhead-*": "A mace head.",
+  "itemcraftdesc-pernachhead-*": "A head of a mace.",
+  //////////////////////////////////////////////////Bec de corbin : Hammer head is primary, side or downwards swing //////////////////////////////////////////////////
+  "item-becdecorbinhead-iron": "Iron Bec de corbin head",
+  "item-becdecorbin-iron": "Iron Bec de corbin",
+  "item-becdecorbinhead-meteoriciron": "Meteoric Iron Bec de corbin head",
+  "item-becdecorbin-meteoriciron": "Meteoric Iron Bec de corbin",
+  "item-becdecorbinhead-steel": "Steel Bec de corbin head",
+  "item-becdecorbin-steel": "Steel Bec de corbin",
+
+  "itemdesc-becdecorbin-*": "The raven's beak warhammer, a type of polearm",
+  "itemdesc-becdecorbinhead-*": "The head of a polearm",
+  "itemcraftdesc-becdecorbinhead-*": "The head of a polearm",
+  ////////////////////////////////////////////////// Warscythe : Slash / Geeric polearm anim. //////////////////////////////////////////////////
+  "item-warscythe-copper": "Copper Warscythe",
+  "item-warscythe-tinbronze": "Tin Bronze Warscythe",
+  "item-warscythe-bismuthbronze": "Bismuth Bronze Warscythe",
+  "item-warscythe-blackbronze": "Black Bronze Warscythe",
+  "item-warscythe-iron": "Iron Warscythe",
+  "item-warscythe-meteoriciron": "Meteoric Iron Warscythe",
+  "item-warscythe-steel": "Steel Warscythe",
+
+  "itemdesc-warscythe-*": "A rather crude polearm but doubtlessly effective.",
+  ////////////////////////////////////////////////// Stilettos : Give a stab anim in FP //////////////////////////////////////////////////
+  "item-stiletto-copper": "Copper Stiletto",
+  "item-stiletto-bismuthbronze": "Bismuth Bronze Stiletto",
+  "item-stiletto-tinbronze": "Tin Bronze Stiletto",
+  "item-stiletto-blackbronze": "Black Bronze Stiletto",
+  "item-stiletto-iron": "Iron Stiletto",
+  "item-stiletto-meteoriciron": "Meteoric Iron Stiletto",
+  "item-stiletto-steel": "Steel Stiletto",
+
+  "item-stilettoblade-copper": "Copper Stiletto Blade",
+  "item-stilettoblade-bismuthbronze": "Bismuth Bronze Stiletto Blade",
+  "item-stilettoblade-tinbronze": "Tin Bronze Stiletto Blade",
+  "item-stilettoblade-blackbronze": "Black Bronze Stiletto Blade",
+  "item-stilettoblade-iron": "Iron Stiletto Blade",
+  "item-stilettoblade-meteoriciron": "Meteoric Iron Stiletto Blade",
+  "item-stilettoblade-steel": "Steel Stiletto Blade",
+
+  "itemdesc-stiletto-*": "A flimsy and a rather deceptively dangerous weapon.",
+  "itemcraftdesc-stilettoblade-*": "A blade for a small yet dangerous weapon.",
+  ////////////////////////////////////////////////// Spatha & Gladius : //////////////////////////////////////////////////
+  "item-spatha-steel-blunt": "Blunt Spatha",
+  "item-spatha-steel-dull": "Dull Spatha",
+  "item-spatha-steel-sharp": "Sharpened Spatha",
+  "item-spatha-steel-honed": "Honed Spatha",
+  "item-spathablade-steel-blunt": "Blunt Spatha Blade",
+  "item-spathablade-steel-dull": "Dull Spatha Blade",
+  "item-spathablade-steel-sharp": "Sharpened Spatha Blade",
+  "item-spathablade-steel-honed": "Honed Spatha Blade",
+
+  "itemdesc-spatha-*": "A Spatha, and olde and effective sword design.",
+  "itemdesc-spathablade-*": "A spatha blade",
+  "itemcraftdesc-spathablade-*": "A steel spatha blade.",
+  //	//	//	//	//	//	//	//	//	//	//	//	//	//	//
+  "item-gladius-iron-blunt": "Blunt Gladius",
+  "item-gladius-iron-dull": "Dull Gladius",
+  "item-gladius-iron-sharp": "Sharpened Gladius",
+  "item-gladius-iron-honed": "Honed Gladius",
+  "item-gladiusblade-iron-blunt": "Blunt Gladius Blade",
+  "item-gladiusblade-iron-dull": "Dull Gladius Blade",
+  "item-gladiusblade-iron-sharp": "Sharpened Gladius Blade",
+  "item-gladiusblade-iron-honed": "Honed Gladius Blade",
+
+  "itemdesc-gladius-*": "A gladius, a smaller sword good at both stabbing and slashing.",
+  "itemdesc-gladiusblade-*": "A gladius blade",
+  "itemcraftdesc-gladiusblade-*": "An iron gladius blade",
+  ////////////////////////////////////////////////// Ranseur : New Anim , Stabs the ground //////////////////////////////////////////////////
+  "item-ranseur-iron": "Iron Ranseur",
+  "item-ranseur-meteoriciron": "Meteoric Iron Ranseur",
+  "item-ranseur-steel": "Steel Ranseur",
+  "item-ranseurhead-iron": "Iron Ranseur Head",
+  "item-ranseurhead-meteoriciron": "Meteoric Iron Ranseur Head",
+  "item-ranseurhead-steel": "Steel Ranseur Head",
+
+  "itemdesc-ranseur-*": "Ranseurs, also known as a roncone are quite effective polearms, whether it be against a mounted adversary or on foot.",
+  "Itemdesc-ranseurhead-*": "A ranseur head",
+  "itemcraftdesc-ranseurhead-*": "A ranseur head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-padded": "Padded Cudgel",
+  "itemdesc-padded": "A padded cudgel, for when you really need to whack something without killing it.",
+  ////////////////////////////////////////////////// Sabres //////////////////////////////////////////////////
+  "item-sabre-iron-blunt": "Blunt Iron Sabre",
+  "item-sabre-iron-dull": "Dull Iron Sabre",
+  "item-sabre-iron-sharp": "Sharp Iron Sabre",
+  "item-sabre-iron-honed": "Honed Iron Sabre",
+
+  "item-sabre-meteoriciron-blunt": "Blunt Meteoric Iron Sabre",
+  "item-sabre-meteoriciron-dull": "Dull Meteoric Iron Sabre",
+  "item-sabre-meteoriciron-sharp": "Sharp Meteoric Iron Sabre",
+  "item-sabre-meteoriciron-honed": "Honed Meteoric Iron Sabre",
+
+  "item-sabre-steel-blunt": "Blunt Steel Sabre",
+  "item-sabre-steel-dull": "Dull Steel Sabre",
+  "item-sabre-steel-sharp": "Sharp Steel Sabre",
+  "item-sabre-steel-honed": "Honed Steel Sabre",
+
+  "itemdesc-sabre-*": "A curved sword that's excellent at cutting, although they tend to be a bit fragile compared to straight blades.",
+
+  "item-sabreblade-iron-blunt": "Blunt Iron Sabre Blade",
+  "item-sabreblade-iron-dull": "Dull Iron Sabre Blade",
+  "item-sabreblade-iron-sharp": "Sharp Iron Sabre Blade",
+  "item-sabreblade-iron-honed": "Honed Iron Sabre Blade",
+
+  "item-sabreblade-meteoriciron-blunt": "Blunt Meteoric Iron Sabre Blade",
+  "item-sabreblade-meteoriciron-dull": "Dull Meteoric Iron Sabre Blade",
+  "item-sabreblade-meteoriciron-sharp": "Sharp Meteoric Iron Sabre Blade",
+  "item-sabreblade-meteoriciron-honed": "Honed Meteoric Iron Sabre Blade",
+
+  "item-sabreblade-steel-blunt": "Blunt Steel Sabre Blade",
+  "item-sabreblade-steel-dull": "Dull Steel Sabre Blade",
+  "item-sabreblade-steel-sharp": "Sharp Steel Sabre Blade",
+  "item-sabreblade-steel-honed": "Honed Steel Sabre Blade",
+
+  "itemdesc-sabreblade-*": "A curved blade in need of an appropriate handle",
+  "itemcraftdesc-sabreblade-*": "A sabre blade",
+  ////////////////////////////////////////////////// Kilij //////////////////////////////////////////////////
+  "item-kilij-iron-blunt": "Blunt Iron Kilij",
+  "item-kilij-iron-dull": "Dull Iron Kilij",
+  "item-kilij-iron-sharp": "Sharp Iron Kilij",
+  "item-kilij-iron-honed": "Honed Iron Kilij",
+
+  "item-kilij-meteoriciron-blunt": "Blunt Meteoric Iron Kilij",
+  "item-kilij-meteoriciron-dull": "Dull Meteoric Iron Kilij",
+  "item-kilij-meteoriciron-sharp": "Sharp Meteoric Iron Kilij",
+  "item-kilij-meteoriciron-honed": "Honed Meteoric Iron Kilij",
+
+  "item-kilij-steel-blunt": "Blunt Steel Kilij",
+  "item-kilij-steel-dull": "Dull Steel Kilij",
+  "item-kilij-steel-sharp": "Sharp Steel Kilij",
+  "item-kilij-steel-honed": "Honed Steel Kilij",
+
+  "itemdesc-kilij-*": "A curved sword that's excellent at cutting, although they tend to be a bit fragile compared to straight blades.",
+
+  "item-kilijblade-iron-blunt": "Blunt Iron Kilij Blade",
+  "item-kilijblade-iron-dull": "Dull Iron Kilij Blade",
+  "item-kilijblade-iron-sharp": "Sharp Iron Kilij Blade",
+  "item-kilijblade-iron-honed": "Honed Iron Kilij Blade",
+
+  "item-kilijblade-meteoriciron-blunt": "Blunt Meteoric Iron Kilij Blade",
+  "item-kilijblade-meteoriciron-dull": "Dull Meteoric Iron Kilij Blade",
+  "item-kilijblade-meteoriciron-sharp": "Sharp Meteoric Iron Kilij Blade",
+  "item-kilijblade-meteoriciron-honed": "Honed Meteoric Iron Kilij Blade",
+
+  "item-kilijblade-steel-blunt": "Blunt Steel Kilij Blade",
+  "item-kilijblade-steel-dull": "Dull Steel Kilij Blade",
+  "item-kilijblade-steel-sharp": "Sharp Steel Kilij Blade",
+  "item-kilijblade-steel-honed": "Honed Steel Kilij Blade",
+
+  "itemdesc-kilijblade-*": "A curved blade in need of an appropriate handle",
+  "itemcraftdesc-kilijblade-*": "A kilij  blade",
+  ////////////////////////////////////////////////// Boar Spears //////////////////////////////////////////////////
+  "item-boarspear-iron": "Iron Boar Spear",
+  "item-boarspear-meteoriciron": "Meteoric Iron Boar Spear",
+  "item-boarspear-steel": "Steel Boar Spear",
+
+  "itemdesc-boarspear-*": "A spear that was designed to hunt dangerous creatures like it's name sake, it has a pair of wings on the socket to help prevent injury to the user.",
+
+  "item-boarspearhead-iron": "Iron Boar Spear Head",
+  "item-boarspearhead-meteoriciron": "Meteoric Iron Boar Spear Head",
+  "item-boarspearhead-steel": "Steel Boar Spear Head",
+
+  "itemcraftdesc-boarspearhead-*": "A boar spear head",
+  ////////////////////////////////////////////////// Voulge - Change model later? Looking at an old manuscript, voulges were straight bladed and rather simple/plain, there's one in the same manuscript that depicts one with a 'hump' (reinforcement?) //////////////////////////////////////////////////
+  "item-voulge-iron": "Iron Voulge",
+  "item-voulge-meteoriciron": "Meteoric Iron Voulge",
+  "item-voulge-steel": "Steel Voulge",
+
+  "itemdesc-voulge-*": "An old weapon design that is nontheless effective.",
+
+  "item-voulgehead-iron": "Iron voulge Head",
+  "item-voulgehead-meteoriciron": "Meteoric Iron Voulge Head",
+  "item-voulgehead-steel": "Steel Voulge Head",
+
+  "itemcraftdesc-voulgehead-*": "A voulge head",
+  ////////////////////////////////////////////////// Dane axe - Placeholder model //////////////////////////////////////////////////
+  "item-daneaxe-iron": "Iron Dane Axe",
+  "item-daneaxe-meteoriciron": "Meteoric Iron Dane Axe",
+  "item-daneaxe-steel": "Steel Dane Axe",
+
+  "itemdesc-daneaxe-*": "A two-handed axe that is purportedly able to hew a man in two.",
+
+  //	there's no daneaxe head model or itemtype (yet)
+  //"item-daneaxehead-iron": "",
+  //"item-daneaxehead-meteoriciron": "",
+  //"item-daneaxehead-steel": "",
+
+  //"itemdesc-daneaxehead-*": "A large axehead",
+  //"itemcraftdesc-daneaxehead": "A Dane Axe Head",
+  //////////////////////////////////////////////////	Atgeir	//////////////////////////////////////////////////
+  "item-atgeir-iron": "Iron Atgeir",
+  "item-atgeir-meteoriciron": "Meteoric Iron Atgeir",
+  "item-atgeir-steel": "Steel Atgeir",
+
+  "itemdesc-atgeir-*": "An old viking polearm, also known as a mail-piercer.",
+  //	This thing may or may not have existed, almost certainly not as it's commonly depicted in media nowadays (namely with one socket), hence my own take on it with two sockets
+  //	peices that are attributed to being an 'atgeir' seem more like they're a very narrow bearded axe and not at all meant to be used in a stabbing fashion. In all likelihood "atgier" was a catchall and not for a specific design/weapon.
+  "item-atgeirhead-iron": "Iron Atgeir Head",
+  "item-atgeirhead-meteoriciron": "Meteoric Iron Atgeir Head",
+  "item-atgeirhead-steel": "Steel Atgeir Head",
+
+  "itemcraftdesc-atgeirhead-*": "An Atgeir head",
+  ////////////////////////////////////////////////// Longsword //////////////////////////////////////////////////
+  "item-longsword-iron-blunt": "Blunt Iron Longsword",
+  "item-longsword-iron-dull": "Dull Iron Longsword",
+  "item-longsword-iron-sharp": "Sharp Iron Longsword",
+  "item-longsword-iron-honed": "Honed Iron Longsword",
+
+  "item-longsword-meteoriciron-blunt": "Blunt Meteoric Iron Longsword",
+  "item-longsword-meteoriciron-dull": "Dull Meteoric Iron Longsword",
+  "item-longsword-meteoriciron-sharp": "Sharp Meteoric Iron Longsword",
+  "item-longsword-meteoriciron-honed": "Honed Meteoric Iron Longsword",
+
+  "item-longsword-steel-blunt": "Blunt Steel Longsword",
+  "item-longsword-steel-dull": "Dull Steel Longsword",
+  "item-longsword-steel-sharp": "Sharp Steel Longsword",
+  "item-longsword-steel-honed": "Honed Steel Longsword",
+
+  "itemdesc-longsword-*": "A Longsword also known as a hand-and-a-half sword, they're able to be used with one or two hands. ",
+
+  "item-longswordblade-iron-blunt": "Blunt Iron Longsword Blade",
+  "item-longswordblade-iron-dull": "Dull Iron Longsword Blade",
+  "item-longswordblade-iron-sharp": "Sharp Iron Longsword Blade",
+  "item-longswordblade-iron-honed": "Honed Iron Longsword Blade",
+
+  "item-longswordblade-meteoriciron-blunt": "Blunt Meteoric Iron Longsword Blade",
+  "item-longswordblade-meteoriciron-dull": "Dull Meteoric Iron Longsword Blade",
+  "item-longswordblade-meteoriciron-sharp": "Sharp Meteoric Iron Longsword Blade",
+  "item-longswordblade-meteoriciron-honed": "Honed Meteoric Iron Longsword Blade",
+
+  "item-longswordblade-steel-blunt": "Blunt Steel Longsword Blade",
+  "item-longswordblade-steel-dull": "Dull Steel Longsword Blade",
+  "item-longswordblade-steel-sharp": "Sharp Steel Longsword Blade",
+  "item-longswordblade-steel-honed": "Honed Steel Longsword Blade",
+
+  "itemdesc-longswordblade-*": "A blade in need of an appropriate handle",
+  "itemcraftdesc-longswordblade-*": "A longsword  blade",
+  ////////////////////////////////////////////////// Warhammer //////////////////////////////////////////////////
+  "item-warhammer-tinbronze": "Tin Bronze Warhammer",
+  "item-warhammer-bismuthbronze": "Bismuth Bronze Warhammer",
+  "item-warhammer-blackbronze": "Black Bronze Warhammer",
+  "item-warhammer-iron": "Iron Warhammer",
+  "item-warhammer-meteoriciron": "Meteoric Iron Warhammer",
+  "item-warhammer-steel": "Steel Warhammer",
+  "item-warhammerhead-tinbronze": "Tin Bronze Warhammer Head",
+  "item-warhammerhead-bismuthbronze": "Bismuth Bronze Warhammer Head",
+  "item-warhammerhead-blackbronze": "Black Bronze Warhammer Head",
+  "item-warhammerhead-iron": "Iron Warhammer Head",
+  "item-warhammerhead-meteoriciron": "Meteoric Iron Warhammer Head",
+  "item-warhammerhead-steel": "Steel Warhammer Head",
+
+  "itemdesc-warhammer-*": "A warhammer, a weapon good against flesh and armour.",
+  "itemdesc-warhammerhead-*": "A head for a gruesome warhammer.",
+  "itemcraftdesc-warhammerhead-*": "A head for a gruesome warhammer.",
+  ////////////////////////////////////////////////// Khopesh //////////////////////////////////////////////////
+  "item-khopesh-copper-blunt": "Blunt Copper Khopesh",
+  "item-khopesh-copper-dull": "Dull Copper Khopesh",
+  "item-khopesh-copper-sharp": "Sharpened Copper Khopesh",
+  "item-khopesh-copper-honed": "Honed Copper Khopesh",
+  "item-khopeshblade-copper-blunt": "Blunt Copper Khopesh Blade",
+  "item-khopeshblade-copper-dull": "Dull Copper Khopesh Blade",
+  "item-khopeshblade-copper-sharp": "Sharpened Copper Khopesh Blade",
+  "item-khopeshblade-copper-honed": "Honed Copper Khopesh Blade",
+
+  "item-khopesh-tinbronze-blunt": "Blunt Tin Bronze Khopesh",
+  "item-khopesh-tinbronze-dull": "Dull Tin Bronze Khopesh",
+  "item-khopesh-tinbronze-sharp": "Sharpened Tin Bronze Khopesh",
+  "item-khopesh-tinbronze-honed": "Honed Tin Bronze Khopesh",
+  "item-khopeshblade-tinbronze-blunt": "Blunt Tin Bronze Khopesh Blade",
+  "item-khopeshblade-tinbronze-dull": "Dull Tin Bronze Khopesh Blade",
+  "item-khopeshblade-tinbronze-sharp": "Sharpened Tin Bronze Khopesh Blade",
+  "item-khopeshblade-tinbronze-honed": "Honed Tin Bronze Khopesh Blade",
+
+  "item-khopesh-bismuthbronze-blunt": "Blunt Bismuth Bronze Khopesh",
+  "item-khopesh-bismuthbronze-dull": "Dull Bismuth Bronze Khopesh",
+  "item-khopesh-bismuthbronze-sharp": "Sharpened Bismuth Bronze Khopesh",
+  "item-khopesh-bismuthbronze-honed": "Honed Bismuth Bronze Khopesh",
+  "item-khopeshblade-bismuthbronze-blunt": "Blunt Bismuth Bronze Khopesh Blade",
+  "item-khopeshblade-bismuthbronze-dull": "Dull Copper Bismuth Bronze Blade",
+  "item-khopeshblade-bismuthbronze-sharp": "Sharpened Bismuth Bronze Khopesh Blade",
+  "item-khopeshblade-bismuthbronze-honed": "Honed Copper Bismuth Bronze Blade",
+
+  "item-khopesh-blackbronze-blunt": "Blunt Black Bronze Khopesh",
+  "item-khopesh-blackbronze-dull": "Dull Black Bronze Khopesh",
+  "item-khopesh-blackbronze-sharp": "Sharpened Black Bronze Khopesh",
+  "item-khopesh-blackbronze-honed": "Honed Black Bronze Khopesh",
+  "item-khopeshblade-blackbronze-blunt": "Blunt Black Bronze Khopesh Blade",
+  "item-khopeshblade-blackbronze-dull": "Dull Black Bronze Khopesh Blade",
+  "item-khopeshblade-blackbronze-sharp": "Sharpened Black Bronze Khopesh Blade",
+  "item-khopeshblade-blackbronze-honed": "Honed Black Bronze Khopesh Blade",
+  ////////////////////////////////////////////////// Molds //////////////////////////////////////////////////
+  "block-toolmold-raw-arrowhead": "Raw Arrowhead Mold",
+  "block-toolmold-burned-arrowhead": "Arrowhead Mold",
+  "block-toolmold-raw-largearrowhead": "Raw Large Arrowhead Mold",
+  "block-toolmold-burned-largearrowhead": "Large Arrowhead Mold",
+  "block-toolmold-raw-khopeshblade": "Raw Khopesh Blade Mold",
+  "block-toolmold-burned-khopeshblade": "Khopesh Blade Mold",
+  ////////////////////////////////////////////////// Pollaxe //////////////////////////////////////////////////
+  "item-pollaxehead-iron": "Iron Pollaxe Head",
+  "item-pollaxe-iron": "Iron Pollaxe",
+  "item-pollaxehead-meteoriciron": "Meteoric Iron Pollaxe head",
+  "item-pollaxe-meteoriciron": "Meteoric Iron Pollaxe",
+  "item-pollaxehead-steel": "Steel Pollaxe head",
+  "item-pollaxe-steel": "Steel Pollaxe",
+
+  "itemdesc-pollaxe-*": "A rather ubiquitous polearm design.",
+  "itemdesc-pollaxehead-*": "The head of a polearm",
+  "itemcraftdesc-pollaxehead-*": "The head of a polearm",
+  ////////////////////////////////////////////////// Halberd //////////////////////////////////////////////////
+  "item-halberdhead-iron": "Iron Halberd head",
+  "item-halberd-iron": "Iron Halberd",
+  "item-halberdhead-meteoriciron": "Meteoric Iron Halberd head",
+  "item-halberd-meteoriciron": "Meteoric Iron Halberd",
+  "item-halberdhead-steel": "Steel Halberd head",
+  "item-halberd-steel": "Steel Halberd",
+
+  "itemdesc-halberd-*": "A rather versatile polearm.",
+  "itemdesc-halberdhead-*": "The head of a polearm",
+  "itemcraftdesc-halberdhead-*": "The head of a polearm",
+  ////////////////////////////////////////////////// Naginata //////////////////////////////////////////////////
+  "item-naginatahead-iron": "Iron Naginata head",
+  "item-naginata-iron": "Iron Naginata",
+  "item-naginatahead-meteoriciron": "Meteoric Iron Naginata head",
+  "item-naginata-meteoriciron": "Meteoric Iron Naginata",
+  "item-naginatahead-steel": "Steel Naginata head",
+  "item-naginata-steel": "Steel Naginata",
+
+  "itemdesc-naginata-*": "A Naginata, a weapon design that hails from a distant land.",
+  "itemdesc-naginatahead-*": "The head of a polearm",
+  "itemcraftdesc-naginatahead-*": "The head of a polearm",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-manganesepowder": "Manganese Powder",
+  "itemdesc-manganesepowder": "A powder made from pulverized rhodochrosite ore",
+
+  "item-ingot-preparedstainless": "Prepared Stainless Steel Ingot",
+  "itemdesc-ingot-preparedstainless": "A steel ingot that's been prepared to be turned into stainless steel by being powdered with chromite and manganese.",
+  "item-ingot-preparedtitanium": "Prepared Titanium Ingot",
+  "itemdesc-ingot-preparedtitanium": "This prepared titanium ingot is ready to be put into a cementary to be turned into something usable.",
+  "item-ingot-preparedmithril": "Prepared Mithril Ingot",
+  "itemdesc-ingot-preparedmithril": "This prepared mithril ingot is ready to be put into a cementary to be turned into something usable.",
+  "item-ingot-preparedadamant": "Prepared Adamant Ingot",
+  "itemdesc-ingot-preparedadamant": "This prepared adamant ingot is ready to be put into a cementary to be turned into something usable.",
+  "item-ingot-preparedorichalcum": "Prepared Orichalcum Ingot",
+  "itemdesc-ingot-preparedorichalcum": "This prepared orichalcos ingot is ready to be put into a cementary to be turned into something usable.",
+  "item-ingot-preparedaithril": "Prepared Aithril Ingot",
+  "itemdesc-ingot-preparedaithril": "This prepared aithril ingot is ready to be put into a cementary to be turned into something usable.",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-pickaxe-stainlesssteel": "Stainless Steel Pickaxe",
+  "item-pickaxe-titanium": "Titanium Pickaxe",
+  "item-pickaxe-mithril": "Mithril Pickaxe",
+  "item-pickaxe-adamant": "Adamant Pickaxe",
+  "item-pickaxe-orichalcum": "Orichalcum Pickaxe",
+  "item-pickaxe-aithril": "Aithril Pickaxe",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-knife-generic-stainlesssteel": "Stainless Steel Knife",
+  "game:item-knife-generic-titanium": "Titanium Knife",
+  "game:item-knife-generic-mithril": "Mithril Knife",
+  "game:item-knife-generic-adamant": "Adamant Knife",
+  "game:item-knife-generic-orichalcum": "Orichalcum Knife",
+  "game:item-knife-generic-aithril": "Aithril Knife",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-cleaver-stainlesssteel": "Stainless Steel Cleaver",
+  "game:item-cleaver-titanium": "Titanium Cleaver",
+  "game:item-cleaver-mithril": "Mithril Cleaver",
+  "game:item-cleaver-adamant": "Adamant Cleaver",
+  "game:item-cleaver-orichalcum": "Orichalcum Cleaver",
+  "game:item-cleaver-aithril": "Aithril Cleaver",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-prospectingpick-stainlesssteel": "Stainless Steel Prospecting Pick",
+  "item-prospectingpick-titanium": "Titanium Prospecting Pick",
+  "item-prospectingpick-mithril": "Mithril Prospecting Pick",
+  "item-prospectingpick-adamant": "Adamant Prospecting Pick",
+  "item-prospectingpick-orichalcum": "Orichalcum Prospecting Pick",
+  "item-prospectingpick-aithril": "Aithril Prospecting Pick",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-axe-felling-stainlesssteel": "Stainless Steel Axe",
+  "item-axe-felling-titanium": "Titanium Axe",
+  "item-axe-felling-mithril": "Mithril Axe",
+  "item-axe-felling-adamant": "Adamant Axe",
+  "item-axe-felling-orichalcum": "Orichalcum Axe",
+  "item-axe-felling-aithril": "Aithril Axe",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-chisel-stainlesssteel": "Stainless Steel Chisel",
+  "item-chisel-titanium": "Titanium Chisel",
+  "item-chisel-mithril": "Mithril Chisel",
+  "item-chisel-adamant": "Adamant Chisel",
+  "item-chisel-orichalcum": "Orichalcum Chisel",
+  "item-chisel-aithril": "Aithril Chisel",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-hoe-stainlesssteel": "Stainless Steel Hoe",
+  "item-hoe-titanium": "Titanium Hoe",
+  "item-hoe-mithril": "Mithril Hoe",
+  "item-hoe-adamant": "Adamant Hoe",
+  "item-hoe-orichalcum": "Orichalcum Hoe",
+  "item-hoe-aithril": "Aithril Hoe",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-padlock-stainlesssteel": "Stainless Steel Padlock",
+  "item-padlock-titanium": "Titanium Padlock",
+  "item-padlock-mithril": "Mithril Padlock",
+  "item-padlock-adamant": "Adamant Padlock",
+  "item-padlock-orichalcum": "Orichalcum Padlock",
+  "item-padlock-aithril": "Aithril Padlock",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-scythe-stainlesssteel": "Stainless Steel Scythe",
+  "item-scythe-titanium": "Titanium Scythe",
+  "item-scythe-mithril": "Mithril Scythe",
+  "item-scythe-adamant": "Adamant Scythe",
+  "item-scythe-orichalcum": "Orichalcum Scythe",
+  "item-scythe-aithril": "Aithril Scythe",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-shears-stainlesssteel": "Stainless Steel Shears",
+  "item-shears-titanium": "Titanium Shears",
+  "item-shears-mithril": "Mithril Shears",
+  "item-shears-adamant": "Adamant Shears",
+  "item-shears-orichalcum": "Orichalcum Shears",
+  "item-shears-aithril": "Aithril Shears",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-shovel-stainlesssteel": "Stainless Steel Shovel",
+  "item-shovel-titanium": "Titanium Shovel",
+  "item-shovel-mithril": "Mithril Shovel",
+  "item-shovel-adamant": "Adamant Shovel",
+  "item-shovel-orichalcum": "Orichalcum Shovel",
+  "item-shovel-aithril": "Aithril Shovel",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-wrench-stainlesssteel": "Stainless Steel Wrench",
+  "item-wrench-titanium": "Titanium Wrench",
+  "item-wrench-mithril": "Mithril Wrench",
+  "item-wrench-adamant": "Adamant Wrench",
+  "item-wrench-orichalcum": "Orichalcum Wrench",
+  "item-wrench-aithril": "Aithril Wrench",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-tunneler-iron-*": "Iron Tunneler",
+  "item-tunneler-steel-*": "Steel Tunneler",
+  "item-tunneler-stainlesssteel-*": "Stainless Steel Tunneler",
+  "item-tunneler-titanium-*": "Titanium Tunneler",
+  "item-tunneler-mithril-*": "Mithril Tunneler",
+  "item-tunneler-adamant-*": "Adamant Tunneler",
+  "item-tunneler-orichalcum-*": "Orichalcum Tunneler",
+  "item-tunneler-aithril-*": "Aithril Tunneler",
+  "itemdesc-tunneler-*": "This handy-dandy tool can mine a 1x2",
+
+  "item-tunnelerhead-iron": "Iron Tunneler Head",
+  "item-tunnelerhead-steel": "Steel Tunneler Head",
+  "item-tunnelerhead-stainlesssteel": "Stainless Steel Tunneler Head",
+  "item-tunnelerhead-titanium": "Titanium Tunneler Head",
+  "item-tunnelerhead-mithril": "Mithril Tunneler Head",
+  "item-tunnelerhead-adamant": "Adamant Tunneler Head",
+  "item-tunnelerhead-orichalcum": "Orichalcum Tunneler Head",
+  "item-tunnelerhead-aithril": "Aithril Tunneler Head",
+  "itemdesc-tunnelerhead-*": "This tunneler head needs a metal haft to be finished",
+  "itemcraftdesc-tunnelerhead-*": "A Tunneler Head , for a tool that mines a 1x2",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-sledgehammer-iron": "Iron Sledgehammer",
+  "item-sledgehammer-steel": "Steel Sledgehammer",
+  "item-sledgehammer-stainlesssteel": "Stainless Steel Sledgehammer",
+  "item-sledgehammer-titanium": "Titanium Sledgehammer",
+  "item-sledgehammer-mithril": "Mithril Sledgehammer",
+  "item-sledgehammer-adamant": "Adamant Sledgehammer",
+  "item-sledgehammer-orichalcum": "Orichalcum Sledgehammer",
+  "item-sledgehammer-aithril": "Aithril Sledgehammer",
+  "itemdesc-sledgehammer-*": "This handy-dandy tool can mine a 3x3, be warned however as it only mines stone, and gives less than a pickaxe.",
+
+  "item-sledgehammerhead-iron": "Iron Sledgehammer Head",
+  "item-sledgehammerhead-steel": "Steel Sledgehammer Head",
+  "item-sledgehammerhead-stainlesssteel": "Stainless Steel Sledgehammer Head",
+  "item-sledgehammerhead-titanium": "Titanium Sledgehammer Head",
+  "item-sledgehammerhead-mithril": "Mithril Sledgehammer Head",
+  "item-sledgehammerhead-adamant": "Adamant Sledgehammer Head",
+  "item-sledgehammerhead-orichalcum": "Orichalcum Sledgehammer Head",
+  "item-sledgehammerhead-aithril": "Aithril Sledgehammer Head",
+  "itemdesc-sledgehammerhead-*": "This Sledgehammer head needs a metal haft to be finished",
+  "itemcraftdesc-sledgehammerhead-*": "A Sledgehammer Head , for a tool that mines a 3x3",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-excavator-iron": "Iron Excavator",
+  "item-excavator-steel": "Steel Excavator",
+  "item-excavator-stainlesssteel": "Stainless Steel Excavator",
+  "item-excavator-titanium": "Titanium Excavator",
+  "item-excavator-mithril": "Mithril Excavator",
+  "item-excavator-adamant": "Adamant Excavator",
+  "item-excavator-orichalcum": "Orichalcum Excavator",
+  "item-excavator-aithril": "Aithril Excavator",
+  "itemdesc-excavator": "This handy-dandy tool can dig a 2x3 in soft materials like dirt, be warned however as there's a small amount of waste compared to a shovel.",
+
+  "item-excavatorhead-iron": "Iron Excavator Head",
+  "item-excavatorhead-steel": "Steel Excavator Head",
+  "item-excavatorhead-stainlesssteel": "Stainless Steel Excavator Head",
+  "item-excavatorhead-titanium": "Titanium Excavator Head",
+  "item-excavatorhead-mithril": "Mithril Excavator Head",
+  "item-excavatorhead-adamant": "Adamant Excavator Head",
+  "item-excavatorhead-orichalcum": "Orichalcum Excavator Head",
+  "item-excavatorhead-aithril": "Aithril Excavator Head",
+  "itemdesc-excavatorhead-*": "This Excavator head needs a metal haft to be finished",
+  "itemcraftdesc-excavatorhead-*": "A Excavator Head , for a tool that digs a 2x3",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-armor-head-chain-stainlesssteel": "Stainless Steel Chain Helmet",
+  "item-armor-body-chain-stainlesssteel": "Stainless Steel Chain Body",
+  "item-armor-legs-chain-stainlesssteel": "Stainless Steel Chain Legs",
+
+  "item-armor-head-brigandine-stainlesssteel": "Stainless Steel Brigandine Helmet",
+  "item-armor-body-brigandine-stainlesssteel": "Stainless Steel Brigandine Body",
+  "item-armor-legs-brigandine-stainlesssteel": "Stainless Steel Brigandine Legs",
+
+  "item-armor-head-scale-stainlesssteel": "Stainless Steel Scale Helmet",
+  "item-armor-body-scale-stainlesssteel": "Stainless Steel Scale Body",
+  "item-armor-legs-scale-stainlesssteel": "Stainless Steel Scale Legs",
+
+  "item-armor-head-plate-stainlesssteel": "Stainless Steel Plate Helmet",
+  "item-armor-body-plate-stainlesssteel": "Stainless Steel Plate Body",
+  "item-armor-legs-plate-stainlesssteel": "Stainless Steel Plate Legs",
+
+
+
+  "item-armor-head-chain-titanium": "Titanium Chain Helmet",
+  "item-armor-body-chain-titanium": "Titanium Chain Body",
+  "item-armor-legs-chain-titanium": "Titanium Chain Legs",
+
+  "item-armor-head-brigandine-titanium": "Titanium Brigandine Helmet",
+  "item-armor-body-brigandine-titanium": "Titanium Brigandine Body",
+  "item-armor-legs-brigandine-titanium": "Titanium Brigandine Legs",
+
+  "item-armor-head-scale-titanium": "Titanium Scale Helmet",
+  "item-armor-body-scale-titanium": "Titanium Scale Body",
+  "item-armor-legs-scale-titanium": "Titanium Scale Legs",
+
+  "item-armor-head-plate-titanium": "Titanium Plate Helmet",
+  "item-armor-body-plate-titanium": "Titanium Plate Body",
+  "item-armor-legs-plate-titanium": "Titanium Plate Legs",
+
+
+
+  "item-armor-head-chain-mithril": "Mithril Chain Helmet",
+  "item-armor-body-chain-mithril": "Mithril Chain Body",
+  "item-armor-legs-chain-mithril": "Mithril Chain Legs",
+
+  "item-armor-head-brigandine-mithril": "Mithril Brigandine Helmet",
+  "item-armor-body-brigandine-mithril": "Mithril Brigandine Body",
+  "item-armor-legs-brigandine-mithril": "Mithril Brigandine Legs",
+
+  "item-armor-head-scale-mithril": "Mithril Scale Helmet",
+  "item-armor-body-scale-mithril": "Mithril Scale Body",
+  "item-armor-legs-scale-mithril": "Mithril Scale Legs",
+
+  "item-armor-head-plate-mithril": "Mithril Plate Helmet",
+  "item-armor-body-plate-mithril": "Mithril Plate Body",
+  "item-armor-legs-plate-mithril": "Mithril Plate Legs",
+  "itemdesc-armor-*-*-mithril": "The fabled metal makes this armor feel almost like you're wearing nothing at all",
+  //This mystical armour provides superb protection from punctures and slashes, but performs poorly against blunt force impact.
+
+
+  "item-armor-head-chain-adamant": "Adamant Chain Helmet",
+  "item-armor-body-chain-adamant": "Adamant Chain Body",
+  "item-armor-legs-chain-adamant": "Adamant Chain Legs",
+
+  "item-armor-head-brigandine-adamant": "Adamant Brigandine Helmet",
+  "item-armor-body-brigandine-adamant": "Adamant Brigandine Body",
+  "item-armor-legs-brigandine-adamant": "Adamant Brigandine Legs",
+
+  "item-armor-head-scale-adamant": "Adamant Scale Helmet",
+  "item-armor-body-scale-adamant": "Adamant Scale Body",
+  "item-armor-legs-scale-adamant": "Adamant Scale Legs",
+
+  "item-armor-head-plate-adamant": "Adamant Plate Helmet",
+  "item-armor-body-plate-adamant": "Adamant Plate Body",
+  "item-armor-legs-plate-adamant": "Adamant Plate Legs",
+
+
+
+  "item-armor-head-chain-orichalcum": "Orichalcum Chain Helmet",
+  "item-armor-body-chain-orichalcum": "Orichalcum Chain Body",
+  "item-armor-legs-chain-orichalcum": "Orichalcum Chain Legs",
+
+  "item-armor-head-brigandine-orichalcum": "Orichalcum Brigandine Helmet",
+  "item-armor-body-brigandine-orichalcum": "Orichalcum Brigandine Body",
+  "item-armor-legs-brigandine-orichalcum": "Orichalcum Brigandine Legs",
+
+  "item-armor-head-scale-orichalcum": "Orichalcum Scale Helmet",
+  "item-armor-body-scale-orichalcum": "Orichalcum Scale Body",
+  "item-armor-legs-scale-orichalcum": "Orichalcum Scale Legs",
+
+  "item-armor-head-plate-orichalcum": "Orichalcum Plate Helmet",
+  "item-armor-body-plate-orichalcum": "Orichalcum Plate Body",
+  "item-armor-legs-plate-orichalcum": "Orichalcum Plate Legs",
+  "itemdesc-armor-*-*-orichalcum": "The fabled metal this is fashioned from awfully cumbersome.",
+
+
+
+  "item-armor-head-chain-aithril": "Aithril Chain Helmet",
+  "item-armor-body-chain-aithril": "Aithril Chain Body",
+  "item-armor-legs-chain-aithril": "Aithril Chain Legs",
+
+  "item-armor-head-brigandine-aithril": "Aithril Brigandine Helmet",
+  "item-armor-body-brigandine-aithril": "Aithril Brigandine Body",
+  "item-armor-legs-brigandine-aithril": "Aithril Brigandine Legs",
+
+  "item-armor-head-scale-aithril": "Aithril Scale Helmet",
+  "item-armor-body-scale-aithril": "Aithril Scale Body",
+  "item-armor-legs-scale-aithril": "Aithril Scale Legs",
+
+  "item-armor-head-plate-aithril": "Aithril Plate Helmet",
+  "item-armor-body-plate-aithril": "Aithril Plate Body",
+  "item-armor-legs-plate-aithril": "Aithril Plate Legs",
+  "itemdesc-armor-*-*-aithril": "Aithril, it is believed that this is mithril in a purified form, possible only from finding a gift from the heavens.",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-pila-iron": "Iron Pilum",
+  "item-pila-meteoriciron": "Meteoric Iron Pilum",
+  "item-pila-steel": "Steel Pilum",
+  "itemdesc-pila-*": "An old but still very effective weapon, great at puncturing shields.",
+
+  "item-pilahead-iron": "Iron Pilum Head",
+  "item-pilahead-meteoriciron": "Meteoric Iron Pilum Head",
+  "item-pilahead-steel": "Steel Pilum Head",
+  "itemdesc-pilahead-*": "Pilum heads for a disposable javelin",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "block-bigbomb": "Big Bomb",
+  "blockdesc-bigbomb": "A bomb with a bigger blast radius and effective against stone.",
+  "block-largebomb": "Large Bomb",
+  "blockdesc-largebomb": "A bomb with a larger blast radius, pretty dangerous, you should run.",
+  "block-giantbomb": "Giant Bomb",
+  "block-bigbertha": "Big Bertha",
+  "blockdesc-bigbertha": "You shouldn't have this.",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "item-trainingdummy": "Training Dummy",
+  "itemdesc-trainingdummy": "This training dummy is perfect for target practice, venting your frustration on or just as a decoration!",
+  "item-creature-trainingdummy": "Training Dummy",
+  "game:item-bandage-sterilized": "Sterilized Bandage",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:block-anvilpart-base-steel": "Anvil Base Part (Steel)",
+  "game:block-anvilpart-top-steel": "Anvil Top Part (Steel)",
+
+  "game:block-anvilpart-base-stainlesssteel": "Anvil Base Part (Stainless Steel)",
+  "game:block-anvilpart-top-stainlesssteel": "Anvil Top Part (Stainless Steel)",
+  "game:block-anvil-stainlesssteel": "Stainless Steel Anvil",
+
+  "game:block-anvilpart-base-titanium": "Anvil Base Part (Titanium)",
+  "game:block-anvilpart-top-titanium": "Anvil Top Part (Titanium)",
+  "game:block-anvil-titanium": "Titanium Anvil",
+
+  "game:block-anvilpart-base-mithril": "Anvil Base Part (Mithril)",
+  "game:block-anvilpart-top-mithril": "Anvil Top Part (Mithril)",
+  "game:block-anvil-mithril": "Mithril Anvil",
+
+  "game:block-anvilpart-base-adamant": "Anvil Base Part (Adamant)",
+  "game:block-anvilpart-top-adamant": "Anvil Top Part (Adamant)",
+  "game:block-anvil-adamant": "Adamant Anvil",
+
+  "game:block-anvilpart-base-orichalcum": "Anvil Base Part (Orichalcum)",
+  "game:block-anvilpart-top-orichalcum": "Anvil Top Part (Orichalcum)",
+  "game:block-anvil-orichalcum": "Orichalcos Anvil",
+
+  "game:block-anvilpart-base-aithril": "Anvil Base Part (Aithril)",
+  "game:block-anvilpart-top-aithril": "Anvil Top Part (Aithril)",
+  "game:block-anvil-aithril": "Aithril Anvil",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-axehead-stainlesssteel": "Stainless Steel Axe Head",
+  "game:item-hammerhead-stainlesssteel": "Stainless Steel Hammer Head",
+  "game:item-hoehead-stainlesssteel": "Stainless Steel Hoe Head",
+  "game:item-knifeblade-stainlesssteel": "Stainless Steel Knife Blade",
+  "game:item-pickaxehead-stainlesssteel": "Stainless Steel Pickaxe Head",
+  "game:item-prospectingpickhead-stainlesssteel": "Stainless Steel Prospecting Pick Head",
+  "game:item-sawblade-stainlesssteel": "Stainless Steel Saw Blade",
+  "game:item-scythehead-stainlesssteel": "Stainless Steel Scythe Blade",
+  "game:item-shovelhead-stainlesssteel": "Stainless Steel Shovel Head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-axehead-titanium": "Titanium Axe Head",
+  "game:item-hammerhead-titanium": "Titanium Hammer Head",
+  "game:item-hoehead-titanium": "Titanium Hoe Head",
+  "game:item-knifeblade-titanium": "Titanium Knife Blade",
+  "game:item-pickaxehead-titanium": "Titanium Pickaxe Head",
+  "game:item-prospectingpickhead-titanium": "Titanium Prospecting Pick Head",
+  "game:item-sawblade-titanium": "Titanium Saw Blade",
+  "game:item-scythehead-titanium": "Titanium Scythe Blade",
+  "game:item-shovelhead-titanium": "Titanium Shovel Head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "swordz:item-mithrilbloom": "Mithril Bloom",
+  "swordz:itemdesc-mithrilbloom": "This bloom requires further processing to be turned into something usable.",
+  //	//	//	//	//	//	//	//
+  "game:ore-mithril": "Mithril",
+  "game:block-ore-*-mithril-*": "Mithril ore",
+  "game:item-nugget-mithril": "Nugget (Mithril)",
+  "game:block-looseores-mithril-*": "Mithril ore bits",
+  "game:item-metalbit-mithril": "Mithril Bits",
+
+  "game:item-ingot-mithril": "Mithril Ingot",
+  "game:itemdesc-ingot-mithril": "Mithril, also known as Lazh-zirak in Dwarvish is an incredibly lightweight and strong material, the stuff of legends.",
+  "game:item-workitem-mithril": "Work item (Mithril)",
+  "game:item-metalplate-mithril": "Mithril Plate",
+  "game:item-metalchain-mithril": "Mithril Chain",
+  "game:item-metallamellae-mithril": "Mithril lamellae",
+  "game:item-metalscale-mithril": "Mithril scales",
+
+  "game:item-axehead-mithril": "Mithril Axe Head",
+  "game:item-hammerhead-mithril": "Mithril Hammer Head",
+  "game:item-hoehead-mithril": "Mithril Hoe Head",
+  "game:item-knifeblade-mithril": "Mithril Knife Blade",
+  "game:item-pickaxehead-mithril": "Mithril Pickaxe Head",
+  "game:item-prospectingpickhead-mithril": "Mithril Prospecting Pick Head",
+  "game:item-sawblade-mithril": "Mithril Saw Blade",
+  "game:item-scythehead-mithril": "Mithril Scythe Blade",
+  "game:item-shovelhead-mithril": "Mithril Shovel Head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-ingot-unfoldedmithril": "Unfolded Mithril Ingot",
+  "game:itemdesc-ingot-unfoldedmithril": "Due to the poor quality of the refined metal from blooming the mithril, it requires further work by folding it on an anvil.",
+  "game:item-workitem-unfoldedmithril": "Work item (Unfolded Mithril)",
+  "game:item-metalplate-unfoldedmithril": "Unfolded Mithril Plate",
+  "game:item-metalbit-unfoldedmithril": "Mithril Bits",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:ore-adamant": "Adamant",
+  "game:block-ore-*-adamant-*": "Adamant ore",
+  "game:item-nugget-adamant": "Nugget (Adamant)",
+  "game:block-looseores-adamant-*": "Adamant ore bits",
+
+  "game:item-ingot-adamant": "Adamant Ingot",
+  "game:itemdesc-ingot-adamant": "An extremely strong and rare metal that is slightly lighter than steel but much stronger.",
+  "game:item-workitem-adamant": "Work item (Adamant)",
+  "game:item-metalplate-adamant": "Adamant Plate",
+  "game:item-metalbit-adamant": "Adamant Bits",
+  "game:item-metalchain-adamant": "Adamant Chain",
+  "game:item-metallamellae-adamant": "Adamant lamellae",
+  "game:item-metalscale-adamant": "Adamant scales",
+
+  "game:item-axehead-adamant": "Adamant Axe Head",
+  "game:item-hammerhead-adamant": "Adamant Hammer Head",
+  "game:item-hoehead-adamant": "Adamant Hoe Head",
+  "game:item-knifeblade-adamant": "Adamant Knife Blade",
+  "game:item-pickaxehead-adamant": "Adamant Pickaxe Head",
+  "game:item-prospectingpickhead-adamant": "Adamant Prospecting Pick Head",
+  "game:item-sawblade-adamant": "Adamant Saw Blade",
+  "game:item-scythehead-adamant": "Adamant Scythe Blade",
+  "game:item-shovelhead-adamant": "Adamant Shovel Head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:ore-orichalcum": "Orichalcos",
+  "game:block-ore-*-orichalcum-*": "Orichalcos ore",
+  "game:item-nugget-orichalcum": "Nugget (Orichalcos)",
+  "game:block-looseores-orichalcum-*": "Orichalcos ore bits",
+
+  "game:item-ingot-orichalcum": "Orichalcum Ingot",
+  "game:itemdesc-ingot-orichalcum": "This insanely heavy metal is equally as strong, but it's weight might limit it's usefulness",
+  "game:item-workitem-orichalcum": "Work item (Orichalcum)",
+  "game:item-metalplate-orichalcum": "Orichalcum Plate",
+  "game:item-metalbit-orichalcum": "Orichalcos Bits",
+  "game:item-metalchain-orichalcum": "Orichalcum Chain",
+  "game:item-metallamellae-orichalcum": "Orichalcum lamellae",
+  "game:item-metalscale-orichalcum": "Orichalcum scales",
+
+  "game:item-axehead-orichalcum": "Orichalcum Axe Head",
+  "game:item-hammerhead-orichalcum": "Orichalcum Hammer Head",
+  "game:item-hoehead-orichalcum": "Orichalcum Hoe Head",
+  "game:item-knifeblade-orichalcum": "Orichalcum Knife Blade",
+  "game:item-pickaxehead-orichalcum": "Orichalcum Pickaxe Head",
+  "game:item-prospectingpickhead-orichalcum": "Orichalcum Prospecting Pick Head",
+  "game:item-sawblade-orichalcum": "Orichalcum Saw Blade",
+  "game:item-scythehead-orichalcum": "Orichalcum Scythe Blade",
+  "game:item-shovelhead-orichalcum": "Orichalcum Shovel Head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-saw-stainlesssteel": "Stainless Steel Saw",
+  "game:item-saw-titanium": "Titanium Saw",
+  "game:item-saw-mithril": "Mithril Saw",
+  "game:item-saw-adamant": "Adamant Saw",
+  "game:item-saw-orichalcum": "Orichalcum Saw",
+  "game:item-saw-aithril": "Aithril Saw",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:ore-aithril": "Aithril",
+  "game:block-ore-*-aithril-*": "Aithril ore",
+  "game:item-nugget-aithril": "Nugget (Aithril)",
+  "game:itemdesc-nugget-aithril": "Small pieces of a peculiar metal",
+  "game:block-looseores-aithril-*": "Aithril ore bits",
+
+  "game:item-ingot-aithril": "Aithril Ingot",
+  "game:itemdesc-ingot-aithril": "This metal is said to originate from the heavens.",
+  "game:item-workitem-aithril": "Work item (Aithril)",
+  "game:item-metalplate-aithril": "Aithril Plate",
+  "game:item-metalbit-aithril": "Aithril Bits",
+  "game:item-metalchain-aithril": "Aithril Chain",
+  "game:item-metallamellae-aithril": "Aithril lamellae",
+  "game:item-metalscale-aithril": "Aithril scales",
+
+  "game:item-axehead-aithril": "Aithril Axe Head",
+  "game:item-hammerhead-aithril": "Aithril Hammer Head",
+  "game:item-hoehead-aithril": "Aithril Hoe Head",
+  "game:item-knifeblade-aithril": "Aithril Knife Blade",
+  "game:item-pickaxehead-aithril": "Aithril Pickaxe Head",
+  "game:item-prospectingpickhead-aithril": "Aithril Prospecting Pick Head",
+  "game:item-sawblade-aithril": "Aithril Saw Blade",
+  "game:item-scythehead-aithril": "Aithril Scythe Blade",
+  "game:item-shovelhead-aithril": "Aithril Shovel Head",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:item-hammer-stainlesssteel": "Stainless Steel Hammer",
+  "game:item-hammer-titanium": "Titanium Hammer",
+  "game:item-hammer-mithril": "Mithril Hammer",
+  "game:item-hammer-adamant": "Adamant Hammer",
+  "game:item-hammer-orichalcum": "Orichalcum Hammer",
+  "game:item-hammer-aithril": "Aithril Hammer",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:block-metalblock-corroded-riveted-mithril": "Corroded Riveted Mithril Block",
+  "game:block-metalblock-new-riveted-mithril": "Riveted Mithril Block",
+  "game:block-metalblock-new-plain-mithril": "Mithril Block",
+  "game:block-metalblock-corroded-plain-mithril": "Corroded Mithril Block",
+
+  "game:block-metalblock-corroded-riveted-adamant": "Corroded Riveted Adamant Block",
+  "game:block-metalblock-new-riveted-adamant": "Riveted Adamant Block",
+  "game:block-metalblock-new-plain-adamant": "Adamant Block",
+  "game:block-metalblock-corroded-plain-adamant": "Corroded Adamant Block",
+
+  "game:block-metalblock-corroded-riveted-orichalcum": "Corroded Riveted Orichalcum Block",
+  "game:block-metalblock-new-riveted-orichalcum": "Riveted Orichalcum Block",
+  "game:block-metalblock-new-plain-orichalcum": "Orichalcum Block",
+  "game:block-metalblock-corroded-plain-orichalcum": "Corroded Orichalcum Block",
+
+  "game:block-metalblock-corroded-riveted-aithril": "Corroded Riveted Aithril Block",
+  "game:block-metalblock-new-riveted-aithril": "Riveted Aithril Block",
+  "game:block-metalblock-new-plain-aithril": "Aithril Block",
+  "game:block-metalblock-corroded-plain-aithril": "Corroded Aithril Block",
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "game:block-metalsheet-mithril-down": "Mithril Sheet",
+  "game:block-metalsheet-adamant-down": "Adamant Sheet",
+  "game:block-metalsheet-orichalcum-down": "Orichalcum Sheet",
+  "game:block-metalsheet-aithril-down": "Aithril Sheet",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
+  "block-meteorite-aithril": "Aithril",
+  "item-stone-meteorite-aithril": "Aithril Piece",
+
+  "swordz:block-loosestones-meteorite-aithril-free": "Loose Aithril Pieces",
+  "swordz:block-loosestones-meteorite-aithril-water": "Loose Aithril Pieces",
+  "swordz:block-loosestones-meteorite-aithril-ice": "Loose Aithril Pieces",
+  "swordz:block-loosestones-meteorite-aithril-snow": "Loose Aithril Pieces"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
