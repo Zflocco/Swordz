@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vintagestory.API.Common;
+using Vintagestory.API.Config;
 using Vintagestory.API.MathTools;
 
 namespace Vintagestory.GameContent
@@ -12,7 +13,7 @@ namespace Vintagestory.GameContent
     {
         BlockPos tmpPos = new BlockPos();
 
-        public override bool TryPlaceBlockForWorldGen(IBlockAccessor blAcc, BlockPos pos, BlockFacing onBlockFace, LCGRandom worldgenRand)
+        public override bool TryPlaceBlockForWorldGen(IBlockAccessor blAcc, BlockPos pos, BlockFacing onBlockFace, IRandom worldgenRand, BlockPatchAttributes attributes = null)
         {
             int cnt = 2 + worldgenRand.NextInt(25);
             float depth = GameMath.Sqrt(GameMath.Sqrt(cnt));
@@ -58,7 +59,7 @@ namespace Vintagestory.GameContent
 
             float impactRockRadius = craterRadius * 1.2f;
             int range = (int)Math.Ceiling(impactRockRadius);
-            int chunksize = api.World.BlockAccessor.ChunkSize;
+            const int chunksize = GlobalConstants.ChunkSize;
             Vec2i vecTmp = new Vec2i();
 
             // 1. Generate a basin of suevite and lower terrain
@@ -104,7 +105,7 @@ namespace Vintagestory.GameContent
 
                     tmpPos.Y = surfaceY;
                     Block surfaceblock = blAcc.GetBlock(tmpPos);
-                    Block abovesurfaceblock = blAcc.GetBlock(tmpPos.X, tmpPos.Y + 1, tmpPos.Z);
+                    Block abovesurfaceblock = blAcc.GetBlock(tmpPos);
 
                     for (int i = -1; i <= (int)q; i++)
                     {
