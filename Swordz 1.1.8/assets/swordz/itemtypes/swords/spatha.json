@@ -1,7 +1,6 @@
 {
 	code: "spatha",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "sword",
 	attributes: {
 		handbook: { groupBy: ["spatha"] },

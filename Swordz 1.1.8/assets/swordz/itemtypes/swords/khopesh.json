@@ -1,7 +1,6 @@
 {	enabled:false,
 	code: "khopesh",
-	damagedby: ["attacking"],
-	class: "ItemSword",
+	damagedby: [ "attacking" ],
 	tool: "sword",
 	attributes: {
 		handbook: { groupBy: ["khopesh"] },

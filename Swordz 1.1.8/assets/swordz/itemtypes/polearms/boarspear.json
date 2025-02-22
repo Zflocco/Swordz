@@ -1,7 +1,6 @@
 {
 	code: "boarspear",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "spear",
 	attributes: {
 		handbook: { groupBy: ["boarspear"] },

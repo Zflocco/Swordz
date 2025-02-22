@@ -1,7 +1,6 @@
 {
 	code: "warscythe",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "spear",
 	attributes: {
 		handbook: { groupBy: ["warscythe"] },

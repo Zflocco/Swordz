@@ -1,7 +1,6 @@
 {	enabled:false,
 	code: "naginata",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "spear",
 	attributes: {
 		handbook: { groupBy: ["naginata"] },

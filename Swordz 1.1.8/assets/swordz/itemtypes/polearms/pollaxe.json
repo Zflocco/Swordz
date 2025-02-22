@@ -1,7 +1,6 @@
 {
 	code: "pollaxe",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "spear",
 	attributes: {
 		handbook: { groupBy: ["pollaxe"] },

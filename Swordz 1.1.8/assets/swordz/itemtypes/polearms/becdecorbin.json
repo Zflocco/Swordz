@@ -1,7 +1,6 @@
 {
 	code: "becdecorbin",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "spear",
 	attributes: {
 		handbook: { groupBy: ["becdecorbin"] },

@@ -1,7 +1,6 @@
 {
 	code: "halberd",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "spear",
 	attributes: {
 		handbook: { groupBy: ["halberd"] },

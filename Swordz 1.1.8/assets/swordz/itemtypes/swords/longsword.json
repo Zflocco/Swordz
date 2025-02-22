@@ -1,7 +1,6 @@
 {
 	code: "longsword",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "sword",
 	attributes: {
 		handbook: { groupBy: ["longsword"] },

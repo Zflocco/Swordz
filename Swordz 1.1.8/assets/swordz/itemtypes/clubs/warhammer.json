@@ -1,7 +1,6 @@
 {
 	code: "warhammer",
 	damagedby: ["attacking"],
-	class: "ItemSword",
 	tool: "sword",
 	attributes: {
 		handbook: { groupBy: ["warhammer-*"] },
