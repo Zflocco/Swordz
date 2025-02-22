@@ -5,7 +5,7 @@
 		ingredients: {
 			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"] },
 			"C": { type: "item", code: "swordz:armor-head-chain-*", name: "metal", allowedVariants: ["titanium"], recipeAttributes: { repairMat: { type:"item", code: "metalchain-{metal}", stacksize: 4 } } },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 3,
 		height: 2,

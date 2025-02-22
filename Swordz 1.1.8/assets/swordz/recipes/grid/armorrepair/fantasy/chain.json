@@ -20,7 +20,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"T": { type: "item", code: "swordz:armor-body-chain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
-			"L": { type: "item", code: "game:leather-plain" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] }
 		},
 		width: 1,
@@ -36,7 +36,7 @@
 		recipeGroup: 2,
 		ingredients: {
 			"T": { type: "item", code: "swordz:armor-legs-chain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
-			"L": { type: "item", code: "game:leather-plain" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] }
 		},
 		width: 1,

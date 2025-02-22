@@ -4,7 +4,7 @@
 //		requiresTrait: "",
 		ingredients: {
 			"T": { type: "item", code: "stilettoblade-*",name:"metal"},
-			"L": { type: "item", code: "game:leather-*" }
+			"L": { type: "item", code: "game:leather-normal-*" }
 		},
 		width: 2,
 		height: 1,

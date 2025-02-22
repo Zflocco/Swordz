@@ -3,7 +3,7 @@
 		ingredientPattern: "LPL,L_L",
 		recipeGroup: 1,
 		ingredients: {
-			"L": { type: "item", code: "game:leather-plain", quantity: 2, recipeAttributes: { repairMat: { type: "item", code: "leather-plain", stacksize: 1 } } },
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 2, recipeAttributes: { repairMat: { type: "item", code: "leather-normal-plain", stacksize: 1 } } },
 			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"], quantity: 2 }
 		},
 		width: 3,
@@ -15,7 +15,7 @@
       ingredientPattern: "P_P,PJP,PPP",
       recipeGroup: 1,
       ingredients: {
-          "J": { type: "item", code: "game:armor-body-jerkin-leather", quantity: 1, recipeAttributes: { repairMat: { type: "item", code: "leather-plain", stacksize: 9 } } },
+          "J": { type: "item", code: "game:armor-body-jerkin-leather", quantity: 1, recipeAttributes: { repairMat: { type: "item", code: "leather-normal-plain", stacksize: 9 } } },
           "P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"], quantity: 1 }
       },
       width: 3,
@@ -27,7 +27,7 @@
 		ingredientPattern: "PJP,P_P",
 		recipeGroup: 1,
 		ingredients: {
-			"J": { type: "item", code: "game:armor-legs-jerkin-leather", recipeAttributes: { repairMat: { type: "item", code: "leather-plain", stacksize: 6 } } },
+			"J": { type: "item", code: "game:armor-legs-jerkin-leather", recipeAttributes: { repairMat: { type: "item", code: "leather-normal-plain", stacksize: 6 } } },
 			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"], quantity: 1 }
 		},
 		width: 3,

@@ -6,7 +6,7 @@
 			"B": { type: "item", code: "swordz:armor-head-plate-*", name: "metal", allowedVariants: ["titanium"] },
 			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"] },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 3,
@@ -23,7 +23,7 @@
 			"B": { type: "item", code: "swordz:armor-body-plate-*", name: "metal", allowedVariants: ["titanium"] },
 			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"] },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 3,
@@ -40,7 +40,7 @@
 			"B": { type: "item", code: "swordz:armor-legs-plate-*", name: "metal", allowedVariants: ["titanium"] },
 			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["titanium"] },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 3,

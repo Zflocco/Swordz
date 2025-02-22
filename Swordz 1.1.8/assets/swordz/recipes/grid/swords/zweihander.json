@@ -4,7 +4,7 @@
 		ingredients: {
 			"Z": { type: "item", code: "zweihanderblade-iron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
 			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["iron"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"S": { type: "item", code: "game:stick"}
 		},
 		width: 3,
@@ -16,7 +16,7 @@
 		ingredients: {
 			"Z": { type: "item", code: "zweihanderblade-iron-*",name:"sharpness",allowedvariants:["sharp","honed"]},
 			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["silver","gold"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"S": { type: "item", code: "game:stick"}
 		},
 		width: 3,
@@ -36,7 +36,7 @@
 		ingredients: {
 			"Z": { type: "item", code: "zweihanderblade-meteoriciron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
 			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["meteoriciron"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"S": { type: "item", code: "game:stick"}
 		},
 		width: 3,
@@ -48,7 +48,7 @@
 		ingredients: {
 			"Z": { type: "item", code: "zweihanderblade-meteoriciron-*",name:"sharpness",allowedvariants:["sharp","honed"]},
 			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["silver","gold"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"S": { type: "item", code: "game:stick"}
 		},
 		width: 3,
@@ -68,7 +68,7 @@
 		ingredients: {
 			"Z": { type: "item", code: "zweihanderblade-steel-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
 			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["steel"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"S": { type: "item", code: "game:stick"}
 		},
 		width: 3,
@@ -80,7 +80,7 @@
 		ingredients: {
 			"Z": { type: "item", code: "zweihanderblade-steel-*",name:"sharpness",allowedvariants:["sharp","honed"]},
 			"C": { type: "item", code: "zweihandercrossguard-*",name:"cgm",allowedvariants:["silver","gold"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"S": { type: "item", code: "game:stick"}
 		},
 		width: 3,

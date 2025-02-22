@@ -4,7 +4,7 @@
 		ingredients: {
 			"T": { type: "item", code: "longswordblade-iron-*",name:"sharpness"},
 			"S": { type: "item", code: "game:stick" },
-			"L": { type: "item", code: "game:leather-plain" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
 		},
 		width: 2,
 		height: 2,
@@ -51,7 +51,7 @@
 		ingredients: {
 			"T": { type: "item", code: "longswordblade-meteoriciron-*",name:"sharpness"},
 			"S": { type: "item", code: "game:stick" },
-			"L": { type: "item", code: "game:leather-plain" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
 		},
 		width: 2,
 		height: 2,
@@ -98,7 +98,7 @@
 		ingredients: {
 			"T": { type: "item", code: "longswordblade-steel-*",name:"sharpness"},
 			"S": { type: "item", code: "game:stick" },
-			"L": { type: "item", code: "game:leather-plain" },
+			"L": { type: "item", code: "game:leather-normal-plain" },
 		},
 		width: 2,
 		height: 2,

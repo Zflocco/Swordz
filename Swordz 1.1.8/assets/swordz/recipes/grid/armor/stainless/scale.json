@@ -5,7 +5,7 @@
 		ingredients: {
 			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["stainlesssteel"] },
 			"C": { type: "item", code: "swordz:armor-head-chain-*", name: "metal", allowedVariants: ["stainlesssteel"], recipeAttributes: { repairMat: { type:"item", code: "metalchain-{metal}", stacksize: 4 } } },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 3,
 		height: 2,

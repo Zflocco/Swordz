@@ -5,7 +5,7 @@
 			"P": { type: "item", code: "pernachhead-lead"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -17,7 +17,7 @@
 			"P": { type: "item", code: "pernachhead-copper"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["copper","tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -29,7 +29,7 @@
 			"P": { type: "item", code: "pernachhead-bismuthbronze"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -41,7 +41,7 @@
 			"P": { type: "item", code: "pernachhead-tinbronze"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -53,7 +53,7 @@
 			"P": { type: "item", code: "pernachhead-blackbronze"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["tinbronze","bismuthbronze","blackbronze","iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -65,7 +65,7 @@
 			"P": { type: "item", code: "pernachhead-iron"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -77,7 +77,7 @@
 			"P": { type: "item", code: "pernachhead-meteoriciron"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-*",name:"haft",allowedVariants:["iron","meteoriciron","steel"]},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
@@ -89,7 +89,7 @@
 			"P": { type: "item", code: "pernachhead-steel"},
 			"H": { type: "item", code: "game:hammer-*", isTool: true,"toolDurabilityCost": 10 },
 			"S": { type: "item", code: "haft-steel"},
-			"L": { type: "item", code: "game:leather-*"}
+			"L": { type: "item", code: "game:leather-normal-*"}
 		},
 		width: 2,
 		height: 3,
