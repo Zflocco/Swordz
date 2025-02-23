@@ -1,7 +1,6 @@
 {
 	code: "padded",
-	damagedby: ["attacking"],
-	class: "ItemSword",
+	damagedby: [ "attacking" ],
 	tool: "sword",
 	attributes: {
 		handbook: { groupBy: ["padded"] },
@@ -26,7 +25,7 @@
 			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
 			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
 		}
-	}],
+	}, { name: "AnimationAuthoritative" }],
 	shape: { base: "clubs/padded" },
 	heldTpHitAnimation: "falx",
 	attackRange: 2,
