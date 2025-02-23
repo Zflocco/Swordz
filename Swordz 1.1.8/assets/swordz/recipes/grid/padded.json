@@ -3,7 +3,7 @@
 		ingredientPattern: "LT,S_",
 		ingredients: {
 			"T": { type: "item", code: "game:flaxtwine",quantity:2},
-			"L": { type: "item", code: "game:leather-plain"},
+			"L": { type: "item", code: "game:leather-normal-plain"},
 			"S": { type: "item", code: "game:stick"},
 		},
 		width: 2,

@@ -3,7 +3,7 @@
 		ingredientPattern: "S__,_B_,__L",
 		ingredients: {
 			"S": { type: "item", code: "sabreblade-iron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"B": { type: "item", code: "game:ingot-brass"}
 		},
 		width: 3,
@@ -14,7 +14,7 @@
 		ingredientPattern: "S__,_B_,__L",
 		ingredients: {
 			"S": { type: "item", code: "sabreblade-meteoriciron-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"B": { type: "item", code: "game:ingot-brass"}
 		},
 		width: 3,
@@ -25,7 +25,7 @@
 		ingredientPattern: "S__,_B_,__L",
 		ingredients: {
 			"S": { type: "item", code: "sabreblade-steel-*",name:"sharpness",allowedvariants:["blunt","dull","sharp","honed"]},
-			"L": { type: "item", code: "game:leather-plain",quantity:1},
+			"L": { type: "item", code: "game:leather-normal-plain",quantity:1},
 			"B": { type: "item", code: "game:ingot-brass"}
 		},
 		width: 3,

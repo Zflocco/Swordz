@@ -6,7 +6,7 @@
 			"T": { type: "item", code: "swordzshortblade-*",name:"metal"},
 			"S": { type: "item", code: "game:stick" },
 			"W": { type: "item", code: "whetstone-*",allowedVariants:["suevite","sandstone","granite"]},
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 2,

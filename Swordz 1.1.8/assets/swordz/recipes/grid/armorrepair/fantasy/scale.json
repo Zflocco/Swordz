@@ -6,7 +6,7 @@
 			"B": { type: "item", code: "swordz:armor-head-scale-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
 			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 3,
@@ -23,7 +23,7 @@
 			"B": { type: "item", code: "swordz:armor-body-scale-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
 			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 3,
@@ -40,7 +40,7 @@
 			"B": { type: "item", code: "swordz:armor-legs-scale-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
 			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
 			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["mithril", "adamant", "orichalcum","aithril"] },
-			"L": { type: "item", code: "game:leather-plain" }
+			"L": { type: "item", code: "game:leather-normal-plain" }
 		},
 		width: 2,
 		height: 3,

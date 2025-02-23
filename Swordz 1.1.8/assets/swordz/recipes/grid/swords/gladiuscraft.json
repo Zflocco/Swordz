@@ -4,7 +4,7 @@
 		ingredients: {
 			"B": { type: "item", code: "gladiusblade-iron-*",name:"sharpness" },
 			"S": { type: "item", code: "game:stick" },
-			"L": { type: "item", code: "game:leather-*" }
+			"L": { type: "item", code: "game:leather-normal-*" }
 		},
 		width: 1,
 		height: 3,
