@@ -271,3 +271,16 @@ Nerf Sledge more , get aithril meteors working
 	Todo : 
 	Add requirement of ingot for bits preparedingots , returnedstack?
     Maybe: 	Reduce "blade" quantity , reduce to generic "long/Large/Curved etc blades?"
+
+
+
+			1.1.9 - 1.20 finally!!!
+	Fixed:
+	Aithril meteors are now spawning properly in the new game version.
+	Leather in recipes are changed to suite the new naming conventions so everythings craftable in the new game version.
+	'Class: "ItemSword" ' was causing errors so has been removed.
+	Seax now does damage again.
+	Weapon attacks are tied to the animation speeds so you can't spam click attacks anymore.
+
+	Notes:
+	*Nothing new has been added to the mod, this is only fixing things that were already broken or were broken by the 1.20 game update.
