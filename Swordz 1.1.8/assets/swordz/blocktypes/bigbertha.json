@@ -13,7 +13,7 @@
 	
 	storageFlags: 5,
 	behaviors: [{name: "Unstable"}],
-	shape: { base: "game:block/cloth/oreblastingbomb" },
+	shape: { base: "game:block/cloth/bomb-ore" },
 	textures: { "blastpowdersack": {base: "game:block/fire-red" } },
 	sidesolid: { all: false },
 	sideopaque: { all: false },
