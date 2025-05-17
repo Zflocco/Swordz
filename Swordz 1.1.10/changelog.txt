@@ -274,7 +274,7 @@ Nerf Sledge more , get aithril meteors working
 
 
 
-			1.1.9 - 1.20 finally!!!
+			1.1.9 - 1.20.#
 	Fixed:
 	Aithril meteors are now spawning properly in the new game version.
 	Leather in recipes are changed to suit the new naming conventions so everythings craftable in the new game version.
@@ -285,3 +285,29 @@ Nerf Sledge more , get aithril meteors working
 
 	Notes:
 	*Fixing things that were already broken in previous mod versions or were broken by the 1.20 game update.
+
+			1.1.10 : 1.20.#
+			
+	Fixed : 
+	Bearded Axes chop wood again
+	Didn't test it but Aithril meteorites should maybe now not spawn for those that disabled it.
+
+	Changed : 
+	Aithril is now needing Orichal anvils, as it was Aithril was meant to be a bit of a side-grade to orichal. I'll need to think on how to rebalance stats accordingly for tools & weapons as the stat bloat is really quite high for the fantasy stuffs.
+
+	Removed : 
+	Bunch of old stuff involving Aithril, I left ore generation as a thing for those who might've wanted to still use that in older versions but I'm removing it for this version and future ones, aithril is meteor only.
+	
+	And for those asking for new weapons of fantasy metals, yes, that was always the plan, but to save my own sanity I want to implement something similar to how shields are handled in-game with C# , where it can add or subtract durability or damage and change it's appearance on the fly dependent on what the materials used to make it were, as opposed to what it is now : Manually wrote lines.
+
+
+
+
+
+
+
+
+
+
+
+

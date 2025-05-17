@@ -35,7 +35,7 @@
 	"attributes": {
 		"reinforcementStrengthByType": { },
 		"workableTemperatureByType": { },
-		"requiresAnvilTierByType": { "*-unfoldedmithril": 6,"*-adamant": 7,"*-orichalcum": 8,"*-aithril": 8, },
+		"requiresAnvilTierByType": { "*-unfoldedmithril": 6,"*-adamant": 7,"*-orichalcum": 8,"*-aithril": 9, },
 		"carburizablePropsByType": { 
 			"ingot-preparedstainless": { "carburizedOutput": { "type": "item", "code": "game:ingot-stainlesssteel" } }, 
 			"ingot-preparedtitanium": { "carburizedOutput": { "type": "item", "code": "game:ingot-titanium" } },

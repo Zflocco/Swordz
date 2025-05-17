@@ -31,16 +31,6 @@
       "isValue": "false"
 	}
 },
-{
-    "op": "replace",
-    "path": "/0/enabled",
-    "value": false,
-    "file": "game:worldgen/deposits/metalore/aithril.json",
-    "condition": {
-      "when": "fantasymetalsenabled",
-      "isValue": "false"
-	}
-},
 //////////////////////////////////////////////////	Disable Stainless or Titanium Ingot //////////////////////////////////////////////////
 {
     "op": "add",
@@ -2206,13 +2196,17 @@
     "file": "game:worldgen/deposits/metalore/orichalcum.json",
     "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
   },
+  
+  
   {
     "op": "replace",
     "path": "/0/enabled",
     "value": false,
-    "file": "game:worldgen/deposits/metalore/aithril.json",
+    "file": "swordz:blocktypes/meteoriteaithril.json",
     "condition": { "when": "fantasymetalsenabled", "isValue": "false" }
   },
+  
+  
 ////////////////////////////////////////////////// Disable Sheets - Not working //////////////////////////////////////////////////
   {
     "op": "add",

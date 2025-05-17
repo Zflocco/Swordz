@@ -14,6 +14,7 @@
       "chance": 0.008
     },
     "file": "game:worldgen/blockpatches/other.json",
-    "side": "Server"
+    "side": "Server",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
   }
 ]

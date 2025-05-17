@@ -16,22 +16,6 @@
     "condition": { "when": "bloomedbits", "isValue": "true" }
   },
   {
-	"op": "add",
-    "path": "/combustiblePropsByType/*-aithril",
-    "value": {
-      "meltingPoint": 999,
-      "meltingDuration": 60,
-      "smeltedRatio": 20,
-      "smeltedStack": {
-        "type": "item",
-        "code": "ingot-aithril"
-      }
-    },
-    "file": "game:itemtypes/resource/metalbit.json",
-    "side": "Server",
-    "condition": { "when": "bloomedbits", "isValue": "true" }
-  },
-  {
     "op": "add",
     "path": "/combustiblePropsByType/*-mithril",
     "value": {

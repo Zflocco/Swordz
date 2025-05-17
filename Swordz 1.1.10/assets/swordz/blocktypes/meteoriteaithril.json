@@ -1,4 +1,5 @@
 {
+	"enabled": true,
 	code: "meteorite",
 	"__comment": "BlockMeteorite contains code to spawn meteorite craters",
 	behaviors: [{name: "BreakIfFloating"}],
