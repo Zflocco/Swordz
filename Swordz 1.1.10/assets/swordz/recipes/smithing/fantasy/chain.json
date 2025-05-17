@@ -1,0 +1,17 @@
+{
+	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-*",name:"fantasy",allowedVariants: ["mithril","adamant","orichalcum","aithril"]},
+	pattern: [[
+		"_#_#_#_#_",
+		"#########",
+		"#_#_#_#_#",
+		"#########",
+		"_#_#_#_#_",
+		"#########",
+		"#_#_#_#_#",
+		"#########",
+		"_#_#_#_#_",
+	]],
+	name: "Fantasy Chain",
+	output: { type: "item", code: "game:metalchain-{fantasy}"  }
+}

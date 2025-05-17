@@ -1,0 +1,95 @@
+{
+	code: "nadziak",
+	damagedby: ["blockbreaking", "attacking"],
+	class: "ItemProspectingPick",
+	tool: "pickaxe",
+	attributes: {
+		handbook: { groupBy: ["nadziak"] },
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.1, z: -0.085 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [ 
+	{ code: "metal", states: ["bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel"]},
+//	{ code: "haft", states: ["bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel"]},	
+	],
+	shape: { base: "clubs/nadziak" },
+	heldTpHitAnimation: "falx",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}" },
+	"haft": {base: "game:item/tool/material/handle"}	
+	},
+	attackRange: 1.6,
+	tooltierbytype: {
+		"nadziak-bismuthbronze": 5,
+		"nadziak-tinbronze": 5,
+		"nadziak-blackbronze":5,
+		"nadziak-iron": 6,
+		"nadziak-meteoriciron":6,
+		"nadziak-steel": 7,
+	},
+	durabilitybytype: {
+		"nadziak-bismuthbronze": 400,
+		"nadziak-tinbronze": 350,
+		"nadziak-blackbronze":450,
+		"nadziak-iron": 750,
+		"nadziak-meteoriciron": 1000,
+		"nadziak-steel": 1800,
+	},
+	attackpowerbytype: {
+		"nadziak-bismuthbronze": 2.5,
+		"nadziak-tinbronze": 2.75,
+		"nadziak-blackbronze":3,
+		"nadziak-iron": 3.25,
+		"nadziak-meteoriciron":3.50,
+		"nadziak-steel": 4,
+	},
+	miningspeedbytype: {
+		"nadziak-bismuthbronze": {"stone":1.5,"ore":1.5},
+		"nadziak-tinbronze": {"stone":1.65,"ore":1.65},
+		"nadziak-blackbronze": {"stone":1.75,"ore":1.75},
+		"nadziak-iron": {"stone":2.25,"ore":2.25},
+		"nadziak-meteoriciron": {"stone":2.4,"ore":2.4},
+		"nadziak-steel": {"stone":2.75,"ore":2.75},
+	},
+	creativeinventory: { "general": ["*"], "tools": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0, z: 0.4 },
+		rotation: { x: -27, y: 0, z: 90 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: -17, y: 19, z: 0 },
+		rotation: { x: 107, y: -56, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 2.9
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.78, y: -0.53, z: -0.11 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

@@ -1,0 +1,53 @@
+[
+	{	enabled:true,
+		ingredientPattern: "BL,C_,S_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "swordz:armor-head-scale-*", name: "metal", allowedVariants: ["titanium"] },
+			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["titanium"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "scale helmet repair",
+		output: { type: "item", code: "swordz:armor-head-scale-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "BL,C_,S_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "swordz:armor-body-scale-*", name: "metal", allowedVariants: ["titanium"] },
+			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["titanium"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "scale body armor repair",
+		output: { type: "item", code: "swordz:armor-body-scale-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "BL,C_,S_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "swordz:armor-legs-scale-*", name: "metal", allowedVariants: ["titanium"] },
+			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["titanium"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["titanium"] },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "scale leg armor repair",
+		output: { type: "item", code: "swordz:armor-legs-scale-{metal}"  }
+	}
+]

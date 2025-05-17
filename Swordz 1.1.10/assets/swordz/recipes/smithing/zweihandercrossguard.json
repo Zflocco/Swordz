@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["silver","gold","iron","meteoriciron","steel" ], name: "cgm" },
+	pattern: [[
+		"____##_____##___",
+		"____#########___",
+		"_______###______",
+	]],
+	name: "Zweihander Crossguard",
+	output: { type: "item", code: "zweihandercrossguard-{cgm}"  }
+}

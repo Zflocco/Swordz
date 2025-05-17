@@ -1,0 +1,135 @@
+{
+	code: "kilij",
+	damagedby: ["attacking"],
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["kilij"] },
+		toolrackTransform: {
+			translation: { x: 0.46, y: 0.62, z: -0.2 },
+			rotation: { x: 0, y: 180, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.51, z: 0.065 },
+			rotation: { x: 24, y: 90, z: -87 },
+			scale: 0.63
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [ 
+	{ code: "metal", states: ["iron","meteoriciron","steel"]},
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
+	],
+	shape: { base: "swords/kilij" },
+	heldTpHitAnimation: "falx",
+	
+	textures: {
+	"blackbronze": {base: "game:block/metal/plate/{metal}"},
+	"brass": {base: "game:block/metal/ingot/brass"},
+	"handle": {base: "game:block/leather/plain"}, 	
+	},
+	
+	attackRange: 2.3,
+	
+	allowedVariants: [
+	"kilij-iron-blunt",
+	"kilij-iron-dull",
+	"kilij-iron-sharp",
+	"kilij-iron-honed",
+	
+	"kilij-meteoriciron-blunt",
+	"kilij-meteoriciron-dull",
+	"kilij-meteoriciron-sharp",
+	"kilij-meteoriciron-honed",
+	
+	"kilij-steel-blunt",
+	"kilij-steel-dull",
+	"kilij-steel-sharp",
+	"kilij-steel-honed",
+	],
+	
+	tooltierbytype: {
+		"kilij-iron-blunt": 1,
+		"kilij-iron-dull": 2,
+		"kilij-iron-sharp": 3,
+		"kilij-iron-honed": 4,
+		
+		"kilij-meteoriciron-blunt": 1,
+		"kilij-meteoriciron-dull": 2,
+		"kilij-meteoriciron-sharp": 3,
+		"kilij-meteoriciron-honed": 4,
+		
+		"kilij-steel-blunt": 2,
+		"kilij-steel-dull": 3,
+		"kilij-steel-sharp": 4,
+		"kilij-steel-honed": 5,
+	},
+
+	durabilitybytype: {
+		"kilij-iron-blunt": 350,
+		"kilij-iron-dull": 600,
+		"kilij-iron-sharp": 800,
+		"kilij-iron-honed": 1000,
+		
+		"kilij-meteoriciron-blunt": 400,
+		"kilij-meteoriciron-dull": 800,
+		"kilij-meteoriciron-sharp": 900,
+		"kilij-meteoriciron-honed": 1200,
+		
+		"kilij-steel-blunt": 500,
+		"kilij-steel-dull": 900,
+		"kilij-steel-sharp": 1700,
+		"kilij-steel-honed": 1900,
+		},
+
+	attackpowerbytype: {
+		"kilij-iron-blunt": 2.5,
+		"kilij-iron-dull": 4.3,
+		"kilij-iron-sharp": 5.5,
+		"kilij-iron-honed": 5.8,
+		
+		"kilij-meteoriciron-blunt":2.6,
+		"kilij-meteoriciron-dull":4.4,
+		"kilij-meteoriciron-sharp":5.6,
+		"kilij-meteoriciron-honed":5.9,
+
+		"kilij-steel-blunt": 2.8,
+		"kilij-steel-dull": 5.3,
+		"kilij-steel-sharp": 5.8,
+		"kilij-steel-honed": 6.1,
+		},
+
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.2, y: -0.6, z: 0 },
+		rotation: { x: -18, y: 15, z: 90 },
+		scale: 2.27
+	},
+	guiTransform: {
+		translation: { x: -2, y: -11, z: -5 },
+		rotation: { x: -93, y: 131, z: 37 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scale: 1.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -0.98, y: 0.05, z: -0.75 },
+		rotation: { x: 85, y: 8, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.67
+	}
+}

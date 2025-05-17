@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel" ], name: "metal" },
+	pattern: [[
+		"_________",
+		"_########",
+		"###_#####",
+		"_________",
+		"_________",
+		"_________"
+	]],
+	name: "Warhammer Head",
+	output: { type: "item", code: "warhammerhead-{metal}"  }
+}

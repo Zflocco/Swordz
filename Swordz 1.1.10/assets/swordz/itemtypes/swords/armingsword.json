@@ -1,0 +1,139 @@
+{
+	code: "sord",
+	damagedby: ["attacking"],
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["sord"] },
+		toolrackTransform: {
+			translation: { x: 0.16, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 180, z: 1 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.46, z: 0.08 },
+			rotation: { x: 16, y: 90, z: -87 },
+			scale: 0.63
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [ 
+	{ code: "metal", states: ["tinbronze","iron","meteoriciron","steel"]}, 
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
+	],
+	shape: { base: "swords/arming" },
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "knap",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/{metal}"},
+	"handle": {base: "game:block/leather/plain"},
+	"chappe": {base: "game:block/leather/black"},
+	"gem": {base: "game:item/resource/ungraded/lapislazuli"},
+	"cgp": {base: "game:block/metal/ingot/{metal}"}
+},
+	attackRange: 2.5,
+	allowedVariants: [
+	"sord-tinbronze-blunt",
+	"sord-tinbronze-dull",
+	"sord-tinbronze-sharp",
+	"sord-tinbronze-honed",
+	"sord-iron-blunt",
+	"sord-iron-dull",
+	"sord-iron-sharp",
+	"sord-iron-honed",
+	"sord-meteoriciron-blunt",
+	"sord-meteoriciron-dull",
+	"sord-meteoriciron-sharp",
+	"sord-meteoriciron-honed",
+	"sord-steel-blunt",
+	"sord-steel-dull",
+	"sord-steel-sharp",
+	"sord-steel-honed",
+	],
+	tooltierbytype: {
+		"sord-tinbronze-blunt": 2,
+		"sord-tinbronze-dull": 2,
+		"sord-tinbronze-sharp": 3,
+		"sord-tinbronze-honed": 4,
+		"sord-iron-blunt": 2,
+		"sord-iron-dull": 3,
+		"sord-iron-sharp": 4,
+		"sord-iron-honed": 5,
+		"sord-meteoriciron-blunt":2,
+		"sord-meteoriciron-dull":3,
+		"sord-meteoriciron-sharp":4,
+		"sord-meteoriciron-honed":5,
+		"sord-steel-blunt": 3,
+		"sord-steel-dull": 4,
+		"sord-steel-sharp": 5,
+		"sord-steel-honed": 6
+	},
+	durabilitybytype: {
+		"sord-tinbronze-blunt": 300,
+		"sord-tinbronze-dull": 400,
+		"sord-tinbronze-sharp": 450,
+		"sord-tinbronze-honed": 500,
+		"sord-iron-blunt": 700,
+		"sord-iron-dull": 800,
+		"sord-iron-sharp": 900,
+		"sord-iron-honed": 1000,
+		"sord-meteoriciron-blunt":875,
+		"sord-meteoriciron-dull":1000,
+		"sord-meteoriciron-sharp":1125,
+		"sord-meteoriciron-honed":1250,
+		"sord-steel-blunt": 1550,
+		"sord-steel-dull": 1800,
+		"sord-steel-sharp": 2000,
+		"sord-steel-honed": 2275
+	},
+	attackpowerbytype: {
+		"sord-tinbronze-blunt": 1.75,
+		"sord-tinbronze-dull": 4.2,
+		"sord-tinbronze-sharp": 4.5,
+		"sord-tinbronze-honed": 4.8,
+		"sord-iron-blunt": 2,
+		"sord-iron-dull": 4.7,
+		"sord-iron-sharp": 5,
+		"sord-iron-honed": 5.3,
+		"sord-meteoriciron-blunt":2.2,
+		"sord-meteoriciron-dull":4.9,
+		"sord-meteoriciron-sharp":5.2,
+		"sord-meteoriciron-honed":5.5,
+		"sord-steel-blunt": 2.4,
+		"sord-steel-dull": 5,
+		"sord-steel-sharp": 5.5,
+		"sord-steel-honed": 5.8
+	},
+	creativeinventory: { "general": ["*"],"swordz": ["*"]},
+	fpHandTransform: {	
+			translation: { x: -0.2, y: -0.4, z: 0 },
+			rotation: { x: -18, y: 15, z: 90 },
+			scale: 1.97
+	},
+	guiTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 50, z: -13 },
+			origin: { x: 0.65, y: 0.1, z: 0.45 },
+			scale: 1.65
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0.04, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+	},
+	tpHandTransform: {
+			translation: { x: -1.16, y: 0.055, z: -0.7799 },
+		rotation: { x: 85, y: 0, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.63
+	},
+}

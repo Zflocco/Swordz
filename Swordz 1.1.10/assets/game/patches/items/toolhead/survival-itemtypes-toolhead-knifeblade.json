@@ -1,0 +1,57 @@
+[
+  {
+    "op": "remove",
+    "path": "/shapeByType/@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)",
+    "file": "game:itemtypes/toolhead/knifeblade.json"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron|stainlesssteel|titanium|mithril|adamant|orichalcum)",
+    "value": {
+      "base": "item/tool/knife/copper"
+    },
+    "file": "game:itemtypes/toolhead/knifeblade.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/16",
+    "value": "stainlesssteel",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "condition": { "when": "stainlessenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/17",
+    "value": "titanium",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "condition": { "when": "titaniumenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/18",
+    "value": "mithril",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/19",
+    "value": "adamant",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/20",
+    "value": "orichalcum",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/20",
+    "value": "aithril",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "condition": { "when": "fantasymetalsenabled", "isValue": "true" }
+  }
+]

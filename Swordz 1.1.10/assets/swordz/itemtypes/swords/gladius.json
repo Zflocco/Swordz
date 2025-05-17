@@ -1,0 +1,89 @@
+{
+	code: "gladius",
+	damagedby: ["attacking"],
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["gladius"] },
+		toolrackTransform: {
+			translation: { x: 0.17, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 180, z: 0 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.34, z: 0.065 },
+			rotation: { x: 24, y: 90, z: -87 },
+			scale: 0.63
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative" }],
+	variantgroups: [ 
+	{ code: "metal", states: ["iron"]},
+	{ code: "sharpness", states: ["blunt","dull","sharp","honed"]},
+	],
+	shape: { base: "swords/gladius" },
+	heldTpHitAnimation: "falx",
+	heldTpUseAnimation: "knap",
+	textures: { 
+	"metal": {base: "game:block/metal/plate/iron"},
+	"brass": {base: "game:block/metal/ingot/brass"},
+	"handle": {base: "game:block/wood/debarked/acacia"}, 
+	},
+	attackRange: 2.6,
+	allowedVariants: [
+	"gladius-iron-blunt",
+	"gladius-iron-dull",
+	"gladius-iron-sharp",
+	"gladius-iron-honed",
+	],
+	tooltierbytype: {
+		"gladius-iron-blunt": 2,
+		"gladius-iron-dull": 3,
+		"gladius-iron-sharp": 4,
+		"gladius-iron-honed": 5,
+	},					
+	durabilitybytype: {
+		"gladius-iron-blunt": 375,
+		"gladius-iron-dull": 750,
+		"gladius-iron-sharp": 1000,
+		"gladius-iron-honed": 1250
+	},
+	attackpowerbytype: {
+		"gladius-iron-blunt": 2,
+		"gladius-iron-dull": 3.8,
+		"gladius-iron-sharp": 5,
+		"gladius-iron-honed": 5.3
+	},
+	creativeinventory: { "general": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.2, y: -0.6, z: 0 },
+		rotation: { x: -18, y: 15, z: 90 },
+		scale: 2.3
+	},
+	guiTransform: {
+		translation: { x: -2, y: -11, z: -5 },
+		rotation: { x: -93, y: 131, z: 37 },
+		origin: { x: 1.15, y: -0.1, z: 0.57 },
+		scale: 1.95
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 14, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -1.03, y: 0.05, z: -0.73 },
+		rotation: { x: 85, y: 0, z: 2 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.67
+	}
+}

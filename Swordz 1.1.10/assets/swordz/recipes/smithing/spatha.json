@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["steel" ], name: "metal" },
+	pattern: [[
+		"________________",
+		"___#########____",
+		"###############_",
+		"___#########____",
+		"________________",
+	]],
+	name: "Spatha Blade",
+	output: { type: "item", code: "spathablade-steel-blunt"  }
+}

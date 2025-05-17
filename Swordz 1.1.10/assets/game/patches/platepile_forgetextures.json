@@ -1,0 +1,32 @@
+[
+{	"enabled":true,
+	"op": "add",
+	"path": "/textures/mithril",
+	"value": { "base": "block/metal/ingot/mithril" },
+	"file": "blocktypes/metal/platepile.json" },
+
+{	"enabled":true,
+	"op": "add",
+	"path": "/textures/adamant",
+	"value": { "base": "block/metal/ingot/adamant" },
+	"file": "blocktypes/metal/platepile.json" },
+
+{	"enabled":true,
+	"op": "add",
+	"path": "/textures/orichalcum",
+	"value": { "base": "block/metal/ingot/orichalcum" },
+	"file": "blocktypes/metal/platepile.json" },
+
+{	"enabled":true,
+	"op": "add",
+	"path": "/textures/aithril",
+	"value": { "base": "block/metal/ingot/aithril" },
+	"file": "blocktypes/metal/platepile.json" },
+
+{	"enabled":true,
+	"op": "add",
+	"path": "/textures/unfoldedmithril",
+	"value": { "base": "block/metal/ingot/unfoldedmithril" },
+	"file": "blocktypes/metal/platepile.json" },
+
+]

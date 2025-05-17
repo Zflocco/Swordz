@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/T/skipVariants",
+    "value": [
+      "stainlesssteel",
+      "titanium",
+      "mithril",
+      "adamant",
+      "orichalcum",
+	  "aithril"
+    ],
+    "file": "game:recipes/grid/tool/hoe.json"
+  }
+]

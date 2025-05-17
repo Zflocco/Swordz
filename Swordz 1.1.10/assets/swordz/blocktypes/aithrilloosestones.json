@@ -1,0 +1,65 @@
+{	enabled:true,
+	code: "loosestones",
+	class: "BlockLooseStones",
+	attributes: { handbook: { groupBy: ["loosestones-*"], includeByType: { "*-free": true } } 
+	},
+	behaviors: [{name: "UnstableFalling"}, { name: "RightClickPickup", properties: { dropsPickupMode: true, sound: "game:sounds/block/loosestone" } }],
+	variantgroups: [
+		{ code:"rock", states: ["meteorite-aithril"] },
+		{ code: "cover", states: ["free", "water", "ice", "snow"] }
+	],
+	replaceable: 6500,
+	creativeinventory: { "general": [""], "swordz": ["*"] },
+	doNotRenderAtLod2: true,
+	shapeByType: {
+		"*-snow": {
+			base: "game:block/stone/loosestones/{cover}*",
+			alternates: [
+				{ rotateY: 90 },
+				{ rotateY: 180 },
+				{ rotateY: 270 }
+			]
+		},
+		"*": {
+			base: "game:block/stone/loosestones/free*",
+			alternates: [
+				{ rotateY: 90 },
+				{ rotateY: 180 },
+				{ rotateY: 270 }
+			]
+		},
+
+	},
+	resistance: 0.15,
+	
+	textures: { "rock" : { base: "swordz:block/stone/rock/{rock}1" }, },
+	
+	drawtypeByType: {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer",
+	},
+	rainPermeableByType: {
+		"*-free": true,
+		"*": false,
+	},
+	drops: [
+		{
+			type: "item", 
+			code: "swordz:stone-{rock}", 
+			quantity: { avg: 1, var: 0 } 
+		}
+	],
+	sidesolid: { all: false },
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	lightAbsorption: 0,
+	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 },
+	collisionbox: null,
+	guiTransform: {
+		translation: { x: 0, y: -8, z: 0 },
+		rotation: { x: -22.59375, y: 82, z: 0 },
+		scale: 1.64
+	}
+}

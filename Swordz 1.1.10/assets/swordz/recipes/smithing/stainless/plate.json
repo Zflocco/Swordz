@@ -1,0 +1,16 @@
+{	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-stainlesssteel"},
+	name: "plate",
+	pattern: [[
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+		"#########",
+	]],
+	output: { type: "item", code: "game:metalplate-stainlesssteel"  }
+}

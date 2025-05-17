@@ -1,0 +1,38 @@
+{
+	code: "haft",
+	shape: { base: "game:item/stick" },
+	variantgroups: [ { code: "metal", states: ["copper","bismuthbronze","tinbronze","blackbronze","iron","meteoriciron","steel","stainlesssteel","titanium","mithril","adamant","orichalcum","aithril"]}, ],
+	textures: { 
+	"oak": {base: "game:block/metal/ingot/{metal}" } },
+
+	skipVariants: [],
+
+	creativeinventory: { "general": ["*"], "items": ["*"], "swordz": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 1500,
+	attackRange: 1,
+	fpHandTransform: {
+		translation: { x: 0.3, y: 0, z: 0.1 },
+		rotation: { x: 96, y: 149, z: -55 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scaleXyz: { x: -1.53, y: 1.53, z: 1.53 }
+	},
+	guiTransform: {
+		translation: { x: 6, y: 8, z: 0 },
+		rotation: { x: 82, y: 39, z: -84 },
+		origin: { x: 0.58, y: 0.19, z: 0.44 },
+		scale: 2.1099
+	},
+	tpHandTransform: {
+		translation: { x: -0.82, y: 0.06, z: -0.83 },
+		rotation: { x: -6, y: -47, z: -169 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.5899
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 90, y: 0, z: -135 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	}
+}

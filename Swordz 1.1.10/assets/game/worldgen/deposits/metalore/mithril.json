@@ -1,0 +1,28 @@
+[
+	{	enabled:true,
+		code: "mithril",
+		triesPerChunk: 0.8,
+		withOreMap: true,
+		handbookPageCode: "game:item-nugget-mithril",
+		generator: "disc-followsealevel",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["kimberlite", "phyllite", "bauxite","redmarble", "greenmarble", "whitemarble","andesite"] },
+			placeblock: { 
+				code: "ore-*-mithril-{rock}", 
+				name: "grade",
+				allowedVariantsByInBlock: {
+					"rock-andesite": ["poor"],
+					"rock-bauxite": ["poor"],
+					"rock-kimberlite": ["medium","rich"],
+					"rock-phyllite": ["medium","rich"],
+					"rock-redmarble": ["rich","bountiful"],
+					"rock-greenmarble": ["rich","bountiful"],
+					"rock-whitemarble": ["rich","bountiful"],
+				}
+			},
+			radius: { dist: "triangle", avg: 5, var: 2 },
+			yPosRel:{dist: "invexp", avg: 0.05, var: 0.45},
+			gradeDistribution: "RandomPlusDepthBonus",
+			thickness: { avg: 1, var: 0 } },
+	}
+]

@@ -1,0 +1,53 @@
+[
+	{	enabled:true,
+		ingredientPattern: "BL,C_,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "swordz:armor-head-plate-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "plate helmet repair",
+		output: { type: "item", code: "swordz:armor-head-plate-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "BL,C_,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "swordz:armor-body-plate-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "plate body armor repair",
+		output: { type: "item", code: "swordz:armor-body-plate-{metal}"  }
+	},
+	{	enabled:true,
+		ingredientPattern: "BL,C_,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "swordz:armor-legs-plate-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["stainlesssteel"] },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "plate leg armor repair",
+		output: { type: "item", code: "swordz:armor-legs-plate-{metal}"  }
+	}
+]

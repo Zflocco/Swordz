@@ -1,0 +1,10 @@
+{	enabled:true,
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["mithril","adamant","orichalcum","aithril"] },
+	pattern: [[
+		"__########______",
+		"________##______",
+		"_________#______"
+	]],
+	name: "Hoe",
+	output: { type: "item", code: "game:hoehead-{metal}"  }
+}

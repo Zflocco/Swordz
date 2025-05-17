@@ -1,0 +1,10 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: [ "copper","bismuthbronze","tinbronze","iron","meteoriciron","steel" ], name: "metal" },
+	pattern: [[
+		"____########____",
+		"_#############__",
+		"____############",
+	]],
+	name: "Seax blade",
+	output: { type: "item", code: "seaxblade-{metal}"  }
+}

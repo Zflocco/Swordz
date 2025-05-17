@@ -1,0 +1,287 @@
+	Swordz
+	 1.0.4 :
+Added Copper/Tin+Bismuth Bronze/Iron/Steel Shortswords
+All shortswords can also butcher like a knife
+Seaxs (C/TB/BB/I/MI/S) , Smaller "cheaper" version of shortswords, can be used as a knife and as a weapon.
+Whetstone (Used for big expensive items (zweihanders etc.))
+maybe makie subvariants of the blades that confer bonus durability?
+Zweihanders , ONLY Iron, Meteoric and Steel. (Very Expensive, Low Durability, High Damage)
+	1.0.5
+Repositioned Zwei Blade & Guard
+New Zwei Model
+Gave Seax & SS differing plant gather speeds
+Fixed Meteoric Zwei & Seax Tier 0
+Sandstone Whetstone
+Added Bearded axe (higher durability, Tier & Damage than axe but slower harvest) + Arming Sword
+	1.0.6
+Updated zwei model slightly, Bearded smithing recipe/Gui
+Granite whetstone
+Seax as Knife recipes
+	1.0.7
+Minor bugfixes
+War pick - Nadziak , Acts as a propick, has a +2 tier for PVP (Armour piercing) but low damage and durability
+	1.0.8
+Extended ricasso of zwei
+Added : Pernach & metal hafts (fix pernachs being unrackable. Bronze mostly can't be crafted with hafts (inconsistent))
+	Might have a "fix" and an overhaul for pernachs and variants therein, will try in a future version
+Re-added : Meteoric Iron Shortsword 
+	1.0.9
+Fixed Pernach recipes
+Added Bec de corbin, Granite whetstone - Enabled, still no use
+Seax Crafting - Fixed rawhide mantle crashing.
+Whetstone recipe shouled be fixed and no longer clash with polished slabs.
+Adjusted nadziak transforms a bit
+	1.1.0
+Added : Warscythe , recipe is the normal scythe + nails and strips + hammer & wrench
+Fixed : bec smithing recipe
+	1.1.1
+Fixed : Bec grid crafting recipe
+Adjusted : Whetstone ground transform, Pernach Model
+Added : Zwei Gold & Silver Pommel/Crossguard Variants, Stiletto
+	1.1.2
+Added : New Polearm Animation; Applied to : Bec de corbin & Warscythe (Needs polish) 
+Spatha & Gladius , Spatha is steel only, Gladius iron only, both require whetstones and have four different blades that can be upgraded.
+WIP Handbook Entry
+
+Adjusted : Seax & Shortsword now require one of the three whetstones to grid craft. 
+Stiletto rack transform. 
+Internal file structure slightly, getting a bit messy with the frequent additions.
+	1.1.3
+	Adjusted : 
+Handbook entry slightly
+Slight change to stiletto model
+Quite a few changes to the arming sword model
+File structure some more.
+	Added : 
+Xskills Compatibility for : 
+Swordsman :   Arming Sword, Gladius, Pernach, Spatha, Stiletto, Zwei,
+Tool Mastery : Bearded axe, Nadziak, Seax, Shortsword
+Spearman : Bec de corbin , Warscythe
+New model for shortsword, a messer
+	1.1.4
+Added : Padded Cudgel, Ranseur
+	Fixed : 
+A thing with the gladius blade, Gladius descriptor
+	Adjusted : 
+Zwei : Ground storage transform
+Pernach : Model , Attack Range 1.5>2.0 ; Toolracktransform
+Bearded Axe : Model, Range : 2.5>1.8, All damage upped by 0.2 ; Toolracktransform
+Bec de corbin : Tiers : Iron (Meteoric) 4>5 , Steel 5>6 ; Toolracktransform
+Nadziak : Range 1.2>1.6
+Stiletto : Range  1>1.4 , Damage on all variants upped by 0.2 damage
+Shortsword : Toolracktransform
+Warscythe : Toolracktransform
+	Gladius :
+	Attack : 
+Blunt : 1.75>2
+Dull : 3.5>3.8
+Sharp : 4.5>5
+Honed : 5.5>5.3
+	Durability : 
+Sharp : 1125>1000
+Honed : 1500>1250
+	Range : 2.5>2.6
+	Toolracktransform
+	Spatha : 
+	Attack : 
+Blunt : 2>2.3
+Dull : 4>4.8
+Sharp : 5>5.3
+Honed : 6>5.6
+	Durability :
+Sharp : 1875>2200
+	Range: 2.8>2.7
+	Toolracktransform
+Arming Sword : Reworked how they were implemented, Please note before updating that any old arming swords will be broken.
+	
+
+		1.1.5 
+- Added
+Integrated Medvhe's changes on the two animations, Zweiswing and Polearm (should fix some animations)
+New Zweihander Variants , I've overhauled the zweihander to now be like the other blades with differing sharpnesses, please note this will break any existing zweihanders. Also note that Gold & Silver crossguarded Zweis can only accept Sharp & Honed blades.
+Sabres! Sabres have a range of 2.5m and are excellent at cutting exposed flesh, they're not so great against armoured targets however!
+Killij! Killij are a shorter (2.3m) range and slightly more fragile sabre that have a harsher curve and pack a slightly harder punch.
+Boar spears! At a pretty lengthy reach of 3.8m these spears allow you to hit soft-bodied targets with relative impunity. (Lower damage/Durability than ranseur)
+Voulges! (Model might change later) A polearm that confers good damage at a moderate range.
+*Dane Axe placeholder, model needs to be worked on
+
+*NEW METALS! Three New Fantasy Metals as well as craftable Titanium AND Stainless Steel!
+*The new metals will be fairly rare and require titanium to be able to start mining them.
+*Knives, Pickaxes, Prospecting Picks for the five new metals	(will make a new model later)
+*Axes, Chisels, Cleavers, Hammers, Hoe, Padlocks, Saws, Scythes, Shovels, Shears, Wrench 
+
+- Adjusted
+Bearded axe uses zweiswing not axechop (Medvhe)
+Padded club's attack animation is now falx, not breaktool (Medvhe)
+Shortswords damage -1 on all (Medvhe)
+Nadziak uses falx anim now (Medvhe)
+Nadziak Damage Slightly increased , BBronze : 2>2.5 , TBronze : 2.25>2.75 , BLBronze : 2.5>3 , Iron : 2.75>3.25 , MIron : 3>3.5 , Steel : 3.5>4 | This makes the Nadziak slightly more damaging on soft targets, the nadziak has a higher tier however and is meant to be more effective against armoured targets.
+Toolrack positions for : Arming sword, Ranseur, Bec, Warscythe
+Warscythe ranged increased from 2.5>2.8m
+
+- Fixed
+Oversight on bearded axe not taking damage when used for chopping wood. (Medvhe)
+
+- Notes
+*There are no new weapons OR armours under the new metals, it's strictly tools at the moment. I'm leaving this for a future update (plus I need to think on balancing)
+*This update will very likely clash with certain mods, if you have a mod conflict, let me know so I can make a list!
+*I need to implement an option to turn off the <spoiler> metals.
+**Please note that if you remove the mod if you use this current version it *MIGHT* make the world unplayable. (I had weird issues in testing, need to test further/get feedback)
+*As per above, zweihanders are reworked and any old ones will 404 it's model/texture, I apologize for this but c'est la vie. (This is an important note for server admins)
+*Seax, Shortsword and Axes *might* get reworked to have Blunt/Dull/Sharp/Honed blades as well, this update was already taking too long so I didn't do such with them, please make a note of this as any/all of these three might need replacing like zweis.
+*Stainless steel will require pulverized chromite, an ingot mold, lime,a steel ingot, and "manganese powder" (new item) that is crushed rhodochrosite with a STEEL hammer in the grid, I'll be making this a pulverized item as well, I was having issues with the JSON patch however so the current recipe is a temporary one, this makes a "coated steel ingot" which you put into the cementary to make stainless steel.
+*Titanium Ingots require : Manganese powder, Lime, Ingot Mold and 20 ilmenite nuggets, this makes a "prepared titanium" ingot which is put into the cementary.
+**If we ever get a blast furnace, the above two will be using those
+*Fantasy Ores : All three currently are bloomed, this will be changed in the future, as per above, time constraints.
+**On note of ores, all three are supposed to be fairly rare and I've had a nightmare of a time trying to balance them, let me know if they're unable to be found at all, or are simply too common in their appropriate stone types.
+*Some of the textures for the new metals/ores need to be changed in a future update.
+
+	PLEASE let me know of any issues, this update is changing and adding a lot of things, bugs are to be expected.
+	
+	
+	
+	
+	
+	
+			1.1.6
+		Adjusted : 
+Stainless Steel prepared ingot grid recipes, (no longer requires steel ingot)
+Renamed "Chromite & Manganese Coated Steel Ingot" to "Prepared Stainless Steel Ingot" , please note that any existing "Chromite & Manganese Coated Steel Ingot"s will 404 and stop working
+A few textures, mostly fantasy metals.
+Removed a few old files
+Some parts of tools and weapons
+Padded Cudgel range 1.5>2m
+Gave whetstones a stack size of 8, up from 1
+Whetstones can now be stacked like ingots, also shelvable and display caseable now as well!
+Arming sword range 2.8>2.5m , Model's Blade reduced in length
+Kilij damage increase by 0.3 across the board.
+Sabre range 2.5>2.4m (reduced by 0.1m) , Damage increase by 0.3 across the board.
+Arming Sword Recipe - Smaller
+
+
+		Added
+Big bomb, Large bomb, Giant bomb and Big Bertha - The big and Large bombs have recipes (disabled by default, enable on servers at your own risk of griefing!) , Big bertha is admin only, WARNING : this has a large blast radius and will cause lag and might crash the game/server.
+Mod config (Thanks CaptainOats) , Titanium, Stainless and Fantasy are all toggleable now, want the stainless steel but not titanium or fantasy metals? That's now possible.
+	Please note for the fantasy metals, this won't remove any previously generated ores, ATM the config is mostly just preventing them spawning in new chunks (Also disables anvils).
+Armours! Plate, Scale, Brig, Chain for all 5 new metals.
+Tunneler : A new pickaxe that digs a 1x2 (Mines the block below where you're looking) , these require metal hafts and come with less durability and mining speed compared to standard picks. (Requires steel or better haft.)
+Atgeirs : An olde viking polearm, sometimes called a mail-piercer.
+Prepared ingots for Mithril, Adamant and Orichal, with this addition I've removed the ability of blooming adamant and orichal, they now have to be cementaried.
+Sterilized Bandage! Restores 5hp and replaces the "clean bandage" degradation from the alcohol soaked. (Config to disable if you prefer the vanilla)
+Pila! A stackable javelin and can be shoved into a quiver! You can make two heads per ingot. (Need to balance damage & break chance)
+Quivers! Need a place to put your arrows or pila, now you can have a full 10 slot quiver specifically for ammo!
+Longswords! When an arming sword is just too short and a zwei is just too large.
+Training Dummies! These offer a higher HP (300hp vs Straw Dummy 100) target practice dummy or can just be used as a decoration for a barracks/training ground.
+Sledgehammers : These are a slow but trusty dusty weapon & tool, these mine a 3x3 have a 2.2m range and cannot dig Gravel, Sand, Snow or Soil.
+Excavator : These are a tool that gives you a 2x3 digging pattern. These can only dig : Soil/Dirt, Sand, Gravel & Snow. (Many thanks and credits to 'Meep9834')
+Warhammers : These are comparable to Nadziak, they're +1 tier off their base metal so good for pvp, and have higher damage than nadziak.
+
+
+
+		Fixed :
+	Redid saws, previous ones will be broken 404 (Apologies) but should now work with all standard saw recipes and should be more mod friendly.
+	Redid hammers , previous ones will be broken, should now work for various recipes.
+	Shears/Scythe name
+	New Axes had an oversight, namely durability
+	The new metals should now require a temperature to actually be worked.
+
+		Todo : 
+	Get feedback and adjust atgeir, pila stats, sabre, kilij, longsword stats
+	Touch up mithril/adamant/orichal textures for ingots/plates
+	Aithril ore textures need redoing
+	Fix shovel heads, using stone head shape not metal
+
+
+
+
+
+			1.1.7 - The Great Disabling
+	Added : 
+	Polski Tłumaczenie 1.1.7 : Kredyty dla "Veir"
+	Khopesh : Ancient design from an ancient kingdom, only available in copper and bronze. (Off by default)
+	Khopesh Mold (Off by default)
+	Arrowhead Molds : Small = 6 Arrowheads costs 1 ingot , Large = 9 Arrowheads costs 1.5 Ingots
+	Naginata : A moderate reach polearm with good damage. (disabled by default)
+	Pollaxe & Halberd : Fairly similar polearms both of which are quite effective with decent range and damage.
+	Configs to disable new armours : Fantasy / Titanium / Stainless
+	Configs to disable tools : Excavator, Tunneler & Sledgehammer
+	
+	Adjusted : 
+	Disabling fantasy does a bit more.
+	Sledgehammer's ability to mine materials other than stone.
+	Voulge's Model
+	Sledge range 2.25>2m
+
+	
+	Fixed :
+	Lang files merged
+	New metal axes now have crafting.
+	ModId : "Swordz" > "swordz"
+	Sledge can now only mine stone in a 3x3, can still mine ore & dirt directly, this fixed the issue where the sledge was mining translocators. 
+	Scales : Stainless/Titanium/Fantasy should be craftable now
+	Shortswords : Do damage again.
+	
+	
+	
+	
+	Todo : 
+
+!!!!	Raise stats for durability on tunnelers higher, they're metal hafted
+
+fix new hoe heads from being displayed as stone hoe heads, not metal. 	Fix shovel heads, using stone head shape not metal
+Need to slightly improve the tunneler disabling
+
+Raise Naginata to 3 / 3.2m?
+	Aithril ore textures need redoing
+
+lower sledge attack speed in 1.19 animation dictation , raise range back up, lower damage?
+add titanium scale to handbook (disabled by vanilla)
+
+Disabler for : Mithril bloom
+
+Nerf Sledge more , get aithril meteors working
+
+
+
+
+			
+
+			1.1.8
+	Added : 
+	Русский перевод 1.1.8 за авторством IFlyingTea 
+	Iron Excavator and Tunneler variants, they'll need an update to disabler and stat balancing.
+	Bits can be bloomed now for Steel, Stainless Steel , Titanium and Fantasy metals, this however is off by default and not really intended, it's there as an option.
+	Bits can be recycled back into prepared ingots to be re-cementaried to be reused.
+	Aithril meteors require Adamant picks to mine.
+
+	Fixed : 
+	Aithril meteors are now a thing proper , disabled the ore spawning (it'll still exist, nothing bad should happen to worlds), Aithril Meteors will be fairly rare (about half as common as meteoric iron)
+	Naginata being enabled shouldn't pop out an error now, maybe, should also be craftable now.
+
+	Longstanding issue with blades losing their Xskills quality , likely missed a few, report which.
+
+
+	Adjusted : 
+	Sledgehammer now drops about 70% less stuff , Excavator now drops about 30% less stuff.
+	Zweihander's JSON : "Blade" variant changed to "sharpness" to match variant wording with the rest of the swords.
+	Cleavers : Old cleavers will be broken but the new ones can now execute gen 3+ animals as intended.
+	Knives : As per above with cleavers, they'll be broken but new ones should be good for intended purposes.
+	Knives : Decreased damage from titanium upwards
+
+	Todo : 
+	Add requirement of ingot for bits preparedingots , returnedstack?
+    Maybe: 	Reduce "blade" quantity , reduce to generic "long/Large/Curved etc blades?"
+
+
+
+			1.1.9 - 1.20 finally!!!
+	Fixed:
+	Aithril meteors are now spawning properly in the new game version.
+	Leather in recipes are changed to suit the new naming conventions so everythings craftable in the new game version.
+	'Class: "ItemSword" ' was causing errors so has been removed.
+	Seax now does damage again.
+	Weapon attacks are tied to the animation speeds so you can't spam click attacks anymore.
+	Big bertha now has a shape and texture again.
+
+	Notes:
+	*Fixing things that were already broken in previous mod versions or were broken by the 1.20 game update.

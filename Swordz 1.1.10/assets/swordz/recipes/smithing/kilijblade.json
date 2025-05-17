@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["iron","meteoriciron","steel" ], name: "metal" },
+	pattern: [[
+		"_____________##_",
+		"____#_____####__",
+		"_############___",
+		"#___#___________",
+		"________________",
+	]],
+	name: "Kilij Blade",
+	output: { type: "item", code: "kilijblade-{metal}-blunt"  }
+}

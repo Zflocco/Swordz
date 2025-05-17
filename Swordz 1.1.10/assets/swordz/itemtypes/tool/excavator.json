@@ -1,0 +1,143 @@
+{	enabled: true,
+	code: "excavator",
+	storageFlags: 5,
+	class: "Excavator",
+	attributes: {
+		handbook: {
+			groupBy: ["excavator-*"],
+			excludeByType: {},
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.3, y: 0.6 },
+			scale: 1.25,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.6, z: -0.285 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+		},
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}],
+	
+	variantgroups: [ 
+	{ code: "metal", states: ["iron","steel","stainlesssteel", "titanium", "mithril", "adamant", "orichalcum","aithril"] },
+	],
+	skipVariants: [],
+	tool: "shovel",
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "swordz:misc/excavator" },
+	heldTpHitAnimation: "shoveldig",
+	texturesByType: {
+		"*": {
+			"metal": { base: "game:block/metal/plate/{metal}" },
+			"metaltwo": { base: "game:block/metal/plate/{metal}", "overlays": [ "game:block/slightlydarker" ] },
+			"metalthree": { base: "game:block/metal/plate/{metal}", "overlays": [ "game:block/slightlydarker" ] },
+			"handle": { base: "game:item/tool/material/handle", "overlays": [ "game:block/slightlydarker" ] },
+		}
+	},
+	miningspeedbytype: {
+		"excavator-iron": {
+			"soil": 4,
+			"sand": 4,
+			"gravel": 1,
+			"snow": 1
+		},
+		"excavator-steel": {
+			"soil": 5,
+			"sand": 5,
+			"gravel": 1.5,
+			"snow": 1.5
+		},
+		"excavator-stainlesssteel": {
+			"soil": 5.5,
+			"sand": 5.5,
+			"gravel": 2,
+			"snow": 2
+		},
+		"excavator-titanium": {
+			"soil": 6,
+			"sand": 6,
+			"gravel": 2.4,
+			"snow": 2.4
+		},
+		"excavator-mithril": {
+			"soil": 6.5,
+			"sand": 6.5,
+			"gravel": 3,
+			"snow": 3
+		},
+		"excavator-adamant": {
+			"soil": 7.25,
+			"sand": 7.25,
+			"gravel": 3.5,
+			"snow": 3.5
+		},
+		"excavator-orichalcum": {
+			"soil": 8,
+			"sand": 8,
+			"gravel": 3.5,
+			"snow": 3.5
+		},
+		"excavator-aithril": {
+			"soil": 8.25,
+			"sand": 8.25,
+			"gravel": 3.75,
+			"snow": 3.75
+		}
+	},
+	attackpowerbytype: {
+		"excavator-iron": 2,
+		"excavator-steel": 2.5,
+		"excavator-stainlesssteel": 2.75,
+		"excavator-titanium": 3,
+		"excavator-mithril": 3.5,
+		"excavator-adamant": 3.8,
+		"excavator-orichalcum": 4.3,
+		"excavator-aithril": 4.5
+	},
+//	Durability is 50% of the standard Shovel
+	durabilitybytype: {
+		"excavator-iron": 700,
+		"excavator-steel": 1500,
+		"excavator-stainlesssteel": 2000,
+		"excavator-titanium": 2500,
+		"excavator-mithril": 3000,
+		"excavator-adamant": 3500,
+		"excavator-orichalcum": 4000,
+		"excavator-aithril": 4250
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "swordz": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0, y: -0.4, z: 0.6 },
+		rotation: { x: -58, y: 23, z: 90 },
+		origin: { x: 0.1, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: 1.6, y: 6.9, z: 0 },
+		rotation: { x: 100, y: -50, z: -16 },
+		origin: { x: 0.74, y: 0, z: 0.42 },
+		scale: 1.18
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.125, y: -0.5299, z: -0.11 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

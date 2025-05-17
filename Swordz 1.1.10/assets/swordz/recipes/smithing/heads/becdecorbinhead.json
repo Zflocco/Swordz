@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", allowedVariants: ["iron","meteoriciron","steel" ], name: "metal" },
+	pattern: [[
+		"_______#________",
+		"______###_______",
+		"_############___",
+		"_____#####__###_",
+		"______________#_"
+	]],
+	name: "Bec de corbin head",
+	output: { type: "item", code: "becdecorbinhead-{metal}"  }
+}

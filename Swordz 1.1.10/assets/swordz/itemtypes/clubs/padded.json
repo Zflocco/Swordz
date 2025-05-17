@@ -1,0 +1,57 @@
+{
+	code: "padded",
+	damagedby: [ "attacking" ],
+	tool: "sword",
+	attributes: {
+		handbook: { groupBy: ["padded"] },
+		toolrackTransform: {
+			translation: { x: 0.2, y: 0.65, z: 0 },
+			rotation: { x: 0, y: 1, z: -1 },
+			scale: 1.25
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: -0, z: -0.085 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 0.88
+
+		}
+	},
+	behaviors: [{ 
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 1,
+			sprintKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "AnimationAuthoritative" }],
+	shape: { base: "clubs/padded" },
+	heldTpHitAnimation: "falx",
+	attackRange: 2,
+	tooltier: 1,
+	durability: 200,
+	attackpower: 0.1,
+	creativeinventory: { "general": ["*"], "tools": ["*"], "swordz": ["*"]},
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0.1, z: 0.2 },
+		rotation: { x: -11, y: 0, z: 90 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: 6, y: 6, z: 0 },
+		rotation: { x: 90, y: -48, z: -16 },
+		origin: { x: 0.44, y: 0.3, z: 0.42 },
+		scale: 2.9
+	},
+	groundTransform: {
+		translation: { x: 0.3, y: 0.4, z: -0.2 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.9799, y: -0.5299, z: -0.06 },
+		rotation: { x: 90, y: 0, z: -2 },
+		scale: 0.9
+	}
+}

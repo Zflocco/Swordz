@@ -1,0 +1,10 @@
+{  		enabled:true,
+		ingredientPattern: "T	S",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-*", name: "material", allowedVariants: [ "stainlesssteel" ]  },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-{material}", quantity: 1  }
+}
